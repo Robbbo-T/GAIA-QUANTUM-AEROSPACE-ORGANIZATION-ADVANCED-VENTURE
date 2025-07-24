@@ -40,6 +40,9 @@ El segmento de aeronaves de alcance regional (500-3 500 nm) seguirá siendo el m
 
 El mercado total de pasillo único alcanzará 33 000-34 000 entregas hacia 2043, dominado por variantes de 150-190 plazas[1][2]. Asia-Pacífico (incl. China) capta casi la mitad de esta demanda, seguida de Norteamérica y Europa. Latinoamérica, Oriente Medio y África mantienen crecimientos superiores al PIB, aunque con bases de flota más reducidas[3][4][5].
 
+<img width="2400" height="1600" alt="image" src="https://github.com/user-attachments/assets/556eb168-445e-438c-a5d9-8f3663c58462" />
+
+
 ## 2. Asia-Pacífico y China
 
 ### 2.1 Demanda proyectada
