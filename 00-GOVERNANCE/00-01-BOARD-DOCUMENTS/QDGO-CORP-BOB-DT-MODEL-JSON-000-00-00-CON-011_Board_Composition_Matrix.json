@@ -1,0 +1,117 @@
+{
+  "document_id": "QDGO-CORP-BOB-DT-MODEL-JSON-000-00-00-CON-011",
+  "version": "1.0",
+  "date": "2025-07-24",
+  "title": "Board Composition Matrix",
+  "status": "ACTIVE",
+  "board_composition": {
+    "total_seats": 15,
+    "executive_seats": 4,
+    "independent_seats": 6,
+    "q_division_seats": 5,
+    "composition_matrix": [
+      {
+        "position": "Chairman",
+        "name": "Amedeo Pelliccia",
+        "type": "Executive",
+        "tenure": "2025-2028",
+        "expertise": ["Strategic Leadership", "Aerospace", "Innovation"],
+        "committees": ["All Committees Ex-Officio"]
+      },
+      {
+        "position": "CEO",
+        "name": "TBD",
+        "type": "Executive",
+        "tenure": "TBD",
+        "expertise": ["Operations", "Technology", "Business Development"],
+        "committees": ["Executive", "Technology"]
+      },
+      {
+        "position": "CTO",
+        "name": "TBD",
+        "type": "Executive", 
+        "tenure": "TBD",
+        "expertise": ["Quantum Computing", "Aerospace Engineering", "R&D"],
+        "committees": ["Technology", "Risk"]
+      },
+      {
+        "position": "CFO",
+        "name": "TBD",
+        "type": "Executive",
+        "tenure": "TBD", 
+        "expertise": ["Finance", "Risk Management", "Investment"],
+        "committees": ["Audit", "Risk"]
+      },
+      {
+        "position": "Q-DATAGOV Director",
+        "name": "TBD",
+        "type": "Q-Division",
+        "tenure": "TBD",
+        "expertise": ["Digital Governance", "Cybersecurity", "Data Management"],
+        "committees": ["Risk", "Technology"]
+      },
+      {
+        "position": "Q-STRUCTURES Director", 
+        "name": "TBD",
+        "type": "Q-Division",
+        "tenure": "TBD",
+        "expertise": ["Materials Science", "Structural Engineering", "Composites"],
+        "committees": ["Technology"]
+      },
+      {
+        "position": "Q-AIR Director",
+        "name": "TBD", 
+        "type": "Q-Division",
+        "tenure": "TBD",
+        "expertise": ["Aerodynamics", "Flight Control", "Simulation"],
+        "committees": ["Technology"]
+      },
+      {
+        "position": "Q-GREENTECH Director",
+        "name": "TBD",
+        "type": "Q-Division", 
+        "tenure": "TBD",
+        "expertise": ["Sustainable Propulsion", "Hydrogen Technology", "Environmental"],
+        "committees": ["Technology", "ESG"]
+      },
+      {
+        "position": "Q-HPC Director",
+        "name": "TBD",
+        "type": "Q-Division",
+        "tenure": "TBD", 
+        "expertise": ["Quantum Computing", "AI", "Digital Twins"],
+        "committees": ["Technology", "Risk"]
+      }
+    ],
+    "diversity_metrics": {
+      "gender_distribution": {
+        "target_female_representation": "40%",
+        "current_female_representation": "TBD"
+      },
+      "geographic_distribution": {
+        "european_representation": "80%",
+        "international_representation": "20%"
+      },
+      "expertise_distribution": {
+        "technical_expertise": "60%",
+        "business_expertise": "25%", 
+        "regulatory_expertise": "15%"
+      }
+    },
+    "meeting_requirements": {
+      "quorum": "60%",
+      "decision_threshold": "Simple majority",
+      "strategic_decisions": "Two-thirds majority"
+    }
+  },
+  "governance_framework": {
+    "decision_matrix": {
+      "strategic_planning": "Board",
+      "budget_approval": "Board",
+      "program_authorization": "Board", 
+      "technology_roadmap": "Technology Committee",
+      "risk_assessment": "Risk Committee",
+      "compliance_oversight": "Audit Committee"
+    }
+  }
+}
