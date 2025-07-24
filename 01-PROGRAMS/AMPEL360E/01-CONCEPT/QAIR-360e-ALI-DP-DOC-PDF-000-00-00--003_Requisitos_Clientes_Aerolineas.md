@@ -76,6 +76,9 @@ Las aerolíneas exigen un costo por asiento-milla disponible (CASM) ≤ 14 ¢ en
 *   *Digital Twin* nativo para simulación de rendimiento, mantenimiento predictivo y optimización de rutas en tiempo real[37][38].
 *   Conectividad de datos bidireccional de alta velocidad (100 Mbps avión-suelo y canales ancillaries integrados en NDC).
 
+  <img width="2400" height="1600" alt="image" src="https://github.com/user-attachments/assets/4fdbf1fe-d6a0-49a1-8dbf-6e8c139b13bb" />
+
+
 ## Acciones estratégicas para AMPEL360e
 
 1.  Priorizar fiabilidad de despacho > 99%.
