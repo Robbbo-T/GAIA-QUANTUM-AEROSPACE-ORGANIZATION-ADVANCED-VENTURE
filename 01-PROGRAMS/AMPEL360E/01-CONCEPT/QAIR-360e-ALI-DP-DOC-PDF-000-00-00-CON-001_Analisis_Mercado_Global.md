@@ -1,4 +1,3 @@
-```yaml
 Código de Documento: QAIR-360e-ALI-DP-DOC-PDF-000-00-00-CON-001
 Versión: 1.0
 Fecha: Julio 2025
@@ -6,12 +5,12 @@ Clasificación: RESTRINGIDO - PROGRAMA AMPEL360e
 Preparado por: Q-AIR Division
 Revisado por: Q-FINANCE, Q-MARKETING
 Aprobado por: [Pendiente]
-```
 
 # Informe de análisis de mercado global para el AMPEL360e
 
 ## Tabla de Contenidos
 
+*   [Control de Documentos](#control-de-documentos)
 *   [1. Dimensión de la oportunidad](#1-dimension-de-la-oportunidad)
 *   [2. Dinámica de la demanda](#2-dinamica-de-la-demanda)
     *   [2.1 Drivers macroeconómicos](#21-drivers-macroeconomicos)
@@ -27,6 +26,16 @@ Aprobado por: [Pendiente]
 
 ---
 
+## Control de Documentos
+
+| Código de Documento                         | Título                        | Formato | Responsable | Estado      |
+|:--------------------------------------------|:------------------------------|:--------|:------------|:------------|
+| QAIR-360e-ALI-DP-DOC-PDF-000-00-00-CON-001 | Informe de análisis de mercado global | PDF     | Q-AIR       | Publicado   |
+| QAIR-360e-ALI-DP-DOC-PDF-000-00-00-CON-002 | Análisis de mercado regional  | PDF     | Q-AIR       | Planificado |
+| QAIR-360e-ALI-DP-DOC-PDF-000-00-00--003    | Requisitos de clientes – Aerolíneas | PDF     | Q-AIR       | Planificado |
+
+---
+
 El estudio confirma que el segmento de aeronaves de pasillo único seguirá concentrando la mayor parte de la demanda comercial hasta 2045. Aun así, la década 2025-2035 estará marcada por tensiones de capacidad, disrupciones tecnológicas y regulaciones climáticas más estrictas. Debajo se detallan los hallazgos esenciales y las implicaciones estratégicas para el programa AMPEL360e.
 
 ## 1. Dimensión de la oportunidad
@@ -35,6 +44,9 @@ El pronóstico interno del documento AMPEL360e (32 000 entregas) se sitúa apena
 
 *   Valor económico: ~ US$3,8 billones en los próximos 20 años, equivalente a un 54% del gasto mundial en nuevos aviones[4].
 *   Crecimiento anual: 4,3% CAGR en entregas, impulsado por Asia-Pacífico, reposición de flota y compromisos Net Zero[5][4].
+
+  <img width="2400" height="1600" alt="image" src="https://github.com/user-attachments/assets/bf21f3ad-ba19-45f9-84af-8ff706099dc6" />
+
 
 ## 2. Dinámica de la demanda
 
@@ -57,7 +69,7 @@ El pronóstico interno del documento AMPEL360e (32 000 entregas) se sitúa apena
 ## 3. Capacidad y limitaciones de la oferta
 
 | Fabricante   | Backlog (NB)              | Producción 2024          | Ramp-up meta               | Riesgos clave                                     |
-|--------------|---------------------------|--------------------------|----------------------------|---------------------------------------------------|
+|:-------------|:--------------------------|:-------------------------|:---------------------------|:--------------------------------------------------|
 | Airbus A320neo | 8 600+ total, 7 275 NB[16] | 766 aviones totales[17]  | 75 / mes en 2026[18]       | Motores LEAP, Spirit AeroSystems[19]              |
 | Boeing 737 MAX | ~4 000 backlog[20][21]    | 348 en 2024[22]          | 52 / mes en 2025[23][24]   | Restricción FAA, calidad fuselaje[25]             |
 | COMAC C919   | >1 000 pedidos[26][27]    | 16 entregados            | 50 a/a en 2025, 75 a/a en 2026-27[28][29] | Certificación fuera de China, supply chain occidental |
@@ -89,7 +101,7 @@ Ventaja AMPEL360e: primera plataforma híbrida certificada, -35% DOC, 100% SAF r
 ## 7. Riesgos y sensibilidades
 
 | Factor                   | Impacto           | Mitigación                                        |
-|--------------------------|-------------------|---------------------------------------------------|
+|:-------------------------|:------------------|:--------------------------------------------------|
 | Cuellos de motor LEAP/GTF | Retrasos EIS      | Diversificar proveedores, explorar turbina-eléctrica propia |
 | Precio SAF alto          | Afecta TCO aerolínea | Diseñar consumo -30% vs. neo; acuerdos SAF largo plazo |
 | Regulación ruido Fase 5 ICAO | Limitaciones slots | Arquitectura propulsión distribuida híbrida       |
