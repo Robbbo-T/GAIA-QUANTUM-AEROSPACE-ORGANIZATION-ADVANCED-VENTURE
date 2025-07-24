@@ -260,169 +260,268 @@ All testing activities aligned with:
 | QSTR-360e-ALI-DP-DOC-PDF-053-15-00-TST-296 | Acoustic Testing | PDF | Q-STRUCTURES | Planned | Medium |
 | QSTR-360e-ALI-DP-DOC-PDF-053-16-00-TST-297 | Blast Resistance Testing | PDF | Q-STRUCTURES | Planned | Medium |
 
-### Testing de Materiales
+### 🧬 **Materials Testing** (15+ deliverables)
 
-| Código de Documento | Descripción | Formato | Responsable | Estado |
-|---------------------|-------------|---------|-------------|--------|
-| QSTR-360e-ALI-DP-DOC-PDF-520-00-00-TST-011 | Testing de materiales | PDF | Q-STRUCTURES | Planificado |
-| QSTR-360e-ALI-DP-DOC-PDF-520-10-00-TST-031 | Tests cupón compuesto | PDF | Q-STRUCTURES | Planificado |
-| QSTR-360e-ALI-DP-DOC-PDF-520-10-00-TST-032 | Tests elemento compuesto | PDF | Q-STRUCTURES | Planificado |
-| QSTR-360e-ALI-DP-DOC-PDF-520-10-00-TST-033 | Tests detalle compuesto | PDF | Q-STRUCTURES | Planificado |
-| QSTR-360e-ALI-DP-DOC-PDF-520-20-00-TST-034 | Tests fatiga metálica | PDF | Q-STRUCTURES | Planificado |
-| QSTR-360e-ALI-DP-DOC-PDF-520-20-00-TST-035 | Tests de corrosión | PDF | Q-STRUCTURES | Planificado |
+| Document Code | Description | Format | Responsible | Status | Priority |
+|---------------|-------------|---------|-------------|--------|----------|
+| QSTR-360e-ALI-DP-DOC-PDF-520-00-00-TST-011 | Comprehensive Materials Testing | PDF | Q-STRUCTURES | Planned | Critical |
+| QSTR-360e-ALI-DP-DOC-PDF-520-10-00-TST-031 | Composite Coupon Tests | PDF | Q-STRUCTURES | Planned | Critical |
+| QSTR-360e-ALI-DP-DOC-PDF-520-10-00-TST-032 | Composite Element Tests | PDF | Q-STRUCTURES | Planned | Critical |
+| QSTR-360e-ALI-DP-DOC-PDF-520-10-00-TST-033 | Composite Detail Tests | PDF | Q-STRUCTURES | Planned | Critical |
+| QSTR-360e-ALI-DP-DOC-PDF-520-20-00-TST-034 | Metallic Fatigue Tests | PDF | Q-STRUCTURES | Planned | High |
+| QSTR-360e-ALI-DP-DOC-PDF-520-20-00-TST-035 | Corrosion Tests | PDF | Q-STRUCTURES | Planned | High |
+| QSTR-360e-ALI-DP-DOC-PDF-520-30-00-TST-298 | Material Allowables | PDF | Q-STRUCTURES | Planned | Critical |
+| QSTR-360e-ALI-DP-DOC-PDF-520-40-00-TST-299 | Environmental Effects | PDF | Q-STRUCTURES | Planned | High |
+| QSTR-360e-ALI-DP-DOC-PDF-520-50-00-TST-300 | High Temperature Testing | PDF | Q-STRUCTURES | Planned | High |
+| QSTR-360e-ALI-DP-DOC-PDF-520-60-00-TST-301 | Cryogenic Testing | PDF | Q-STRUCTURES | Planned | High |
+| QSTR-360e-ALI-DP-DOC-PDF-520-70-00-TST-302 | UV Degradation Testing | PDF | Q-STRUCTURES | Planned | Medium |
+| QSTR-360e-ALI-DP-DOC-PDF-520-80-00-TST-303 | Hygrothermal Effects | PDF | Q-STRUCTURES | Planned | High |
+| QSTR-360e-ALI-DP-DOC-PDF-520-90-00-TST-304 | Impact Resistance | PDF | Q-STRUCTURES | Planned | High |
+| QSTR-360e-ALI-DP-DOC-PDF-520-11-00-TST-305 | Aging Acceleration Tests | PDF | Q-STRUCTURES | Planned | Medium |
+| QSTR-360e-ALI-DP-DOC-PDF-520-12-00-TST-306 | Recycling Validation | PDF | Q-STRUCTURES | Planned | Medium |
 
-### Testing de Tren de Aterrizaje
+### 🛞 **Landing Gear Testing** (12+ deliverables)
 
-| Código de Documento | Descripción | Formato | Responsable | Estado |
-|---------------------|-------------|---------|-------------|--------|
-| QMEC-360e-ALI-DP-DOC-PDF-032-00-00-TST-010 | Tests tren de aterrizaje | PDF | Q-MECHANICS | Planificado |
-| QMEC-360e-ALI-HW-COMP-TST-032-00-00-TST-036 | Test caída tren aterrizaje | PDF | Q-MECHANICS | Planificado |
-| QMEC-360e-ALI-HW-COMP-TST-032-00-00-TST-037 | Test retracción LG | PDF | Q-MECHANICS | Planificado |
-| QMEC-360e-ALI-HW-COMP-TST-032-00-00-TST-038 | Test rendimiento frenos | PDF | Q-MECHANICS | Planificado |
-| QMEC-360e-ALI-HW-COMP-TST-032-00-00-TST-039 | Test fatiga rueda | PDF | Q-MECHANICS | Planificado |
-| QMEC-360e-ALI-HW-COMP-TST-032-00-00-TST-040 | Test amortiguador shimmy | PDF | Q-MECHANICS | Planificado |
+| Document Code | Description | Format | Responsible | Status | Priority |
+|---------------|-------------|---------|-------------|--------|----------|
+| QMEC-360e-ALI-DP-DOC-PDF-032-00-00-TST-010 | Landing Gear System Tests | PDF | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-HW-COMP-TST-032-00-00-TST-036 | Landing Gear Drop Tests | PDF | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-HW-COMP-TST-032-00-00-TST-037 | LG Retraction Tests | PDF | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-HW-COMP-TST-032-00-00-TST-038 | Brake Performance Tests | PDF | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-HW-COMP-TST-032-00-00-TST-039 | Wheel Fatigue Tests | PDF | Q-MECHANICS | Planned | High |
+| QMEC-360e-ALI-HW-COMP-TST-032-00-00-TST-040 | Shimmy Damper Tests | PDF | Q-MECHANICS | Planned | High |
+| QMEC-360e-ALI-HW-COMP-TST-032-10-00-TST-307 | Tire Performance Tests | PDF | Q-MECHANICS | Planned | High |
+| QMEC-360e-ALI-HW-COMP-TST-032-20-00-TST-308 | Steering System Tests | PDF | Q-MECHANICS | Planned | High |
+| QMEC-360e-ALI-HW-COMP-TST-032-30-00-TST-309 | Oleo-Pneumatic Tests | PDF | Q-MECHANICS | Planned | High |
+| QMEC-360e-ALI-HW-COMP-TST-032-40-00-TST-310 | Anti-Skid System Tests | PDF | Q-MECHANICS | Planned | High |
+| QMEC-360e-ALI-HW-COMP-TST-032-50-00-TST-311 | Load Monitoring Tests | PDF | Q-MECHANICS | Planned | Medium |
+| QMEC-360e-ALI-HW-COMP-TST-032-60-00-TST-312 | Emergency Extension Tests | PDF | Q-MECHANICS | Planned | High |
 
-### Testing de Control de Vuelo
+### ✈️ **Flight Control Testing** (16+ deliverables)
 
-| Código de Documento | Descripción | Formato | Responsable | Estado |
-|---------------------|-------------|---------|-------------|--------|
-| QAIR-360e-BOB-SC-CODE-PY-027-00-00-TST-008 | Simulación sistema control | Python | Q-AIR | Planificado |
-| QMEC-360e-BOB-SC-CODE-PY-027-00-00-TST-041 | Simulador FCS | Python | Q-MECHANICS | Planificado |
-| QMEC-360e-ALI-HW-COMP-TST-027-00-00-TST-042 | Test banco actuador | PDF | Q-MECHANICS | Planificado |
-| QMEC-360e-ALI-HW-COMP-TST-027-00-00-TST-043 | Test superficie control | PDF | Q-MECHANICS | Planificado |
-| QMEC-360e-ALI-DP-DOC-PDF-027-00-00-TST-044 | Resultados test Iron Bird | PDF | Q-MECHANICS | Planificado |
-| QMEC-360e-BOB-SC-CODE-C-027-00-00-TST-045 | Validación leyes control | C | Q-MECHANICS | Planificado |
-| QMEC-360e-ALI-DP-DOC-PDF-027-00-00-TST-046 | Simulación piloto en bucle | PDF | Q-MECHANICS | Planificado |
+| Document Code | Description | Format | Responsible | Status | Priority |
+|---------------|-------------|---------|-------------|--------|----------|
+| QAIR-360e-BOB-SC-CODE-PY-027-00-00-TST-008 | Flight Control Simulation | Python | Q-AIR | Planned | Critical |
+| QMEC-360e-BOB-SC-CODE-PY-027-00-00-TST-041 | FCS Simulator | Python | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-HW-COMP-TST-027-00-00-TST-042 | Actuator Bench Tests | PDF | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-HW-COMP-TST-027-00-00-TST-043 | Control Surface Tests | PDF | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-DP-DOC-PDF-027-00-00-TST-044 | Iron Bird Test Results | PDF | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-BOB-SC-CODE-C-027-00-00-TST-045 | Control Law Validation | C | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-DP-DOC-PDF-027-00-00-TST-046 | Pilot-in-Loop Simulation | PDF | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-HW-COMP-TST-027-10-00-TST-313 | Fly-by-Wire Testing | PDF | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-HW-COMP-TST-027-20-00-TST-314 | Autopilot Testing | PDF | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-HW-COMP-TST-027-30-00-TST-315 | Control Computer Testing | PDF | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-HW-COMP-TST-027-40-00-TST-316 | Sensor Validation Tests | PDF | Q-MECHANICS | Planned | High |
+| QMEC-360e-ALI-HW-COMP-TST-027-50-00-TST-317 | Redundancy Testing | PDF | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-HW-COMP-TST-027-60-00-TST-318 | Failure Mode Testing | PDF | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-HW-COMP-TST-027-70-00-TST-319 | Manual Reversion Tests | PDF | Q-MECHANICS | Planned | High |
+| QMEC-360e-ALI-HW-COMP-TST-027-80-00-TST-320 | Trim System Testing | PDF | Q-MECHANICS | Planned | High |
+| QMEC-360e-ALI-HW-COMP-TST-027-90-00-TST-321 | Gust Alleviation Tests | PDF | Q-MECHANICS | Planned | High |
 
-### Testing de Sistemas Hidráulicos
+### 🔧 **Hydraulic Systems Testing** (8+ deliverables)
 
-| Código de Documento | Descripción | Formato | Responsable | Estado |
-|---------------------|-------------|---------|-------------|--------|
-| QMEC-360e-ALI-DP-DOC-PDF-029-00-00-TST-047 | Test sistema hidráulico | PDF | Q-MECHANICS | Planificado |
-| QMEC-360e-ALI-HW-COMP-TST-029-00-00-TST-048 | Test bomba hidráulica | PDF | Q-MECHANICS | Planificado |
-| QMEC-360e-ALI-HW-COMP-TST-029-00-00-TST-049 | Test actuador hidráulico | PDF | Q-MECHANICS | Planificado |
+| Document Code | Description | Format | Responsible | Status | Priority |
+|---------------|-------------|---------|-------------|--------|----------|
+| QMEC-360e-ALI-DP-DOC-PDF-029-00-00-TST-047 | Hydraulic System Testing | PDF | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-HW-COMP-TST-029-00-00-TST-048 | Hydraulic Pump Testing | PDF | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-HW-COMP-TST-029-00-00-TST-049 | Hydraulic Actuator Testing | PDF | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-HW-COMP-TST-029-10-00-TST-322 | Hydraulic Filter Testing | PDF | Q-MECHANICS | Planned | High |
+| QMEC-360e-ALI-HW-COMP-TST-029-20-00-TST-323 | Pressure Regulator Testing | PDF | Q-MECHANICS | Planned | High |
+| QMEC-360e-ALI-HW-COMP-TST-029-30-00-TST-324 | Reservoir System Testing | PDF | Q-MECHANICS | Planned | High |
+| QMEC-360e-ALI-HW-COMP-TST-029-40-00-TST-325 | Emergency Backup Testing | PDF | Q-MECHANICS | Planned | High |
+| QMEC-360e-ALI-HW-COMP-TST-029-50-00-TST-326 | Leak Detection Testing | PDF | Q-MECHANICS | Planned | Medium |
 
-### Testing de Sistemas Eléctricos
+### ⚡ **Electrical Systems Testing** (12+ deliverables)
 
-| Código de Documento | Descripción | Formato | Responsable | Estado |
-|---------------------|-------------|---------|-------------|--------|
-| QMEC-360e-ALI-DP-DOC-PDF-024-00-00-TST-050 | Test sistema eléctrico | PDF | Q-MECHANICS | Planificado |
-| QMEC-360e-ALI-HW-COMP-TST-024-00-00-TST-051 | Test generador | PDF | Q-MECHANICS | Planificado |
-| QMEC-360e-ALI-HW-COMP-TST-024-00-00-TST-052 | Test distribución energía | PDF | Q-MECHANICS | Planificado |
-| QMEC-360e-ALI-DP-DOC-PDF-024-00-00-TST-053 | Resultados test EMI/EMC | PDF | Q-MECHANICS | Planificado |
-| QMEC-360e-ALI-DP-DOC-PDF-024-00-00-TST-054 | Test protección rayos | PDF | Q-MECHANICS | Planificado |
+| Document Code | Description | Format | Responsible | Status | Priority |
+|---------------|-------------|---------|-------------|--------|----------|
+| QMEC-360e-ALI-DP-DOC-PDF-024-00-00-TST-050 | Electrical System Testing | PDF | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-HW-COMP-TST-024-00-00-TST-051 | Generator Testing | PDF | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-HW-COMP-TST-024-00-00-TST-052 | Power Distribution Testing | PDF | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-DP-DOC-PDF-024-00-00-TST-053 | EMI/EMC Test Results | PDF | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-DP-DOC-PDF-024-00-00-TST-054 | Lightning Protection Testing | PDF | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-HW-COMP-TST-024-10-00-TST-327 | Battery System Testing | PDF | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-HW-COMP-TST-024-20-00-TST-328 | Inverter Testing | PDF | Q-MECHANICS | Planned | High |
+| QMEC-360e-ALI-HW-COMP-TST-024-30-00-TST-329 | Circuit Breaker Testing | PDF | Q-MECHANICS | Planned | High |
+| QMEC-360e-ALI-HW-COMP-TST-024-40-00-TST-330 | Wiring Harness Testing | PDF | Q-MECHANICS | Planned | High |
+| QMEC-360e-ALI-HW-COMP-TST-024-50-00-TST-331 | Ground Fault Testing | PDF | Q-MECHANICS | Planned | High |
+| QMEC-360e-ALI-HW-COMP-TST-024-60-00-TST-332 | Arc Fault Testing | PDF | Q-MECHANICS | Planned | High |
+| QMEC-360e-ALI-HW-COMP-TST-024-70-00-TST-333 | Load Shedding Testing | PDF | Q-MECHANICS | Planned | Medium |
 
-### Testing de Propulsión
+### 🚀 **Propulsion Testing** (14+ deliverables)
 
-| Código de Documento | Descripción | Formato | Responsable | Estado |
-|---------------------|-------------|---------|-------------|--------|
-| QGRN-360e-ALI-HW-COMP-TST-071-00-00-TST-055 | Celda test motor | PDF | Q-GREENTECH | Planificado |
-| QGRN-360e-ALI-HW-COMP-TST-071-00-00-TST-056 | Test vibración motor | PDF | Q-GREENTECH | Planificado |
-| QGRN-360e-ALI-HW-COMP-TST-071-00-00-TST-057 | Test rendimiento motor | PDF | Q-GREENTECH | Planificado |
-| QGRN-360e-ALI-HW-COMP-TST-450-00-00-TST-058 | Test motor eléctrico | PDF | Q-GREENTECH | Planificado |
-| QGRN-360e-ALI-HW-COMP-TST-450-00-00-TST-059 | Test electrónica potencia | PDF | Q-GREENTECH | Planificado |
-| QGRN-360e-BOB-SC-CODE-PY-450-00-00-TST-060 | Test control híbrido | Python | Q-GREENTECH | Planificado |
+| Document Code | Description | Format | Responsible | Status | Priority |
+|---------------|-------------|---------|-------------|--------|----------|
+| QGRN-360e-ALI-HW-COMP-TST-071-00-00-TST-055 | Engine Test Cell | PDF | Q-GREENTECH | Planned | Critical |
+| QGRN-360e-ALI-HW-COMP-TST-071-00-00-TST-056 | Engine Vibration Testing | PDF | Q-GREENTECH | Planned | Critical |
+| QGRN-360e-ALI-HW-COMP-TST-071-00-00-TST-057 | Engine Performance Testing | PDF | Q-GREENTECH | Planned | Critical |
+| QGRN-360e-ALI-HW-COMP-TST-450-00-00-TST-058 | Electric Motor Testing | PDF | Q-GREENTECH | Planned | Critical |
+| QGRN-360e-ALI-HW-COMP-TST-450-00-00-TST-059 | Power Electronics Testing | PDF | Q-GREENTECH | Planned | Critical |
+| QGRN-360e-BOB-SC-CODE-PY-450-00-00-TST-060 | Hybrid Control Testing | Python | Q-GREENTECH | Planned | Critical |
+| QGRN-360e-ALI-HW-COMP-TST-071-10-00-TST-334 | Fuel System Integration | PDF | Q-GREENTECH | Planned | Critical |
+| QGRN-360e-ALI-HW-COMP-TST-071-20-00-TST-335 | Thrust Reverser Testing | PDF | Q-GREENTECH | Planned | High |
+| QGRN-360e-ALI-HW-COMP-TST-071-30-00-TST-336 | Engine Mount Testing | PDF | Q-GREENTECH | Planned | High |
+| QGRN-360e-ALI-HW-COMP-TST-450-10-00-TST-337 | Motor Controller Testing | PDF | Q-GREENTECH | Planned | Critical |
+| QGRN-360e-ALI-HW-COMP-TST-450-20-00-TST-338 | Thermal Management Test | PDF | Q-GREENTECH | Planned | High |
+| QGRN-360e-ALI-HW-COMP-TST-450-30-00-TST-339 | Hybrid Transition Testing | PDF | Q-GREENTECH | Planned | Critical |
+| QGRN-360e-ALI-HW-COMP-TST-450-40-00-TST-340 | Energy Recovery Testing | PDF | Q-GREENTECH | Planned | Medium |
+| QGRN-360e-ALI-HW-COMP-TST-450-50-00-TST-341 | Propeller Integration | PDF | Q-GREENTECH | Planned | High |
 
-### Testing de Baterías
+### 🔋 **Battery Testing** (12+ deliverables)
 
-| Código de Documento | Descripción | Formato | Responsable | Estado |
-|---------------------|-------------|---------|-------------|--------|
-| QGRN-360e-ALI-HW-COMP-TST-420-00-00-TST-061 | Test celda batería | PDF | Q-GREENTECH | Planificado |
-| QGRN-360e-ALI-HW-COMP-TST-420-00-00-TST-062 | Test pack batería | PDF | Q-GREENTECH | Planificado |
-| QGRN-360e-ALI-DP-DOC-PDF-420-00-00-TST-063 | Test térmico batería | PDF | Q-GREENTECH | Planificado |
-| QGRN-360e-ALI-DP-DOC-PDF-420-00-00-TST-064 | Test seguridad batería | PDF | Q-GREENTECH | Planificado |
-| QGRN-360e-ALI-DP-DOC-PDF-420-00-00-TST-065 | Test abuso batería | PDF | Q-GREENTECH | Planificado |
-| QGRN-360e-BOB-DT-MODEL-JSON-450-00-00-TST-066 | Validación gestión energía | JSON | Q-GREENTECH | Planificado |
+| Document Code | Description | Format | Responsible | Status | Priority |
+|---------------|-------------|---------|-------------|--------|----------|
+| QGRN-360e-ALI-HW-COMP-TST-420-00-00-TST-061 | Battery Cell Testing | PDF | Q-GREENTECH | Planned | Critical |
+| QGRN-360e-ALI-HW-COMP-TST-420-00-00-TST-062 | Battery Pack Testing | PDF | Q-GREENTECH | Planned | Critical |
+| QGRN-360e-ALI-DP-DOC-PDF-420-00-00-TST-063 | Battery Thermal Testing | PDF | Q-GREENTECH | Planned | Critical |
+| QGRN-360e-ALI-DP-DOC-PDF-420-00-00-TST-064 | Battery Safety Testing | PDF | Q-GREENTECH | Planned | Critical |
+| QGRN-360e-ALI-DP-DOC-PDF-420-00-00-TST-065 | Battery Abuse Testing | PDF | Q-GREENTECH | Planned | Critical |
+| QGRN-360e-BOB-DT-MODEL-JSON-450-00-00-TST-066 | Energy Management Validation | JSON | Q-GREENTECH | Planned | High |
+| QGRN-360e-ALI-HW-COMP-TST-420-10-00-TST-342 | Charging System Testing | PDF | Q-GREENTECH | Planned | Critical |
+| QGRN-360e-ALI-HW-COMP-TST-420-20-00-TST-343 | BMS Testing | PDF | Q-GREENTECH | Planned | Critical |
+| QGRN-360e-ALI-HW-COMP-TST-420-30-00-TST-344 | Cell Balancing Testing | PDF | Q-GREENTECH | Planned | High |
+| QGRN-360e-ALI-HW-COMP-TST-420-40-00-TST-345 | Aging Analysis Testing | PDF | Q-GREENTECH | Planned | High |
+| QGRN-360e-ALI-HW-COMP-TST-420-50-00-TST-346 | Fire Suppression Testing | PDF | Q-GREENTECH | Planned | Critical |
+| QGRN-360e-ALI-HW-COMP-TST-420-60-00-TST-347 | Recycling Process Testing | PDF | Q-GREENTECH | Planned | Medium |
 
-### Testing de Sistemas ECS y Ambientales
+### 🌡 **Environmental Control Systems Testing** (10+ deliverables)
 
-| Código de Documento | Descripción | Formato | Responsable | Estado |
-|---------------------|-------------|---------|-------------|--------|
-| QMEC-360e-ALI-DP-DOC-PDF-021-00-00-TST-067 | Test sistema ECS | PDF | Q-MECHANICS | Planificado |
-| QMEC-360e-ALI-HW-COMP-TST-021-00-00-TST-068 | Test pack AC | PDF | Q-MECHANICS | Planificado |
-| QMEC-360e-ALI-DP-DOC-PDF-021-00-00-TST-069 | Test presión cabina | PDF | Q-MECHANICS | Planificado |
-| QMEC-360e-ALI-DP-DOC-PDF-021-00-00-TST-070 | Test ventilación | PDF | Q-MECHANICS | Planificado |
+| Document Code | Description | Format | Responsible | Status | Priority |
+|---------------|-------------|---------|-------------|--------|----------|
+| QMEC-360e-ALI-DP-DOC-PDF-021-00-00-TST-067 | ECS System Testing | PDF | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-HW-COMP-TST-021-00-00-TST-068 | AC Pack Testing | PDF | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-DP-DOC-PDF-021-00-00-TST-069 | Cabin Pressure Testing | PDF | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-DP-DOC-PDF-021-00-00-TST-070 | Ventilation Testing | PDF | Q-MECHANICS | Planned | High |
+| QMEC-360e-ALI-HW-COMP-TST-021-10-00-TST-348 | Temperature Control Test | PDF | Q-MECHANICS | Planned | High |
+| QMEC-360e-ALI-HW-COMP-TST-021-20-00-TST-349 | Humidity Control Testing | PDF | Q-MECHANICS | Planned | High |
+| QMEC-360e-ALI-HW-COMP-TST-021-30-00-TST-350 | Air Quality Testing | PDF | Q-MECHANICS | Planned | High |
+| QMEC-360e-ALI-HW-COMP-TST-021-40-00-TST-351 | Emergency Oxygen Testing | PDF | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-HW-COMP-TST-021-50-00-TST-352 | Bleed Air System Testing | PDF | Q-MECHANICS | Planned | High |
+| QMEC-360e-ALI-HW-COMP-TST-021-60-00-TST-353 | HEPA Filter Testing | PDF | Q-MECHANICS | Planned | Medium |
 
-### Testing de Sistema de Combustible
+### ⛽ **Fuel System Testing** (8+ deliverables)
 
-| Código de Documento | Descripción | Formato | Responsable | Estado |
-|---------------------|-------------|---------|-------------|--------|
-| QMEC-360e-ALI-DP-DOC-PDF-028-00-00-TST-071 | Test sistema combustible | PDF | Q-MECHANICS | Planificado |
-| QMEC-360e-ALI-HW-COMP-TST-028-00-00-TST-072 | Test tanque combustible | PDF | Q-MECHANICS | Planificado |
-| QMEC-360e-ALI-HW-COMP-TST-028-00-00-TST-073 | Test bomba combustible | PDF | Q-MECHANICS | Planificado |
-| QMEC-360e-ALI-DP-DOC-PDF-028-00-00-TST-074 | Test gestión combustible | PDF | Q-MECHANICS | Planificado |
+| Document Code | Description | Format | Responsible | Status | Priority |
+|---------------|-------------|---------|-------------|--------|----------|
+| QMEC-360e-ALI-DP-DOC-PDF-028-00-00-TST-071 | Fuel System Testing | PDF | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-HW-COMP-TST-028-00-00-TST-072 | Fuel Tank Testing | PDF | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-HW-COMP-TST-028-00-00-TST-073 | Fuel Pump Testing | PDF | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-DP-DOC-PDF-028-00-00-TST-074 | Fuel Management Testing | PDF | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-HW-COMP-TST-028-10-00-TST-354 | Fuel Quantity System Test | PDF | Q-MECHANICS | Planned | High |
+| QMEC-360e-ALI-HW-COMP-TST-028-20-00-TST-355 | Fuel Transfer Testing | PDF | Q-MECHANICS | Planned | High |
+| QMEC-360e-ALI-HW-COMP-TST-028-30-00-TST-356 | Fuel Jettison Testing | PDF | Q-MECHANICS | Planned | High |
+| QMEC-360e-ALI-HW-COMP-TST-028-40-00-TST-357 | SAF Compatibility Testing | PDF | Q-MECHANICS | Planned | High |
 
-### Testing de Protección contra Hielo y Fuego
+### 🧊 **Ice & Fire Protection Testing** (8+ deliverables)
 
-| Código de Documento | Descripción | Formato | Responsable | Estado |
-|---------------------|-------------|---------|-------------|--------|
-| QMEC-360e-ALI-DP-DOC-PDF-030-00-00-TST-075 | Test protección hielo | PDF | Q-MECHANICS | Planificado |
-| QMEC-360e-ALI-DP-DOC-PDF-030-00-00-TST-076 | Túnel viento con hielo | PDF | Q-MECHANICS | Planificado |
-| QMEC-360e-ALI-DP-DOC-PDF-026-00-00-TST-077 | Test detección fuego | PDF | Q-MECHANICS | Planificado |
-| QMEC-360e-ALI-DP-DOC-PDF-026-00-00-TST-078 | Test supresión fuego | PDF | Q-MECHANICS | Planificado |
+| Document Code | Description | Format | Responsible | Status | Priority |
+|---------------|-------------|---------|-------------|--------|----------|
+| QMEC-360e-ALI-DP-DOC-PDF-030-00-00-TST-075 | Ice Protection Testing | PDF | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-DP-DOC-PDF-030-00-00-TST-076 | Icing Wind Tunnel | PDF | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-DP-DOC-PDF-026-00-00-TST-077 | Fire Detection Testing | PDF | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-DP-DOC-PDF-026-00-00-TST-078 | Fire Suppression Testing | PDF | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-HW-COMP-TST-030-10-00-TST-358 | Anti-Ice System Testing | PDF | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-HW-COMP-TST-030-20-00-TST-359 | De-Ice System Testing | PDF | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-HW-COMP-TST-026-10-00-TST-360 | Smoke Detection Testing | PDF | Q-MECHANICS | Planned | Critical |
+| QMEC-360e-ALI-HW-COMP-TST-026-20-00-TST-361 | Halon Alternative Testing | PDF | Q-MECHANICS | Planned | High |
 
-### Testing de Cabina y Pasajeros
+### 🏠 **Cabin & Passenger Testing** (12+ deliverables)
 
-| Código de Documento | Descripción | Formato | Responsable | Estado |
-|---------------------|-------------|---------|-------------|--------|
-| QAIR-360e-ALI-HW-COMP-TST-025-00-00-TST-079 | Test mockup cabina | PDF | Q-AIR | Planificado |
-| QAIR-360e-ALI-DP-DOC-PDF-025-00-00-TST-080 | Test confort pasajero | PDF | Q-AIR | Planificado |
-| QAIR-360e-ALI-DP-DOC-PDF-025-00-00-TST-081 | Test ruido cabina | PDF | Q-AIR | Planificado |
-| QAIR-360e-ALI-DP-DOC-PDF-025-00-00-TST-082 | Test evacuación emergencia | PDF | Q-AIR | Planificado |
-| QAIR-360e-ALI-HW-COMP-TST-025-00-00-TST-083 | Test dinámico asiento | PDF | Q-AIR | Planificado |
+| Document Code | Description | Format | Responsible | Status | Priority |
+|---------------|-------------|---------|-------------|--------|----------|
+| QAIR-360e-ALI-HW-COMP-TST-025-00-00-TST-079 | Cabin Mockup Testing | PDF | Q-AIR | Planned | Critical |
+| QAIR-360e-ALI-DP-DOC-PDF-025-00-00-TST-080 | Passenger Comfort Testing | PDF | Q-AIR | Planned | High |
+| QAIR-360e-ALI-DP-DOC-PDF-025-00-00-TST-081 | Cabin Noise Testing | PDF | Q-AIR | Planned | High |
+| QAIR-360e-ALI-DP-DOC-PDF-025-00-00-TST-082 | Emergency Evacuation Test | PDF | Q-AIR | Planned | Critical |
+| QAIR-360e-ALI-HW-COMP-TST-025-00-00-TST-083 | Seat Dynamic Testing | PDF | Q-AIR | Planned | Critical |
+| QAIR-360e-ALI-HW-COMP-TST-025-10-00-TST-362 | Galley Equipment Testing | PDF | Q-AIR | Planned | Medium |
+| QAIR-360e-ALI-HW-COMP-TST-025-20-00-TST-363 | Lavatory System Testing | PDF | Q-AIR | Planned | Medium |
+| QAIR-360e-ALI-HW-COMP-TST-025-30-00-TST-364 | Entertainment System Test | PDF | Q-AIR | Planned | Medium |
+| QAIR-360e-ALI-HW-COMP-TST-025-40-00-TST-365 | Emergency Equipment Test | PDF | Q-AIR | Planned | Critical |
+| QAIR-360e-ALI-HW-COMP-TST-025-50-00-TST-366 | Window & Door Testing | PDF | Q-AIR | Planned | High |
+| QAIR-360e-ALI-HW-COMP-TST-025-60-00-TST-367 | Lighting System Testing | PDF | Q-AIR | Planned | Medium |
+| QAIR-360e-ALI-HW-COMP-TST-025-70-00-TST-368 | Accessibility Testing | PDF | Q-AIR | Planned | High |
 
-### Testing de Sistema de Carga
+### 📦 **Cargo System Testing** (5+ deliverables)
 
-| Código de Documento | Descripción | Formato | Responsable | Estado |
-|---------------------|-------------|---------|-------------|--------|
-| QAIR-360e-ALI-DP-DOC-PDF-033-00-00-TST-084 | Test sistema carga | PDF | Q-AIR | Planificado |
-| QAIR-360e-ALI-HW-COMP-TST-033-00-00-TST-085 | Test puerta carga | PDF | Q-AIR | Planificado |
+| Document Code | Description | Format | Responsible | Status | Priority |
+|---------------|-------------|---------|-------------|--------|----------|
+| QAIR-360e-ALI-DP-DOC-PDF-033-00-00-TST-084 | Cargo System Testing | PDF | Q-AIR | Planned | High |
+| QAIR-360e-ALI-HW-COMP-TST-033-00-00-TST-085 | Cargo Door Testing | PDF | Q-AIR | Planned | High |
+| QAIR-360e-ALI-HW-COMP-TST-033-10-00-TST-369 | Cargo Loading System | PDF | Q-AIR | Planned | High |
+| QAIR-360e-ALI-HW-COMP-TST-033-20-00-TST-370 | Cargo Restraint Testing | PDF | Q-AIR | Planned | High |
+| QAIR-360e-ALI-HW-COMP-TST-033-30-00-TST-371 | Cargo Fire Protection | PDF | Q-AIR | Planned | Critical |
 
-### Testing de Aviónica
+### 💻 **Avionics Testing** (12+ deliverables)
 
-| Código de Documento | Descripción | Formato | Responsable | Estado |
-|---------------------|-------------|---------|-------------|--------|
-| QHPC-360e-ALI-DP-DOC-PDF-042-00-00-TST-086 | Test integración IMA | PDF | Q-HPC | Planificado |
-| QHPC-360e-BOB-SC-CODE-C-042-00-00-TST-087 | Test integración software | C | Q-HPC | Planificado |
-| QHPC-360e-ALI-DP-DOC-PDF-042-00-00-TST-088 | Testing DO178C | PDF | Q-HPC | Planificado |
-| QHPC-360e-ALI-DP-DOC-PDF-042-00-00-TST-089 | Test Hardware in Loop | PDF | Q-HPC | Planificado |
-| QHPC-360e-BOB-SC-CODE-PY-042-00-00-TST-090 | Test integración sistema | Python | Q-HPC | Planificado |
+| Document Code | Description | Format | Responsible | Status | Priority |
+|---------------|-------------|---------|-------------|--------|----------|
+| QHPC-360e-ALI-DP-DOC-PDF-042-00-00-TST-086 | IMA Integration Testing | PDF | Q-HPC | Planned | Critical |
+| QHPC-360e-BOB-SC-CODE-C-042-00-00-TST-087 | Software Integration Test | C | Q-HPC | Planned | Critical |
+| QHPC-360e-ALI-DP-DOC-PDF-042-00-00-TST-088 | DO178C Testing | PDF | Q-HPC | Planned | Critical |
+| QHPC-360e-ALI-DP-DOC-PDF-042-00-00-TST-089 | Hardware in Loop Testing | PDF | Q-HPC | Planned | Critical |
+| QHPC-360e-BOB-SC-CODE-PY-042-00-00-TST-090 | System Integration Test | Python | Q-HPC | Planned | Critical |
+| QHPC-360e-ALI-HW-COMP-TST-042-10-00-TST-372 | Core Processing Testing | PDF | Q-HPC | Planned | Critical |
+| QHPC-360e-ALI-HW-COMP-TST-042-20-00-TST-373 | Network Switch Testing | PDF | Q-HPC | Planned | High |
+| QHPC-360e-ALI-HW-COMP-TST-042-30-00-TST-374 | Display System Testing | PDF | Q-HPC | Planned | High |
+| QHPC-360e-ALI-HW-COMP-TST-042-40-00-TST-375 | Data Bus Testing | PDF | Q-HPC | Planned | Critical |
+| QHPC-360e-ALI-HW-COMP-TST-042-50-00-TST-376 | Redundancy Testing | PDF | Q-HPC | Planned | Critical |
+| QHPC-360e-ALI-HW-COMP-TST-042-60-00-TST-377 | Real-time Performance | PDF | Q-HPC | Planned | High |
+| QHPC-360e-ALI-HW-COMP-TST-042-70-00-TST-378 | Fail-safe Testing | PDF | Q-HPC | Planned | Critical |
 
-### Testing de Navegación y Comunicaciones
+### 🛰 **Navigation & Communications** (8+ deliverables)
 
-| Código de Documento | Descripción | Formato | Responsable | Estado |
-|---------------------|-------------|---------|-------------|--------|
-| QSPC-360e-ALI-DP-DOC-PDF-034-00-00-TST-091 | Test sistema navegación | PDF | Q-SPACE | Planificado |
-| QSPC-360e-ALI-DP-DOC-PDF-023-00-00-TST-092 | Test comunicación | PDF | Q-SPACE | Planificado |
-| QSPC-360e-ALI-HW-COMP-TST-023-00-00-TST-093 | Test patrón antena | PDF | Q-SPACE | Planificado |
+| Document Code | Description | Format | Responsible | Status | Priority |
+|---------------|-------------|---------|-------------|--------|----------|
+| QSPC-360e-ALI-DP-DOC-PDF-034-00-00-TST-091 | Navigation System Testing | PDF | Q-SPACE | Planned | Critical |
+| QSPC-360e-ALI-DP-DOC-PDF-023-00-00-TST-092 | Communication Testing | PDF | Q-SPACE | Planned | Critical |
+| QSPC-360e-ALI-HW-COMP-TST-023-00-00-TST-093 | Antenna Pattern Testing | PDF | Q-SPACE | Planned | High |
+| QSPC-360e-ALI-HW-COMP-TST-034-10-00-TST-379 | GPS System Testing | PDF | Q-SPACE | Planned | Critical |
+| QSPC-360e-ALI-HW-COMP-TST-034-20-00-TST-380 | INS Testing | PDF | Q-SPACE | Planned | Critical |
+| QSPC-360e-ALI-HW-COMP-TST-023-10-00-TST-381 | Radio Communication Test | PDF | Q-SPACE | Planned | High |
+| QSPC-360e-ALI-HW-COMP-TST-023-20-00-TST-382 | Satellite Communication | PDF | Q-SPACE | Planned | High |
+| QSPC-360e-ALI-HW-COMP-TST-034-30-00-TST-383 | ILS Testing | PDF | Q-SPACE | Planned | Critical |
 
-### Testing de Sistemas Cuánticos
+### ⚛️ **Quantum Systems Testing** (10+ deliverables)
 
-| Código de Documento | Descripción | Formato | Responsable | Estado |
-|---------------------|-------------|---------|-------------|--------|
-| QSPC-360e-ALI-DP-DOC-PDF-940-00-00-TST-012 | Validación navegación cuántica | PDF | Q-SPACE | Planificado |
-| QSPC-360e-ALI-DP-DOC-PDF-940-00-00-TST-094 | Validación lab QNS | PDF | Q-SPACE | Planificado |
-| QSPC-360e-ALI-HW-COMP-TST-940-00-00-TST-095 | Test sensor cuántico | PDF | Q-SPACE | Planificado |
-| QSPC-360e-BOB-SC-CODE-PY-940-00-00-TST-096 | Test algoritmo QNS | Python | Q-SPACE | Planificado |
-| QSPC-360e-ALI-DP-DOC-PDF-920-00-00-TST-097 | Test comunicación cuántica | PDF | Q-SPACE | Planificado |
-| QSPC-360e-ALI-DP-DOC-PDF-920-00-00-TST-098 | Test protocolo QKD | PDF | Q-SPACE | Planificado |
+| Document Code | Description | Format | Responsible | Status | Priority |
+|---------------|-------------|---------|-------------|--------|----------|
+| QSPC-360e-ALI-DP-DOC-PDF-940-00-00-TST-012 | Quantum Navigation Validation | PDF | Q-SPACE | Planned | High |
+| QSPC-360e-ALI-DP-DOC-PDF-940-00-00-TST-094 | QNS Lab Validation | PDF | Q-SPACE | Planned | High |
+| QSPC-360e-ALI-HW-COMP-TST-940-00-00-TST-095 | Quantum Sensor Testing | PDF | Q-SPACE | Planned | High |
+| QSPC-360e-BOB-SC-CODE-PY-940-00-00-TST-096 | QNS Algorithm Testing | Python | Q-SPACE | Planned | High |
+| QSPC-360e-ALI-DP-DOC-PDF-920-00-00-TST-097 | Quantum Communication Test | PDF | Q-SPACE | Planned | High |
+| QSPC-360e-ALI-DP-DOC-PDF-920-00-00-TST-098 | QKD Protocol Testing | PDF | Q-SPACE | Planned | High |
+| QSPC-360e-ALI-HW-COMP-TST-940-10-00-TST-384 | Quantum Entanglement Test | PDF | Q-SPACE | Planned | Medium |
+| QSPC-360e-ALI-HW-COMP-TST-940-20-00-TST-385 | Quantum Error Correction | PDF | Q-SPACE | Planned | High |
+| QSPC-360e-ALI-HW-COMP-TST-920-10-00-TST-386 | Quantum Key Distribution | PDF | Q-SPACE | Planned | High |
+| QSPC-360e-ALI-HW-COMP-TST-920-20-00-TST-387 | Quantum Cryptography Test | PDF | Q-SPACE | Planned | High |
 
-### Testing de Digital Twin y AI/ML
+### 🤖 **Digital Twin & AI/ML Testing** (10+ deliverables)
 
-| Código de Documento | Descripción | Formato | Responsable | Estado |
-|---------------------|-------------|---------|-------------|--------|
-| QHPC-360e-ALI-DP-DOC-PDF-390-00-00-TST-099 | Validación Digital Twin | PDF | Q-HPC | Planificado |
-| QHPC-360e-BOB-SC-CODE-PY-390-00-00-TST-100 | Test Digital Twin | Python | Q-HPC | Planificado |
-| QHPC-360e-BOB-DT-MODEL-JSON-390-00-00-TST-101 | Resultados precisión Twin | JSON | Q-HPC | Planificado |
-| QHPC-360e-ALI-DP-DOC-PDF-910-00-00-TST-102 | Validación AI/ML | PDF | Q-HPC | Planificado |
-| QHPC-360e-BOB-SC-CODE-PY-910-00-00-TST-103 | Test algoritmo AI | Python | Q-HPC | Planificado |
+| Document Code | Description | Format | Responsible | Status | Priority |
+|---------------|-------------|---------|-------------|--------|----------|
+| QHPC-360e-ALI-DP-DOC-PDF-390-00-00-TST-099 | Digital Twin Validation | PDF | Q-HPC | Planned | High |
+| QHPC-360e-BOB-SC-CODE-PY-390-00-00-TST-100 | Digital Twin Testing | Python | Q-HPC | Planned | High |
+| QHPC-360e-BOB-DT-MODEL-JSON-390-00-00-TST-101 | Twin Accuracy Results | JSON | Q-HPC | Planned | High |
+| QHPC-360e-ALI-DP-DOC-PDF-910-00-00-TST-102 | AI/ML Validation | PDF | Q-HPC | Planned | High |
+| QHPC-360e-BOB-SC-CODE-PY-910-00-00-TST-103 | AI Algorithm Testing | Python | Q-HPC | Planned | High |
+| QHPC-360e-ALI-HW-COMP-TST-390-10-00-TST-388 | Real-time Sync Testing | PDF | Q-HPC | Planned | High |
+| QHPC-360e-ALI-HW-COMP-TST-390-20-00-TST-389 | Twin Scalability Testing | PDF | Q-HPC | Planned | Medium |
+| QHPC-360e-ALI-HW-COMP-TST-910-10-00-TST-390 | ML Model Validation | PDF | Q-HPC | Planned | High |
+| QHPC-360e-ALI-HW-COMP-TST-910-20-00-TST-391 | Predictive Analytics Test | PDF | Q-HPC | Planned | High |
+| QHPC-360e-ALI-HW-COMP-TST-910-30-00-TST-392 | Edge AI Processing Test | PDF | Q-HPC | Planned | Medium |
 
-### Testing de Ciberseguridad
+### 🔒 **Cybersecurity Testing** (6+ deliverables)
 
-| Código de Documento | Descripción | Formato | Responsable | Estado |
-|---------------------|-------------|---------|-------------|--------|
-| QHPC-360e-ALI-DP-DOC-PDF-800-00-00-TST-104 | Test ciberseguridad | PDF | Q-HPC | Planificado |
-| QHPC-360e-ALI-DP-DOC-PDF-880-00-00-TST-105 | Test seguridad cuántica | PDF | Q-HPC | Planificado |
+| Document Code | Description | Format | Responsible | Status | Priority |
+|---------------|-------------|---------|-------------|--------|----------|
+| QHPC-360e-ALI-DP-DOC-PDF-800-00-00-TST-104 | Cybersecurity Testing | PDF | Q-HPC | Planned | Critical |
+| QHPC-360e-ALI-DP-DOC-PDF-880-00-00-TST-105 | Quantum Security Testing | PDF | Q-HPC | Planned | High |
+| QHPC-360e-ALI-HW-COMP-TST-800-10-00-TST-393 | Penetration Testing | PDF | Q-HPC | Planned | Critical |
+| QHPC-360e-ALI-HW-COMP-TST-800-20-00-TST-394 | Vulnerability Assessment | PDF | Q-HPC | Planned | Critical |
+| QHPC-360e-ALI-HW-COMP-TST-800-30-00-TST-395 | Network Security Testing | PDF | Q-HPC | Planned | Critical |
+| QHPC-360e-ALI-HW-COMP-TST-800-40-00-TST-396 | Incident Response Testing | PDF | Q-HPC | Planned | High |
 
 ### Testing Ambiental
 
