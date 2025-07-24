@@ -1,3 +1,4 @@
+```yaml
 Código de Documento: QAIR-360e-ALI-DP-DOC-PDF-000-00-00-CON-001
 Versión: 1.0
 Fecha: Julio 2025
@@ -5,6 +6,7 @@ Clasificación: RESTRINGIDO - PROGRAMA AMPEL360e
 Preparado por: Q-AIR Division
 Revisado por: Q-FINANCE, Q-MARKETING
 Aprobado por: [Pendiente]
+```
 
 # Informe de análisis de mercado global para el AMPEL360e
 
