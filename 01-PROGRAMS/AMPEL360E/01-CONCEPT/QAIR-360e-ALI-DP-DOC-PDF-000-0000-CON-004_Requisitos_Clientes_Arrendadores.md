@@ -39,6 +39,9 @@ Los lessors prevén **rentas elevadas hasta 2027** por escasez de entregas OEM y
 
 Los arrendadores demandan activos líquidos, de bajo riesgo técnico y con clara trayectoria ESG. El AMPEL360e puede cumplir estos requisitos if asegura: (1) valor residual sólido mediante commonality y coste operativo –35%; (2) plataforma de mantenimiento transparente que minimice reservas; y (3) certificación híbrida conforme CS-25 antes de 2032 para acceder a la ola de financiación sostenible. De lograrse, el avión será tan financiable para los lessors líderes como un A320neo, maximizando su potencial de penetración en el segmento 150–190 plazas.
 
+<img width="2400" height="1600" alt="image" src="https://github.com/user-attachments/assets/26a1d443-1207-4e26-aad6-974ba32d5831" />
+
+
 ## Informe de Validación: Análisis Exhaustivo de los Requisitos del Mercado de Arrendadores para el Programa AMPEL360e
 
 ### Resumen Ejecutivo
@@ -60,6 +63,9 @@ Esta sección valida la premisa fundamental del documento de origen: que los arr
 La afirmación del documento de que los arrendadores poseen aproximadamente el 50% de la flota mundial está directamente corroborada por múltiples análisis del sector. Fuentes de la industria confirman que los arrendadores poseen y gestionan "aproximadamente la mitad de las más de 23.000 aeronaves comerciales a reacción de la flota mundial". Esta cifra representa un crecimiento monumental desde 1990, cuando su participación era de solo el 10%. Durante la pandemia de COVID-19, se informó que la proporción arrendada de la flota mundial alcanzó hasta un 60%, lo que subraya su papel como proveedores cruciales de capital y flexibilidad en tiempos de crisis.
 
 La aseveración de que los arrendadores controlan más del 60% de la cartera de pedidos de narrowbodies se valida al examinar su enfoque estratégico y su poder de compra. Las aeronaves de fuselaje estrecho son la clase de activo dominante, representando el 61,89% del mercado de arrendamiento en 2024. Los arrendadores líderes han acumulado carteras de pedidos masivas que están fuertemente sesgadas hacia estos modelos. Por ejemplo, la cartera de pedidos de AerCap, el arrendador más grande del mundo, se compone principalmente de Boeing 737 y Airbus A320. Otros actores principales como Avolon tienen 264 A321neo en pedido, y SMBC Aviation Capital tiene 170 A320neo en su cartera. Airbus reportó una cartera de pedidos de 7.660 aviones de fuselaje estrecho, lo que constituye el 88,9% de su cartera total, siendo los arrendadores los clientes principales para estos codiciados puestos de entrega.
+
+<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/62f22c0c-020e-4bb2-ab74-ac9db44fb1e6" />
+
 
 La concentración de estos pedidos en unas pocas docenas de grandes arrendadores crea un entorno de ventas que es a la vez altamente eficiente y desafiante. Un nuevo OEM no necesita convencer a cientos de aerolíneas individuales; en cambio, debe persuadir a un grupo pequeño y altamente sofisticado de instituciones financieras. Obtener un pedido de un arrendador de primer nivel como AerCap, SMBC o Avolon no solo representa una venta significativa, sino que confiere un "sello de aprobación" a la aeronave. Esta validación por parte de un líder del mercado señala a toda la industria —incluyendo arrendadores más pequeños, bancos, aseguradoras e inversores en valores respaldados por activos (ABS)— que la aeronave es un activo financiable, líquido y con un riesgo de valor residual gestionable. Este efecto de señalización es un beneficio no financiero de valor incalculable que puede acelerar la aceptación del AMPEL360e en el mercado global.
 
