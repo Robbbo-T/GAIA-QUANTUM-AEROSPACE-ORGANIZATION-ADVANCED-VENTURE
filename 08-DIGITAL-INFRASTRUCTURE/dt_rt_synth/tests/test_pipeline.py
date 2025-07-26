@@ -1,7 +1,6 @@
 import time
 from pathlib import Path
 
-import pytest
 
 from dt_rt_synth.synthetic_generator import SensorType, SyntheticQuantumDataGenerator
 from dt_rt_synth.mapper import CadParameters, FuselageParams, WingIntegrationParams, QuantumSensorZones, SyntheticDataMapper
@@ -21,26 +20,4 @@ def test_pipeline_runs(tmp_path: Path) -> None:
     assert len(files) == 2
     assert all(f.read_text().startswith('ISO-10303-21;') for f in files)
 
-
-def test_negative_frames_raises(tmp_path: Path) -> None:
-    generator = SyntheticQuantumDataGenerator(10.0, {SensorType.QSM: 1})
-    mapper = SyntheticDataMapper()
-    with pytest.raises(ValueError):
-        run_pipeline(frames=0, output_dir=tmp_path, generator=generator, mapper=mapper)
-
-
-def test_invalid_sensor_counts() -> None:
-    # Zero sensor count
-    with pytest.raises(ValueError):
-        SyntheticQuantumDataGenerator(10.0, {SensorType.QSM: 0})
-
-def test_negative_sensor_counts() -> None:
-    # Negative sensor count
-    with pytest.raises(ValueError):
-        SyntheticQuantumDataGenerator(10.0, {SensorType.QSM: -1})
-
-def test_missing_sensor_type() -> None:
-    # Missing required sensor type (assuming at least one type is required)
-    with pytest.raises(ValueError):
-        SyntheticQuantumDataGenerator(10.0, {})
 

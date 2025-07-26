@@ -3,10 +3,7 @@ Digital Twin Real-Time Synthetic Pipeline
 ----------------------------------------
 
 Coordinates synthetic data generation, mapping, and STEP file
-production for the AMPEL360E demonstrator.  The implementation is
-lightweight to support continuous integration environments while still
-mirroring the data flow expected in a full system.  It is suitable for
-certification-oriented unit testing.
+
 """
 
 from __future__ import annotations
@@ -41,27 +38,7 @@ def run_pipeline(
     mapper: SyntheticDataMapper,
     initial_params: CadParameters | None = None,
 ) -> None:
-    """Execute the end-to-end synthetic data pipeline.
 
-    Parameters
-    ----------
-    frames:
-        Number of iteration frames to process. Must be positive.
-    output_dir:
-        Directory where STEP files will be written.
-    generator:
-        Synthetic data generator instance.
-    mapper:
-        Mapper converting sensor readings to CAD parameters.
-    initial_params:
-        Optional starting parameter set. ``default_parameters`` is used if not
-        supplied.
-    """
-
-    if frames <= 0:
-        raise ValueError("frames must be positive")
-    if not isinstance(output_dir, Path):
-        raise TypeError("output_dir must be a pathlib.Path")
 
     params = initial_params or default_parameters()
     output_dir.mkdir(parents=True, exist_ok=True)
