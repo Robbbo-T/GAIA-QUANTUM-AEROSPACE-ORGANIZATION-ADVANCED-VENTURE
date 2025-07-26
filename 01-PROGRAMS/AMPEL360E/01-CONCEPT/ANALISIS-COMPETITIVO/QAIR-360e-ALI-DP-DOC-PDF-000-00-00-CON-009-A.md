@@ -3,6 +3,59 @@
 
 ### 1. Análisis Aerodinámico Comparativo
 
+```mermaid
+flowchart TB
+    %% Main categories
+    A320["A320neo"]:::airbus
+    AMPEL["AMPEL-360e"]:::ampel
+    start(Main Comparative Areas)
+
+    start --> Aerodynamics
+    start --> Propulsion
+    start --> Materials
+    start --> Systems
+    start --> Efficiency
+    start --> Unique
+
+    %% Aerodynamics
+    Aerodynamics -->|Conventional| A320
+    Aerodynamics -->|Adaptive/morphing| AMPEL
+    A320 -.->|L/D 18.5, Sharklets, Static wing| Aerodetail1["Reduced drag vs ceo<br>-4%"]
+    AMPEL -.->|L/D 28.7, Morphing, Plasma, Metamaterial| Aerodetail2["Reduced drag<br>-67% vs A320neo"]
+
+    %% Propulsion
+    Propulsion -->|LEAP-1A<br>High-bypass Turbofan| A320
+    Propulsion -->|Quantum-Electric Hybrid| AMPEL
+    A320 -.->|Bypass 11:1<br>SFC 0.545| PropDetail1["Max Thrust 32,900 lbf"]
+    AMPEL -.->|Quantum battery<br>FCs+Solar<br>SC Motors| PropDetail2["99% efficiency<br>Zero-point exp."]
+
+    %% Materials
+    Materials -->|Al-Li Alloys<br>CFRP| A320
+    Materials -->|Graphene-CNT<br>Metamaterial| AMPEL
+    A320 -.->|Fuselage 2.63g/cm³,<br>520 MPa| MatDetail1["Fatigue 90,000 cycles"]
+    AMPEL -.->|Fuselage 1.45g/cm³,<br>1850 MPa| MatDetail2["Fatigue >500,000 cycles, -45% weight"]
+
+    %% Systems/Avionics
+    Systems -->|Fly-by-wire| A320
+    Systems -->|Quantum-fly-by-light| AMPEL
+    A320 -.->|20ms Latency,<br>GPS Dep.| SysDetail1["Triplex, limited adapt."]
+    AMPEL -.->|<1ms Latency,<br>Q-Nav, GPS free| SysDetail2["5x redund.+QPU,<br>continuous AI"]
+
+    %% Efficiency
+    Efficiency -->|Conventional fuel<br>Operations| A320
+    Efficiency -->|Electric+Regen.<br>Ops| AMPEL
+    A320 -.->|High fuel usage,<br>Regular checks| EffDetail1["A-check/C-check"]
+    AMPEL -.->|Up to -96% energy,<br>Quantum monitoring| EffDetail2["On condition maint.<br>Downtime -75%"]
+
+    %% Unique Capabilities
+    Unique -->|Standard| A320
+    Unique -->|Extreme Altitude<br>Quantum Wx Radar<br>VTOL Hybrid| AMPEL
+
+    %% Styles
+    classDef airbus fill:#aad,stroke:#003,stroke-width:2px;
+    classDef ampel fill:#af7,stroke:#263,stroke-width:2px,font-weight:bold;
+```
+
 #### 1.1 Configuración Alar
 | Parámetro | A320neo | AMPEL-360e | Ventaja |
 |---|---|---|---|
