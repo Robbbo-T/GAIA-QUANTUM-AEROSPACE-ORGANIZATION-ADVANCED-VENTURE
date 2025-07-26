@@ -16,5 +16,6 @@ def test_compress_file_lzma(tmp_path: Path) -> None:
 
     assert compressed_path.exists()
     # Verify decompression yields original data
-    decompressed = lzma.open(compressed_path, 'rb').read()
+    with lzma.open(compressed_path, 'rb') as f:
+        decompressed = f.read()
     assert decompressed == data
