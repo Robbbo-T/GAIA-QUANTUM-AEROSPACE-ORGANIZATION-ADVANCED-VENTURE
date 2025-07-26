@@ -35,7 +35,12 @@ def compress_file_lzma(input_path: str, output_path: Optional[str] = None) -> Pa
 
     try:
         with source.open('rb') as src_file, lzma.open(target, 'wb') as dst_file:
-            dst_file.write(src_file.read())
+            chunk_size = 64 * 1024  # 64 KiB
+            while True:
+                chunk = src_file.read(chunk_size)
+                if not chunk:
+                    break
+                dst_file.write(chunk)
     except OSError as exc:
         raise IOError(f"Compression failed: {exc}") from exc
 
