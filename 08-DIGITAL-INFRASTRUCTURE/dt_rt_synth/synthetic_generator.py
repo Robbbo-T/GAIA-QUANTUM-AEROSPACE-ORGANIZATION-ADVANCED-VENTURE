@@ -63,8 +63,7 @@ class SyntheticQuantumDataGenerator:
 
         sensors: List[tuple[SensorType, str]] = []
         for s_type, count in self.sensor_counts.items():
-            for i in range(count):
-                sensors.append((s_type, f"{s_type.value}-{i:03d}"))
+            sensors.extend((s_type, f"{s_type.value}-{i:03d}") for i in range(count))
         return sensors
 
     def generate(self) -> Generator[SensorReading, None, None]:
