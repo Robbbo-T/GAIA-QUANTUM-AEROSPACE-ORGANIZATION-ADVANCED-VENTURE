@@ -51,7 +51,48 @@ class CadParameters:
     sensors: QuantumSensorZones
 
 
+Consider collapsing the three `apply_*` methods and the `if/elif` dispatch into a simple table-driven loop, and drop the manual `**vars` cloning in favor of `copy.deepcopy`. This preserves all behavior but removes boilerplate.
+
+```python
+import copy
+from typing import Callable, Dict
+
 class SyntheticDataMapper:
+    def __init__(self, smoothing: float = 0.1) -> None:
+        if not 0.0 <= smoothing <= 1.0:
+            raise ValueError("smoothing must be within [0.0, 1.0]")
+        self.smoothing = smoothing
+        # map SensorType → (update_fn)
+        self._updates: Dict[SensorType, Callable[[CadParameters, float], None]] = {
+            SensorType.QSM: lambda p, v: setattr(
+                p.wing,
+                'blend_radius',
+                self._smooth(p.wing.blend_radius,  2000 + 1000 * v)
+            ),
+            SensorType.QNS: lambda p, v: setattr(
+                p.wing,
+                'sweep_angle',
+                self._smooth(p.wing.sweep_angle,     25 + 10   * v)
+            ),
+            SensorType.QDS: lambda p, v: setattr(
+                p.fuselage,
+                'blending_factor',
+                self._smooth(p.fuselage.blending_factor, 0.1 + 0.9 * (1 - v))
+            ),
+        }
+
+    def map_readings(self,
+                     readings: Iterable[SensorReading],
+                     params: CadParameters) -> CadParameters:
+        new_params = copy.deepcopy(params)
+        for r in readings:
+            updater = self._updates.get(r.sensor_type)
+            if updater:
+                updater(new_params, r.value)
+        return new_params
+
+    def _smooth(self, current: float, target: float) -> float:
+        return current * (1 - self.smoothing) + target * self.smoothing
     """Maps sensor readings to CAD parameter adjustments."""
 
     def __init__(self, smoothing: float = 0.1) -> None:
