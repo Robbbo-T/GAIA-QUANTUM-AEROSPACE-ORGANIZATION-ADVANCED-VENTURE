@@ -232,7 +232,7 @@ El AMPEL360e tiene una oportunidad clara de penetrar el mercado narrowbody con u
 - Anexo D: Comparativa de OEMs  
 - Anexo E: Escenarios de coste operacional
 
-## Anexo A: Referencias bibliográficas (enlaces [1]–[59])  
+# Anexo A:
 
 [1]: https://boeing.mediaroom.com/2024-07-19-Boeing-Forecasts-Demand-for-Nearly-44,000-New-Airplanes-Through-2043-as-Air-Travel-Surpasses-Pre-Pandemic-Levels
 [2]: https://www.flightglobal.com/air-transport/airbus-hikes-20-year-delivery-forecast-with-balance-tilting-towards-single-aisles/159127.article
