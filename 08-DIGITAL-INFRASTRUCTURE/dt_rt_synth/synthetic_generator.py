@@ -80,7 +80,6 @@ class SyntheticQuantumDataGenerator:
                     timestamp=time.time(),
                 )
             elapsed = time.perf_counter() - start
-            sleep_time = max(0.0, self._period - elapsed)
-            if sleep_time:
+            if sleep_time := max(0.0, self._period - elapsed):
                 time.sleep(sleep_time)
 
