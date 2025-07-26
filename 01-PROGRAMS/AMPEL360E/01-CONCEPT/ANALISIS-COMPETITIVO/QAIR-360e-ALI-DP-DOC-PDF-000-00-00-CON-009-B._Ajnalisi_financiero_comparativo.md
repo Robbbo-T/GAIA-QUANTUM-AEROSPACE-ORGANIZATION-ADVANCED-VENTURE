@@ -298,98 +298,60 @@ function calculateAMPELAdvantage(route) {
 
 ```mermaid
 flowchart TB
+  %% SCENARIO 1
+  subgraph S1 ["SYD-NYC Direct (Ultra Long Haul)"]
+    SYDA["`• 2x daily, 847k pax/yr
+• No direct on A320neo
+• AMPEL-360e: 17.5h direct, +$400/pax premium`"]
+    SYDM["`• Annual Advantage: $102M
+• NPV 20yr: $1.24B
+• ROI: 3.2y
+• IRR: 28.5%`"]
+    SYDA --> SYDM
+  end
 
-%% SYD-NYC Ultra Long Haul
-subgraph S1 ["SYD-NYC Ultra Long Haul"]
-  S1A{{"Route Profile"}}
-  S1A1["`Distance: 16,013km
-Market: 847k/y
-Premium: +\$400/pax`"]
-  S1A2["`A320neo:
-Not Possible`"]
-  S1A3["`Current: 20-24h with stop
-A350/B787
-Flight Cost:
-\$74k fuel, \$12k crew`"]
-  S1A4["`AMPEL-360e:
-17.5h direct
-Energy/Flight: \$3.1k
-Revenue: +\$112k/flight
-Carbon credit: +\$8.2M/yr`"]
-  S1A5["`Annual NOI: \$185M
-NPV20: \$1.24B
-ROI: 3.2y
-IRR: 28.5%`"]
-  S1A --> S1A1
-  S1A1 --> S1A2
-  S1A1 --> S1A3
-  S1A1 --> S1A4
-  S1A4 --> S1A5
-end
+  %% SCENARIO 2
+  subgraph S2 ["LAX-SFO Green Shuttle"]
+    LAXA["`• 25x daily, 9,125/yr
+• AMPEL: turnaround 25m, 24/7 ops,
+• Carbon credit: +$120/flight`"]
+    LAXM["`• Annual Advantage: $75.2M
+• NPV 20yr: $912M
+• ROI: 3.8y
+• IRR: 24.2%`"]
+    LAXA --> LAXM
+  end
 
-%% LAX-SFO High-Freq Green Corridor
-subgraph S2 ["LAX-SFO Green Corridor"]
-  S2A{{"Route Profile"}}
-  S2A1["`Distance: 543km
-25x Daily, 9,125 flights/y`"]
-  S2A2["`A320neo:
-45min TAT
-Noisy, Carbon tax`"]
-  S2A3["`AMPEL-360e:
-25min TAT
-24/7 ops
-Carbon credit: +\$120/flight`"]
-  S2A4["`Extra flights/y: +2920
-Annual NOI: \$121.8M`"]
-  S2A5["`NPV20: \$912M
-ROI: 3.8y
-IRR: 24.2%`"]
-  S2A --> S2A1
-  S2A1 --> S2A2
-  S2A1 --> S2A3
-  S2A3 --> S2A4
-  S2A4 --> S2A5
-end
+  %% SCENARIO 3
+  subgraph S3 ["HKG-JFK FL510 Polar"]
+    HKGA["`• 3x daily, 1,095/yr
+• FL510 direct route, weather/traffic bypass
+• Fuel flow -22%, jetstream (+80kt)`"]
+    HKGM["`• Annual Adv: $157M
+• NPV 20yr: $1.91B
+• ROI: 2.9y (fastest)
+• IRR: 32.1%`"]
+    HKGA --> HKGM
+  end
 
-%% HKG-JFK Polar FL510 Direct
-subgraph S3 ["HKG-JFK Polar FL510"]
-  S3A{{"Route Profile"}}
-  S3A1["`Distance: 12,969km
-Direct FL510 Polar, 3x Daily`"]
-  S3A2["`Legacy:
-Detour: +2,000km`"]
-  S3A3["`AMPEL-360e:
-Direct, saves 2.5h
-22% lower drag
-Jetstream: +45min
-Energy/Flight: \$12k`"]
-  S3A4["`Annual NOI: \$354M`"]
-  S3A5["`NPV20: \$1.91B
-ROI: 2.9y
-IRR: 32.1%`"]
-  S3A --> S3A1
-  S3A1 --> S3A2
-  S3A1 --> S3A3
-  S3A3 --> S3A4
-  S3A4 --> S3A5
-end
+  %% Consolidated block
+  ROI(["`**AMPEL-360e
+ROI Dominance:** 
+NPV: $912M-$1.91B  
+ROI: 2.9-3.8y
+All scenarios: Decisive
+financial advantage
+over A320neo/B737`"])
 
-%% Output/Comparison Block
-COMP(("`Consolidated Financials`"))
-COMP1["`AMPEL-360e NPV: \$912M-\$1.91B
-ROI: 2.9 - 3.8 years
-+Unique strategic edge`"]
+  SYDM --> ROI
+  LAXM --> ROI
+  HKGM --> ROI
 
-S1A5 --> COMP
-S2A5 --> COMP
-S3A5 --> COMP
-COMP --> COMP1
-
-%% Styling
-classDef win fill:#af8,stroke:#382,color:#122,stroke-width:2px;
-class S1A4,S2A3,S3A3 win
-classDef block fill:#eef,stroke:#226,stroke-width:1.5px;
-class S1,S2,S3 block
+  %% Styling
+  classDef scenario fill:#eaf7ff,stroke:#3592b3,stroke-width:2px;
+  classDef winner fill:#c9f9cc,stroke:#168d22,stroke-width:3px;
+  class S1,S2,S3 scenario
+  class ROI winner
 ```
 
 ### Próximos Pasos
@@ -400,6 +362,7 @@ class S1,S2,S3 block
 
 ---
 *Documento generado: 2025-07-26*
+*Actualizado: 2025-07-27 - Terminología corregida*
 *Clasificación: GAIA-QAO Confidencial*
-*Versión: 1.0.0*
+*Versión: 1.0.1*
 *Enlaces: CON-009-A (Técnico) | CON-009-C (Rutas) | CON-009-D (Mercado)*
