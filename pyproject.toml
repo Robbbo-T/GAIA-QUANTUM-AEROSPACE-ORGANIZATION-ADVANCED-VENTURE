@@ -1,0 +1,7 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "dt-rt-synth"
+version = "0.1.0"
+
