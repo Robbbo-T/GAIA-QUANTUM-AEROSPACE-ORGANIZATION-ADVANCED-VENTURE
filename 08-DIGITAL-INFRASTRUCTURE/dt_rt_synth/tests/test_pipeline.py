@@ -30,6 +30,17 @@ def test_negative_frames_raises(tmp_path: Path) -> None:
 
 
 def test_invalid_sensor_counts() -> None:
+    # Zero sensor count
     with pytest.raises(ValueError):
         SyntheticQuantumDataGenerator(10.0, {SensorType.QSM: 0})
+
+def test_negative_sensor_counts() -> None:
+    # Negative sensor count
+    with pytest.raises(ValueError):
+        SyntheticQuantumDataGenerator(10.0, {SensorType.QSM: -1})
+
+def test_missing_sensor_type() -> None:
+    # Missing required sensor type (assuming at least one type is required)
+    with pytest.raises(ValueError):
+        SyntheticQuantumDataGenerator(10.0, {})
 
