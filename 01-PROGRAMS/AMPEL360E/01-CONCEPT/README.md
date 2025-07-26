@@ -4,6 +4,9 @@
 
 La fase de concepto establece los fundamentos del programa AMPEL360e, definiendo requisitos de alto nivel, arquitectura conceptual, y viabilidad técnica y comercial. Se enfoca en tecnologías maduras y certificables, evitando integraciones cuánticas prematuras para asegurar la certificabilidad bajo estándares CS-25, DO-178C y DO-254.
 
+<img width="2094" height="1342" alt="Screenshot 2025-07-26 at 09-06-50 " src="https://github.com/user-attachments/assets/b7a80461-ffc7-4102-ae2b-e38864943cd6" />
+
+
 ## Entregables Detallados
 
 ### Análisis de Mercado y Requisitos
