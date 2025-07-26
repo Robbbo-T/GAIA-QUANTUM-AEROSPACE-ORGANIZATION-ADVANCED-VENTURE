@@ -1,30 +1,16 @@
-"""
-STEP File Generator for AMPEL360E Digital Twin
-----------------------------------------------
 
-Produces simplified ISO-10303-21 STEP representations based on
-current CAD parameters. This module uses a textual placeholder
-approach suitable for integration testing when the full OCC kernel
-is unavailable.
 """
 
 from __future__ import annotations
 
-from datetime import datetime
+
 from textwrap import dedent
 
 from .mapper import CadParameters
 
 
 def generate_step(parameters: CadParameters) -> str:
-    """Generate a minimal STEP string from parameters."""
 
-    header = dedent(
-        f"""\
-        ISO-10303-21;
-        HEADER;
-        FILE_DESCRIPTION(('AMPEL360E Synthetic Model'),'2;1');
-        FILE_NAME('ampel360e.step','{datetime.utcnow().isoformat()}',('GAIA-QAO'),('GAIA-QAO'), 'Python', 'DT-RT-SYNTH','');
         FILE_SCHEMA(('AUTOMOTIVE_DESIGN {{ 1 0 10303 214 1 1 1 1 }}'));
         ENDSEC;
         DATA;"""
@@ -33,7 +19,7 @@ def generate_step(parameters: CadParameters) -> str:
     fuselage = parameters.fuselage
     wing = parameters.wing
     data_section = dedent(
-        f"""\
+
         #1 = PRODUCT('AMPEL360E','Synthetic','',(#2));
         #2 = PRODUCT_CONTEXT('',#3,'mechanical');
         #3 = APPLICATION_CONTEXT('design');

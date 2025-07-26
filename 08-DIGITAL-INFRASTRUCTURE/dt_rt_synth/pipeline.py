@@ -3,8 +3,7 @@ Digital Twin Real-Time Synthetic Pipeline
 ----------------------------------------
 
 Coordinates synthetic data generation, mapping, and STEP file
-production for the AMPEL360E demonstrator. Designed for
-certification-oriented testing.
+
 """
 
 from __future__ import annotations
@@ -39,7 +38,7 @@ def run_pipeline(
     mapper: SyntheticDataMapper,
     initial_params: CadParameters | None = None,
 ) -> None:
-    """Run the DT-RT synthetic pipeline for a number of frames."""
+
 
     params = initial_params or default_parameters()
     output_dir.mkdir(parents=True, exist_ok=True)

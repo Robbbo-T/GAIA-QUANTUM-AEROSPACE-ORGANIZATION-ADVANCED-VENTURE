@@ -51,7 +51,7 @@ class CadParameters:
     sensors: QuantumSensorZones
 
 
-class SyntheticDataMapper:
+
     """Maps sensor readings to CAD parameter adjustments."""
 
     def __init__(self, smoothing: float = 0.1) -> None:
@@ -60,6 +60,7 @@ class SyntheticDataMapper:
         self.smoothing = smoothing
 
     def map_readings(self, readings: Iterable[SensorReading], params: CadParameters) -> CadParameters:
+
         new_params = CadParameters(
             fuselage=FuselageParams(**vars(params.fuselage)),
             wing=WingIntegrationParams(**vars(params.wing)),
@@ -75,21 +76,21 @@ class SyntheticDataMapper:
         return new_params
 
     def _smooth(self, current: float, target: float) -> float:
-        return current * (1 - self.smoothing) + target * self.smoothing
 
-    def _apply_structural(self, reading: SensorReading, params: CadParameters) -> None:
         # Map stress values to blend_radius adjustments
         stress = reading.value  # 0..1
         target_radius = 2000 + 1000 * stress
         params.wing.blend_radius = self._smooth(params.wing.blend_radius, target_radius)
 
     def _apply_navigation(self, reading: SensorReading, params: CadParameters) -> None:
+
         # Map navigation variance to sweep_angle
         variance = reading.value  # 0..1
         target_angle = 25 + 10 * variance
         params.wing.sweep_angle = self._smooth(params.wing.sweep_angle, target_angle)
 
     def _apply_dynamic(self, reading: SensorReading, params: CadParameters) -> None:
+
         # Map efficiency metrics to blending factor
         efficiency = reading.value  # 0..1
         target_blend = 0.1 + 0.9 * (1 - efficiency)
