@@ -232,67 +232,127 @@ El AMPEL360e tiene una oportunidad clara de penetrar el mercado narrowbody con u
 - Anexo D: Comparativa de OEMs  
 - Anexo E: Escenarios de coste operacional
 
-# Anexo A:
+# Anexo A: **referencias \[1]–\[59]** 
 
-[1]: https://boeing.mediaroom.com/2024-07-19-Boeing-Forecasts-Demand-for-Nearly-44,000-New-Airplanes-Through-2043-as-Air-Travel-Surpasses-Pre-Pandemic-Levels
-[2]: https://www.flightglobal.com/air-transport/airbus-hikes-20-year-delivery-forecast-with-balance-tilting-towards-single-aisles/159127.article
-[3]: https://www.aerotime.aero/articles/airbus-global-market-forecast-2025-2044
-[4]: https://boeing.mediaroom.com/news-releases-statements?item=131556
-[5]: https://www.icao.int/Meetings/a40/Documents/WP/wp_020_en.pdf
-[6]: https://www.bdo.fr/en-gb/insights/bdo-advisory/global-air-transport-outlook-to-2045
-[7]: https://s3.amazonaws.com/tourism-economics/craft/Case-Studies-Docs/P18-22_IATA_64_CEO-WestJet.pdf
-[8]: https://normecverifavia.com/news/navigating-icaos-corsia-in-the-first-phase/
-[9]: https://www.gov.uk/guidance/corsia-how-to-comply
-[10]: https://www.easa.europa.eu/en/domains/environment/eaer/sustainable-aviation-fuels
-[11]: https://project-hera.eu/home
-[12]: https://www.electronicdesign.com/technologies/power/article/21284834/electronic-design-hybrid-electric-aircraft-are-moving-swiftly-from-concept-to-commercial-reality
-[13]: https://www.iom3.org/resource/first-hybrid-electric-aircraft-enters-the-faa-certification-process.html
-[14]: https://www.aerospacetestinginternational.com/news/electric-hybrid/easa-awards-first-certification-for-a-fully-electric-aircraft.html
-[15]: https://aiaa.org/2021/04/14/easa-release-initial-certification-requirements-for-electric-hybrid-propulsion-systems/
-[16]: https://simpleflying.com/airbus-8000-aircraft-backlog-91-single-aisle/
-[17]: https://www.financialexpress.com/business/airlines-aviation-airbus-delivers-766-aircraft-globally-in-2024-amid-strong-demand-and-supply-chain-challenges-3713935/
-[18]: https://www.airbus.com/sites/g/files/jlcbta136/files/2025-04/Airbus-A320-Family-Facts-and-Figures-April-2025.pdf
-[19]: https://www.argusmedia.com/de/news-and-insights/latest-market-news/2659923-airbus-targets-820-aircraft-deliveries-in-2025
-[20]: https://www.travelpulse.com/news/airlines-airports/boeing-reportedly-delaying-key-737-max-production-milestones
-[21]: https://www.heraldnet.com/business/boeing-wins-zero-new-orders-shrinks-backlog-of-737-max-jets/
-[22]: https://www.businessinsider.com/airlines-need-planes-boeing-airbus-orders-deliveries-2025-2
-[23]: https://jp.reuters.com/article/business/exclusive-boeing-targets-2025-for-return-to-pre-crisis-737-max-production-rates-idUSKBN2W716L/
-[24]: https://www.moneycontrol.com/news/world/boeing-targets-2025-for-return-to-pre-crisis-737-max-production-rates-report-10392501.html
-[25]: https://gulfnews.com/business/aviation/boeing-warns-customers-of-further-delays-on-737-max-amid-crisis-1.1720753744446
-[26]: https://www.aerotime.aero/articles/comac-to-increase-production-for-c919-aircraft-to-50-by-2025
-[27]: https://simpleflying.com/china-comac-build-50-c919s-2025/
-[28]: https://www.yicaiglobal.com/star50news/2025_03_256808097697875099664
-[29]: https://www.scmp.com/economy/china-economy/article/3295370/chinese-aircraft-firm-comac-hopes-double-production-c919-passenger-planes-year
-[30]: https://www.flightglobal.com/air-transport/backlogs-already-hold-40-of-forecast-20-year-single-aisle-demand-airbus/163304.article
-[31]: https://www.forbes.com/sites/tedreed/2024/12/13/the-worlds-airline-fleets-are-aging-as-as-supply-chain-stalls
-[32]: https://www.flightglobal.com/airlines/average-aircraft-age-rises-as-airlines-grapple-with-supply-chain-challenges/161058.article
-[33]: https://www.gulf-times.com/article/698899/business/airline-industrys-2025-performance-hinges-on-lower-jet-fuel-price-efficiency-gains
-[34]: https://www.opis.com/blog/2025-likely-to-bring-lower-jet-fuel-prices-higher-demand/
-[35]: https://www.spglobal.com/commodity-insights/en/news-research/latest-news/agriculture/060225-airlines-see-relief-with-86-jet-fuel-saf-costs-hinder-sustainability-iata-chief
-[36]: https://www.esgtoday.com/global-sustainable-aviation-fuel-production-to-double-in-2025-iata-says/
-[37]: https://manufacturingdigital.com/news/boeing-supply-chain-disruption
-[38]: https://www.adsadvance.co.uk/airbus-reveals-global-market-forecast-2025.html
-[39]: https://www.thenationalnews.com/business/aviation/electric-passenger-jets-could-be-in-service-by-2030-1.769585
-[40]: https://www.boeing.com/content/dam/boeing/boeingdotcom/market/assets/downloads/2025-smo-download.pdf
-[41]: https://leehamnews.com/2024/07/15/airbus-sees-3-8-growth-in-new-aircraft-deliveries-through-2043-vs-last-years-forecast/
-[42]: https://www.icao.int/sustainability/documents/ltf_charts-results_2018edition.pdf
-[43]: https://www.oliverwyman.com/our-expertise/insights/2025/feb/global-fleet-and-mro-market-forecast-2025-2035.html
-[44]: https://www.clean-aviation.eu/research-and-innovation/clean-aviation/clean-aviation-projects/hera
-[45]: https://www.boeing.com/content/dam/boeing/boeingdotcom/market/assets/downloads/2025-commercial-market-outlook.pdf
-[46]: https://eplaneai.com/es/news/airbus-delivers-51-commercial-aircraft-in-may-2025
-[47]: https://www.linkedin.com/posts/aviationvoice_chinas-comac-plans-to-increase-production-activity-7287786092643131392-tftm
-[48]: https://www.assemblymag.com/articles/99013-comac-to-significantly-increase-production-of-c919-in-2025
-[49]: https://www.airbus.com/sites/g/files/jlcbta136/files/2025-06/airbus_business_update_2025_presentation.pptx_4.pdf
-[50]: https://www.linkedin.com/pulse/airbus-delivers-192-aircraft-year-to-date-april-2025-aviation-talk-smhff
-[51]: https://financialpost.com/pmn/business-pmn/boeing-targets-2025-for-return-to-pre-crisis-737-max-production-rates-sources
-[52]: https://www.consultancy.eu/news/11402/global-demand-for-sustainable-aviation-fuel-saf-to-explode-by-2030
-[53]: https://www.aerotime.aero/articles/icao-clarifies-corsia-carbon-reduction-requirements
-[54]: https://www3.weforum.org/docs/WEF_EMBARGOED_CST_Ambition_Statement_for_Signatories.pdf
-[55]: https://www.icao.int/environmental-protection/Documents/ICAOEnvironmental_Brochure-1UP_Final.pdf
-[56]: https://www.iata.org/en/iata-repository/publications/economic-reports/chart-of-the-week-8-sep/
-[57]: https://www.fva.rwth-aachen.de/en/2022/02/22/speedgoat-certification/
-[58]: https://alternative-fuels-observatory.ec.europa.eu/transport-mode/aviation/general-information-and-context
-[59]: https://aviationweek.com/air-transport/iata-127
+
+1. Boeing. (2024, julio 19). *Boeing Forecasts Demand for Nearly 44,000 New Airplanes Through 2043 as Air Travel Surpasses Pre-Pandemic Levels*. Boeing Media Room. [https://boeing.mediaroom.com/2024-07-19](https://boeing.mediaroom.com/2024-07-19)
+
+2. FlightGlobal. (2024). *Airbus hikes 20-year delivery forecast with balance tilting towards single-aisles*. [https://www.flightglobal.com/159127.article](https://www.flightglobal.com/159127.article)
+
+3. Airbus. (2025). *Global Market Forecast 2025–2044*. [https://www.aerotime.aero/articles/airbus-global-market-forecast-2025-2044](https://www.aerotime.aero/articles/airbus-global-market-forecast-2025-2044)
+
+4. Boeing. (2024). *Commercial Market Outlook 2025–2044*. [https://boeing.mediaroom.com/news-releases-statements?item=131556](https://boeing.mediaroom.com/news-releases-statements?item=131556)
+
+5. ICAO. (2019). *Long-Term Traffic Forecasts – Working Paper A40-WP/020*. [https://www.icao.int/Meetings/a40/Documents/WP/wp\_020\_en.pdf](https://www.icao.int/Meetings/a40/Documents/WP/wp_020_en.pdf)
+
+6. BDO Advisory. (2024). *Global Air Transport Outlook to 2045*. [https://www.bdo.fr/en-gb/insights/bdo-advisory/global-air-transport-outlook-to-2045](https://www.bdo.fr/en-gb/insights/bdo-advisory/global-air-transport-outlook-to-2045)
+
+7. IATA & Tourism Economics. (2024). *Air Transport CEO Outlook: WestJet Case*. [https://s3.amazonaws.com/tourism-economics/craft/P18-22\_IATA\_64\_CEO-WestJet.pdf](https://s3.amazonaws.com/tourism-economics/craft/P18-22_IATA_64_CEO-WestJet.pdf)
+
+8. Normec Verifavia. (2024). *Navigating ICAO’s CORSIA in the First Phase*. [https://normecverifavia.com/news/navigating-icaos-corsia-in-the-first-phase/](https://normecverifavia.com/news/navigating-icaos-corsia-in-the-first-phase/)
+
+9. UK Government. (2024). *CORSIA: How to Comply*. [https://www.gov.uk/guidance/corsia-how-to-comply](https://www.gov.uk/guidance/corsia-how-to-comply)
+
+10. EASA. (2025). *Sustainable Aviation Fuels (SAF) under ReFuelEU*. [https://www.easa.europa.eu/en/domains/environment/eaer/sustainable-aviation-fuels](https://www.easa.europa.eu/en/domains/environment/eaer/sustainable-aviation-fuels)
+
+11. HERA Project. (2025). *HERA – Hybrid-Electric Regional Aircraft*. [https://project-hera.eu/home](https://project-hera.eu/home)
+
+12. Electronic Design. (2025). *Hybrid-Electric Aircraft Are Moving Swiftly From Concept to Commercial Reality*. [https://www.electronicdesign.com/technologies/power/article/21284834](https://www.electronicdesign.com/technologies/power/article/21284834)
+
+13. IOM3. (2024). *Hybrid-Electric Aircraft Enters FAA Certification*. [https://www.iom3.org/resource/first-hybrid-electric-aircraft-enters-the-faa-certification-process.html](https://www.iom3.org/resource/first-hybrid-electric-aircraft-enters-the-faa-certification-process.html)
+
+14. Aerospace Testing International. (2024). *EASA Awards First Certification for a Fully Electric Aircraft*. [https://www.aerospacetestinginternational.com/news/electric-hybrid/easa-awards-first-certification-for-a-fully-electric-aircraft.html](https://www.aerospacetestinginternational.com/news/electric-hybrid/easa-awards-first-certification-for-a-fully-electric-aircraft.html)
+
+15. AIAA. (2021, abril 14). *EASA Release Initial Certification Requirements for Electric Hybrid Propulsion Systems*. [https://aiaa.org/2021/04/14](https://aiaa.org/2021/04/14)
+
+16. Simple Flying. (2025). *Airbus Reaches 8000 Aircraft Backlog – 91% Single-Aisle*. [https://simpleflying.com/airbus-8000-aircraft-backlog-91-single-aisle/](https://simpleflying.com/airbus-8000-aircraft-backlog-91-single-aisle/)
+
+17. Financial Express. (2025). *Airbus Delivers 766 Aircraft Globally in 2024*. [https://www.financialexpress.com/business/airlines-aviation](https://www.financialexpress.com/business/airlines-aviation)
+
+18. Airbus. (2025). *A320 Family Facts and Figures – April 2025*. [https://www.airbus.com/sites/g/files/jlcbta136/files/2025-04](https://www.airbus.com/sites/g/files/jlcbta136/files/2025-04)
+
+19. Argus Media. (2025). *Airbus Targets 820 Aircraft Deliveries in 2025*. [https://www.argusmedia.com/de/news-and-insights](https://www.argusmedia.com/de/news-and-insights)
+
+20. TravelPulse. (2025). *Boeing Delays 737 MAX Production Milestones*. [https://www.travelpulse.com/news](https://www.travelpulse.com/news)
+
+21. The Herald. (2025). *Boeing Shrinks Backlog of 737 MAX Jets*. [https://www.heraldnet.com/business](https://www.heraldnet.com/business)
+
+22. Business Insider. (2025). *Airlines Need Planes, Boeing/Airbus Orders Surge*. [https://www.businessinsider.com](https://www.businessinsider.com)
+
+23. Reuters. (2025). *Boeing Targets 2025 for 737 MAX Ramp-up*. [https://jp.reuters.com/article/business](https://jp.reuters.com/article/business)
+
+24. Moneycontrol. (2025). *Boeing Eyes Recovery of MAX Production by 2025*. [https://www.moneycontrol.com/news](https://www.moneycontrol.com/news)
+
+25. Gulf News. (2025). *Boeing Warns of Further Delays on 737 MAX*. [https://gulfnews.com/business/aviation](https://gulfnews.com/business/aviation)
+
+26. AeroTime. (2025). *COMAC to Increase C919 Production to 50 in 2025*. [https://www.aerotime.aero/articles](https://www.aerotime.aero/articles)
+
+27. Simple Flying. (2025). *COMAC Plans for 50 C919s in 2025*. [https://simpleflying.com/china-comac-build-50-c919s-2025/](https://simpleflying.com/china-comac-build-50-c919s-2025/)
+
+28. Yicai Global. (2025). *Production Expansion Announced by COMAC*. [https://www.yicaiglobal.com/star50news](https://www.yicaiglobal.com/star50news)
+
+29. South China Morning Post. (2025). *COMAC Doubles C919 Production Plans*. [https://www.scmp.com/economy](https://www.scmp.com/economy)
+
+30. FlightGlobal. (2025). *Backlogs Already Hold 40% of Forecasted NB Demand*. [https://www.flightglobal.com/163304.article](https://www.flightglobal.com/163304.article)
+
+31. Forbes. (2024, diciembre 13). *World Airline Fleets Are Aging Rapidly*. [https://www.forbes.com/sites/tedreed](https://www.forbes.com/sites/tedreed)
+
+32. FlightGlobal. (2024). *Average Aircraft Age Rises Due to Supply Chain*. [https://www.flightglobal.com/161058.article](https://www.flightglobal.com/161058.article)
+
+33. Gulf Times. (2025). *Airline Performance Hinges on Jet Fuel Price*. [https://www.gulf-times.com/article/698899](https://www.gulf-times.com/article/698899)
+
+34. OPIS. (2025). *Jet Fuel Prices Expected to Drop in 2025*. [https://www.opis.com/blog](https://www.opis.com/blog)
+
+35. S\&P Global. (2025). *SAF Costs Hindering Airline Sustainability*. [https://www.spglobal.com/commodity-insights](https://www.spglobal.com/commodity-insights)
+
+36. ESG Today. (2025). *Sustainable Aviation Fuel Production to Double in 2025*. [https://www.esgtoday.com](https://www.esgtoday.com)
+
+37. Boeing. (2025). *Supply Chain Disruption Continues*. [https://manufacturingdigital.com/news](https://manufacturingdigital.com/news)
+
+38. ADS Advance. (2025). *Airbus Reveals Updated Global Forecast*. [https://www.adsadvance.co.uk](https://www.adsadvance.co.uk)
+
+39. The National News. (2025). *Electric Jets Could Enter Service by 2030*. [https://www.thenationalnews.com](https://www.thenationalnews.com)
+
+40. Boeing. (2025). *Market Outlook Data 2025*. [https://www.boeing.com/content/dam/boeing/market/assets](https://www.boeing.com/content/dam/boeing/market/assets)
+
+41. Leeham News. (2025, julio 15). *Airbus Sees Growth in Aircraft Deliveries Through 2043*. [https://leehamnews.com](https://leehamnews.com)
+
+42. ICAO. (2018). *Long-Term Forecasts – LTF Results*. [https://www.icao.int/sustainability](https://www.icao.int/sustainability)
+
+43. Oliver Wyman. (2025, febrero). *Global Fleet and MRO Market Forecast 2025–2035*. [https://www.oliverwyman.com](https://www.oliverwyman.com)
+
+44. Clean Aviation Europe. (2025). *Clean Aviation: HERA Project*. [https://www.clean-aviation.eu/research-and-innovation](https://www.clean-aviation.eu/research-and-innovation)
+
+45. Boeing. (2025). *2025 Commercial Market Outlook*. [https://www.boeing.com/content/dam/boeing/market/assets](https://www.boeing.com/content/dam/boeing/market/assets)
+
+46. EPlane AI. (2025, mayo). *Airbus Delivers 51 Commercial Aircraft in May 2025*. [https://eplaneai.com/es/news](https://eplaneai.com/es/news)
+
+47. Aviation Voice (LinkedIn). (2025). *COMAC Production Update*. [https://www.linkedin.com/posts/aviationvoice](https://www.linkedin.com/posts/aviationvoice)
+
+48. Assembly Magazine. (2025). *COMAC to Expand C919 Production in 2025*. [https://www.assemblymag.com](https://www.assemblymag.com)
+
+49. Airbus. (2025, junio). *Business Update Presentation Q2 2025*. [https://www.airbus.com/sites/g/files/jlcbta136](https://www.airbus.com/sites/g/files/jlcbta136)
+
+50. Aviation Talk. (2025, abril). *Airbus YTD Deliveries Reach 192 Aircraft*. [https://www.linkedin.com/posts/aviation-talk](https://www.linkedin.com/posts/aviation-talk)
+
+51. Financial Post. (2025). *Boeing Eyes Pre-Crisis MAX Production Rates*. [https://financialpost.com](https://financialpost.com)
+
+52. Consultancy.eu. (2025). *Global Demand for SAF to Explode by 2030*. [https://www.consultancy.eu/news](https://www.consultancy.eu/news)
+
+53. AeroTime. (2025). *ICAO Clarifies CORSIA Phase I*. [https://www.aerotime.aero/articles](https://www.aerotime.aero/articles)
+
+54. World Economic Forum. (2025). *Aviation Ambition Statement for Signatories*. [https://www3.weforum.org/docs](https://www3.weforum.org/docs)
+
+55. ICAO. (2025). *ICAO Environmental Brochure – Final Edition*. [https://www.icao.int/environmental-protection](https://www.icao.int/environmental-protection)
+
+56. IATA. (2025, septiembre 8). *Chart of the Week – SAF Cost Impact*. [https://www.iata.org/en/iata-repository/publications](https://www.iata.org/en/iata-repository/publications)
+
+57. RWTH Aachen – FVA. (2022, febrero). *Speedgoat Certification Initiatives*. [https://www.fva.rwth-aachen.de](https://www.fva.rwth-aachen.de)
+
+58. EU Alternative Fuels Observatory. (2025). *SAF Context & Information*. [https://alternative-fuels-observatory.ec.europa.eu](https://alternative-fuels-observatory.ec.europa.eu)
+
+59. Aviation Week. (2025). *IATA 127th AGM Report – SAF Roadmap*. [https://aviationweek.com/air-transport](https://aviationweek.com/air-transport)
+
 
 
 # Anexo B – Proyecciones de Demanda (TAM/SAM/SOM)
