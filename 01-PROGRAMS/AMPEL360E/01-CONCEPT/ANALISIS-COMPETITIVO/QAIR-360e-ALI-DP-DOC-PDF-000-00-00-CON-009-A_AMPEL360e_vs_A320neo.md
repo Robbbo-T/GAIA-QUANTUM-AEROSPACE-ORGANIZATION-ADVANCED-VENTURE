@@ -1,291 +1,362 @@
 # QAIR-360e-ALI-DP-DOC-PDF-000-00-00-CON-009-A
-## Análisis Técnico Detallado: AMPEL-360e vs A320neo
-### Versión 1.0.1 - Corrección Terminología Propulsión
+## Análisis Técnico Detallado: AMPEL360e vs A320neo
+### Versión 2.0.0 - Reescritura Completa con Datos Realistas
+
+### 1. Resumen Ejecutivo
+El AMPEL360e representa una evolución pragmática hacia la aviación sostenible, utilizando tecnología híbrida-eléctrica madura y certificable. A diferencia de conceptos futuristas, se enfoca en reducción de emisiones alcanzable (-45% CO₂) manteniendo capacidad operacional competitiva con el A320neo en rutas de corto a medio alcance.
 
 ```mermaid
-flowchart TD
-  TECH["`**Comparativo Técnico**
-A320neo vs AMPEL-360e`"]
-
-  TECH --> AERO["`Aerodinámica & Drag`"]
-  TECH --> PROP["`Propulsión`"]
-  TECH --> MAT["`Materiales Avanzados`"]
-  TECH --> SYS["`Sistemas y Navegación`"]
-  TECH --> UNI["`Capacidades Únicas`"]
-
-  %% Aerodinámica
-  AERO --> A320A["`A320neo
-Envergadura: 35.8m
-Aspect Ratio: 10.3
-L/D: 18.5
-Sharklets, -4% drag`"]
-  AERO --> Q360A["`AMPEL-360e
-Envergadura: 38.5m (adapt.)
-Aspect Ratio: 12.1 (var.)
-Morphing Wings
-L/D: 28.7
-Plasma/Metamaterial drag: -67%`"]
-
-  %% Propulsión
-  PROP --> A320P["`LEAP-1A Turbofan
-Bypass: 11:1
-SFC: 0.545
-Thrust: 32,900lbf
-Eficiencia: 35%`"]
-  PROP --> Q360P["`Híbrida-Eléctrica
-8x motores superconductores
-H2 Fuel Cells + Baterías + Solar
-Potencia: 45MW
-Eficiencia: 95%+
-Emisiones: Cero
-Ruido: <50 dB`"]
-
-  %% Performance Clave
-  Q360P --> PERF["`Empuje constante hasta Mach 0.95
-Eficiencia máxima a FL510
--70% mantenimiento`"]
-  A320P --> PERF
-
-  %% Materiales
-  MAT --> A320M["`A320neo
-Al-Li, CFRP, IN718
-Fatiga: 90 mil ciclos`"]
-  MAT --> Q360M["`AMPEL-360e
-Grafeno-CNT, metamateriales
-Fatiga: >500 mil ciclos
--45% peso, +200% fuerza
-Cero pérdidas propulsión
-Aviónica QPU/neuromórfica`"]
-
-  %% Sistemas/Navegación
-  SYS --> A320S["`A320neo
-Fly-by-wire
-GPS/IRS
-Latencia: 20ms
-Precisión: ±10m
-Redundancia: 3x`"]
-  SYS --> Q360S["`AMPEL-360e
-Fly-by-light + IA
-QNS nav cuántica
-Latencia: <1ms
-Precisión: ±0.1m
-Redundancia: 5x+QPU`"]
-
-  %% Capacidades únicas
-  UNI --> FL510["`Crucero eficiente FL510
-Evasión tráfico y clima`"]
-  UNI --> WX["`Microclima 200nm (sensores cuánticos)`"]
-  UNI --> VTOL["`VTOL híbrido:
-Despegue vertical, aterrizaje <1000m`"]
-
-  %% Styling
-  classDef qAdv fill:#d9f5c5,stroke:#231,stroke-width:2px;
-  class Q360A,Q360P,Q360M,Q360S,PERF,FL510,WX,VTOL qAdv
-  classDef hAdv fill:#bbd8ff,stroke:#22549c,stroke-width:2px;
-  class A320A,A320P,A320M,A320S hAdv
+graph LR
+    subgraph "Posicionamiento de Mercado"
+        A320neo[A320neo<br/>6,300km<br/>100% Turbofan]
+        AMPEL[AMPEL360e<br/>3,500km<br/>Híbrido-Eléctrico]
+        Future[Futuro<br/>H2/Eléctrico]
+    end
+    
+    A320neo -->|"-45% CO₂"| AMPEL
+    AMPEL -->|"2038 EIS"| Future
+    
+    style AMPEL fill:#2ecc71,stroke:#27ae60,stroke-width:3px
+    style A320neo fill:#3498db,stroke:#2980b9
+    style Future fill:#95a5a6,stroke:#7f8c8d,stroke-dasharray: 5 5
 ```
 
-### 1. Análisis Aerodinámico Comparativo
+### 2. Especificaciones Generales Comparativas
 
-#### 1.1 Configuración Alar
-| Parámetro | A320neo | AMPEL-360e | Ventaja |
+| Parámetro | A320neo | AMPEL360e | Diferencia |
 |---|---|---|---|
-| Envergadura | 35.8m | 38.5m (adaptativa) | +7.5% |
-| Aspect Ratio | 10.3 | 12.1 (variable) | +17.5% |
-| Wing Loading | 127.6 kg/m² | 95.2 kg/m² | -25.4% |
-| L/D Ratio | 18.5 | 28.7 | +55.1% |
-| Sweep Angle | 25° (fijo) | 15-35° (variable) | Adaptativo |
-| Winglet Type | Sharklet 2.4m | Morphing Quantum Tip | +12% eficiencia |
+| **Configuración** | Ala y tubo convencional | Ala y tubo optimizada | Similar |
+| **Capacidad** | 150-240 pax | 180-220 pax | Comparable |
+| **Alcance máximo** | 6,300 km | 3,500 km | -44% |
+| **Velocidad crucero** | Mach 0.82 | Mach 0.78 | -5% |
+| **Altitud crucero** | FL390 | FL350 | -10% |
+| **MTOW** | 79,000 kg | 82,000 kg | +4% |
 
-#### 1.2 Tecnologías de Reducción de Drag
-**A320neo:**
-- Sharklets de nueva generación
-- Superficie alar optimizada computacionalmente
-- Reducción drag total: -4% vs A320ceo
+### 3. Análisis del Sistema de Propulsión
 
-**AMPEL-360e:**
-- **Morfología adaptativa en tiempo real**
-  - Actuadores piezoeléctricos cuánticos
-  - Respuesta: <50ms a cambios de flujo
-  - Optimización continua vía QPU
-- **Plasma flow control**
-  - Ionización controlada de capa límite
-  - Reducción separación: -85%
-  - Consumo energético: <2kW
-- **Metamateriales de cancelación de ondas**
-  - Estructuras sub-wavelength
-  - Cancelación activa de ondas de choque
-  - Reducción drag de onda: -92%
-- **Reducción total drag: -67% vs A320neo**
+```mermaid
+flowchart TB
+    subgraph "A320neo - Propulsión Convencional"
+        A1[Tanque Combustible<br/>18,500L]
+        A2[LEAP-1A / PW1100G<br/>x2]
+        A3[Empuje Total<br/>65,800 lbf]
+    end
+    
+    subgraph "AMPEL360e - Propulsión Híbrida"
+        B1[Tanque SAF<br/>12,000L]
+        B2[Baterías Li-ion<br/>8,000kg / 3.2MWh]
+        B3[Turbofan SAF x2<br/>40,000 lbf]
+        B4[Motor Eléctrico x2<br/>5MW total]
+        B5[Empuje Combinado<br/>Variable]
+    end
+    
+    A1 --> A2 --> A3
+    B1 --> B3
+    B2 --> B4
+    B3 & B4 --> B5
+    
+    style A1 fill:#e74c3c
+    style B1 fill:#f39c12
+    style B2 fill:#2ecc71
+```
 
-### 2. Análisis de Propulsión Profundo (CORREGIDO)
-
-#### 2.1 Comparación de Sistemas de Propulsión
-
+#### 3.1 A320neo - Sistema Turbofan Convencional
 ```yaml
-A320neo_LEAP-1A:
-  Type: High-bypass turbofan
-  Bypass_Ratio: 11:1
-  Overall_Pressure_Ratio: 40:1
-  Turbine_Inlet_Temp: 1,370°C
-  Fan_Diameter: 1.98m
-  SFC_Cruise: 0.545 lb/lbf/hr
-  Max_Thrust: 32,900 lbf
-  Weight: 3,025 kg
-
-AMPEL-360e_Hybrid_Electric:
-  Type: Distributed Hybrid-Electric Propulsion
-  Architecture:
-    - Superconducting electric motors (8x)
-    - Solid-state battery arrays
-    - Hydrogen fuel cells
-    - Regenerative energy systems
-  Power_Sources:
-    Primary: H2 Fuel Cells (65%)
-    Secondary: Advanced batteries (25%)
-    Auxiliary: Solar harvesting (10%)
-  Total_Power: 45 MW
-  Efficiency: 95%+ (vs 35% turbofan)
-  Response_Time: <100ms
-  Weight: 1,850 kg total system
+Motorización:
+  Opciones: 
+    - CFM LEAP-1A
+    - Pratt & Whitney PW1100G
+  Características_LEAP-1A:
+    Bypass_Ratio: 11:1
+    Empuje_máximo: 32,900 lbf
+    SFC_crucero: 0.545 lb/lbf/hr
+    Peso: 3,025 kg/motor
+    Tecnología: Turbofan alta derivación
 ```
 
-#### 2.2 Ventajas del Sistema Híbrido-Eléctrico
-
-- **Eficiencia energética**: 95% vs 35% ciclo Brayton
-- **Emisiones**: Cero directas (solo vapor H2O)
-- **Ruido**: <50 dB (sin combustión)
-- **Mantenimiento**: -70% (menos partes móviles)
-- **Flexibilidad**: Thrust vectoring capability
-
-**Curvas de Performance**
-
-**Empuje vs Velocidad @ SL**
-```
-A320neo: Decrece linealmente desde 32,900 lbf @ M0 a 7,500 lbf @ M0.82
-AMPEL-360e: Constante 35,000 lbf equivalent hasta M0.95
-```
-
-**Eficiencia vs Altitud**
-```
-A320neo: Pico eficiencia @ FL350-390 (SFC 0.545)
-AMPEL-360e: Eficiencia aumenta con altitud hasta FL510 (99.2%)
+#### 3.2 AMPEL360e - Sistema Híbrido-Eléctrico
+```yaml
+Arquitectura_Híbrida:
+  Configuración: Paralela distribuida
+  Motores_térmicos: 
+    Cantidad: 2
+    Tipo: Turbofan optimizado SAF
+    Empuje: 20,000 lbf cada uno
+    Combustible: 100% SAF
+  Motores_eléctricos:
+    Cantidad: 2
+    Tipo: Motor síncrono permanente
+    Potencia: 2.5 MW cada uno
+    Ubicación: Montados en ala
+  Sistema_energía:
+    Baterías: Li-ion alta densidad (400 Wh/kg)
+    Peso_baterías: 8,000 kg
+    Gestión: BMS con IA predictiva
 ```
 
-### 3. Análisis de Materiales Avanzados
+### 4. Análisis de Rendimiento Operacional
 
-| Sistema | A320neo | AMPEL-360e | Beneficio |
-|---|---|---|---|
-| **Fuselaje** | Al-Li 2050/2060 | Grafeno-CNT composite | -45% peso, +200% fuerza |
-| Densidad | 2.63 g/cm³ | 1.45 g/cm³ | -44.9% |
-| Tensile Strength | 520 MPa | 1,850 MPa | +255.8% |
-| Fatigue Life | 90,000 cycles | >500,000 cycles | +455% |
-| **Alas** | CFRP (T800) | Metamateriales adaptativos | Morfología dinámica |
-| Módulo Elástico | 294 GPa | Variable 50-500 GPa | Adaptativo |
-| Damping Ratio | 0.01 | 0.001-0.5 | Control activo |
-| **Propulsión** | Superaleaciones IN718 | Superconductores YBCO HTS | Cero pérdidas |
-| Temp. Operación | 1,370°C | -196°C a +20°C | Criogénico |
-| Conductividad | N/A | ∞ @ Tc | Sin resistencia |
-| **Avionica** | Silicon CMOS | QPU + Neuromorphic | 1000x computing |
-| Clock Speed | 2.5 GHz | N/A (quantum) | Paralelo masivo |
-| Power Consumption | 250W/rack | 50W/rack | -80% |
+#### 4.1 Perfil de Misión Típico (1,500 km)
 
-### 4. Sistemas de Control y Navegación
+```mermaid
+gantt
+    title Distribución de Potencia AMPEL360e por Fase de Vuelo
+    dateFormat X
+    axisFormat %s
+    
+    section Térmico
+    Taxi (0%)         :done, t1, 0, 5
+    Despegue (70%)    :active, t2, 5, 15
+    Ascenso (80%)     :active, t3, 15, 30
+    Crucero (85%)     :active, t4, 30, 80
+    Descenso (20%)    :done, t5, 80, 90
+    Aproximación (30%) :done, t6, 90, 100
+    
+    section Eléctrico
+    Taxi (100%)       :crit, e1, 0, 5
+    Despegue (30%)    :crit, e2, 5, 15
+    Ascenso (20%)     :active, e3, 15, 30
+    Crucero (15%)     :active, e4, 30, 80
+    Descenso (Regen)  :done, e5, 80, 90
+    Aproximación (70%) :crit, e6, 90, 100
+```
 
-#### 4.1 Flight Control System
-| Característica | A320neo | AMPEL-360e |
+| Fase | A320neo | AMPEL360e |
 |---|---|---|
-| Arquitectura | Fly-by-wire triplex | Fly-by-light con IA | Latencia mínima |
-| Latencia | 20ms | <1ms | -95% |
-| Redundancia | 3x | 5x + quantum backup | +67% |
-| Adaptabilidad | Limitada | IA continua |
+| **Taxi** | Ambos motores | Solo eléctricos |
+| **Despegue** | 100% turbofan | 70% térmico + 30% eléctrico |
+| **Ascenso** | 100% turbofan | 80% térmico + 20% eléctrico |
+| **Crucero** | 100% turbofan | 85% térmico + 15% eléctrico |
+| **Descenso** | Idle turbofan | Regeneración + idle |
+| **Aproximación** | Turbofan reducido | Principalmente eléctrico |
 
-#### 4.2 Navegación y Guiado
-**A320neo:**
-- GPS/GNSS + IRS + Radio aids
-- Precisión: ±10m horizontal
-- Dependencia GPS: Alta
+#### 4.2 Consumo de Combustible
+```python
+# Ruta típica 1,500 km (ej: Madrid-Berlín)
+Consumo_A320neo = {
+    'combustible_total': 3,850 kg,
+    'CO2_emitido': 12,127 kg,
+    'costo_combustible': $3,080
+}
 
-**AMPEL-360e:**
-- **Quantum Navigation System (QNS)**
-  - Precisión: ±0.1m sin GPS
-  - Magnetómetros NV-diamond
-  - Gravímetros cuánticos
-  - Independencia total GPS
+Consumo_AMPEL360e = {
+    'SAF_consumido': 2,117 kg,  # -45%
+    'energía_eléctrica': 850 kWh,
+    'CO2_neto': 6,670 kg,  # -45%
+    'costo_operación': $2,450  # -20%
+}
+```
 
-### 5. Eficiencia Operacional
+### 5. Ventajas y Limitaciones Realistas
 
-#### 5.1 Consumo Energético por Fase de Vuelo
+```mermaid
+graph LR
+    subgraph "Emisiones CO₂ por Pasajero (Ruta 1,500km)"
+        A[A320neo<br/>81 kg CO₂/pax]
+        B[AMPEL360e<br/>44 kg CO₂/pax]
+        C[Tren Alta Velocidad<br/>14 kg CO₂/pax]
+    end
+    
+    A -->|"-45%"| B
+    B -->|"-68%"| C
+    
+    style A fill:#e74c3c,stroke:#c0392b
+    style B fill:#f39c12,stroke:#d68910
+    style C fill:#2ecc71,stroke:#27ae60
+```
 
-| Fase | A320neo (kg fuel) | AMPEL-360e (kWh) | Equivalencia |
+#### 5.1 Ventajas AMPEL360e
+✅ **Reducción emisiones**: -45% CO₂ en rutas target
+✅ **Operación aeropuerto**: Taxi eléctrico silencioso
+✅ **Certificable**: Tecnología madura bajo CS-25
+✅ **Mantenimiento predictivo**: IA integrada
+✅ **Flexibilidad combustible**: 100% SAF compatible
+
+#### 5.2 Limitaciones vs A320neo
+❌ **Alcance reducido**: 3,500 km vs 6,300 km
+❌ **Peso adicional**: +3,000 kg por baterías
+❌ **Infraestructura**: Requiere carga eléctrica
+❌ **Costo inicial**: +15-20% vs A320neo
+❌ **Velocidad**: Mach 0.78 vs 0.82
+
+### 6. Análisis de Mercado Objetivo
+
+```mermaid
+graph TB
+    subgraph "Mapa de Alcance Operacional"
+        EU[Europa Central<br/>Hub]
+        
+        EU -->|"1,500km"| LON[Londres]
+        EU -->|"1,800km"| MAD[Madrid]
+        EU -->|"2,000km"| ATH[Atenas]
+        EU -->|"2,500km"| IST[Estambul]
+        EU -->|"3,000km"| DXB[Dubai]
+        EU -->|"3,500km"| CAI[Cairo]
+        
+        EU -.->|"6,300km<br/>Solo A320neo"| JFK[Nueva York]
+        EU -.->|"7,500km<br/>Solo A320neo"| DEL[Delhi]
+        
+        style EU fill:#2ecc71,stroke:#27ae60,stroke-width:3px
+        style LON fill:#3498db
+        style MAD fill:#3498db
+        style ATH fill:#3498db
+        style IST fill:#3498db
+        style DXB fill:#f39c12
+        style CAI fill:#f39c12
+        style JFK fill:#e74c3c
+        style DEL fill:#e74c3c
+    end
+```
+
+#### 6.1 Rutas Óptimas AMPEL360e
+| Tipo de Ruta | Distancia | Ejemplos | Ventaja |
 |---|---|---|---|
-| Taxi | 150 | 50 | -97% |
-| Despegue | 300 | 200 | -93% |
-| Ascenso | 800 | 450 | -94% |
-| Crucero (1hr) | 2,400 | 800 | -96% |
-| Descenso | 200 | -150* | Regenerativo |
-| Aterrizaje | 100 | 75 | -95% |
+| **Intra-europea** | 500-2,000 km | MAD-CDG, FRA-BCN | -45% emisiones |
+| **Domésticas grandes** | 1,000-2,500 km | LAX-DFW, PEK-SHA | Operación limpia |
+| **Corredores verdes** | <3,000 km | Rutas con restricciones | Cumplimiento |
 
-*Energía regenerada durante descenso
+#### 6.2 Rutas NO Óptimas
+- Transatlánticos (fuera de alcance)
+- Ultra-largo alcance
+- Rutas con infraestructura limitada
 
-#### 5.2 Mantenimiento Predictivo
+### 7. Análisis de Costos Operacionales
 
-**A320neo:**
-- MSG-3 based maintenance
-- Intervals: A-check 600FH, C-check 6000FH
-- Downtime: 24-72 hrs por check
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'pie1': '#3498db', 'pie2': '#e74c3c', 'pie3': '#f39c12', 'pie4': '#95a5a6', 'pie5': '#2ecc71', 'pie6': '#27ae60'}}}%%
+pie title Distribución CASK - A320neo vs AMPEL360e
+    "A320neo Combustible" : 18
+    "A320neo Mantenimiento" : 12
+    "A320neo Otros" : 15
+    "AMPEL360e Energía" : 14
+    "AMPEL360e Mantenimiento" : 10
+    "AMPEL360e Otros" : 15
+```
 
-**AMPEL-360e:**
-- QSM (Quantum Structural Monitoring) network
-- Predicción fallas: >99.5% accuracy
-- Mantenimiento on-condition
-- Downtime: -75% reducción
+#### 7.1 Costo por Asiento-Kilómetro (CASK)
+```yaml
+A320neo:
+  CASK_combustible: $0.018
+  CASK_mantenimiento: $0.012
+  CASK_total: $0.045
 
-### 6. Capacidades Únicas AMPEL-360e
+AMPEL360e:
+  CASK_energía: $0.014  # -22%
+  CASK_mantenimiento: $0.010  # -17%
+  CASK_total: $0.039  # -13%
+```
 
-#### 6.1 Operación en Altitudes Extremas
-- Crucero eficiente hasta FL510
-- Reducción tiempo de vuelo: -15%
-- Evasión de tráfico y clima
+### 8. Tecnologías Diferenciadoras
 
-#### 6.2 Advanced Weather Detection System
-- Detección turbulencia: 200nm (sensores cuánticos)
-- Predicción microclima: 98% accuracy
-- Optimización ruta dinámica vía QPU
+```mermaid
+flowchart LR
+    subgraph "Sistema de Gestión de Energía AMPEL360e"
+        SAF[Tanque SAF<br/>12,000L]
+        BAT[Baterías<br/>3.2 MWh]
+        BMS[Sistema BMS<br/>con IA]
+        
+        TF1[Turbofan 1<br/>20,000 lbf]
+        TF2[Turbofan 2<br/>20,000 lbf]
+        
+        EM1[Motor Eléctrico 1<br/>2.5 MW]
+        EM2[Motor Eléctrico 2<br/>2.5 MW]
+        
+        GEN1[Generador 1]
+        GEN2[Generador 2]
+        
+        CTRL[Controlador<br/>Híbrido IA]
+    end
+    
+    SAF --> TF1 & TF2
+    TF1 --> GEN1
+    TF2 --> GEN2
+    GEN1 & GEN2 --> CTRL
+    BAT <--> BMS <--> CTRL
+    CTRL --> EM1 & EM2
+    
+    style CTRL fill:#e74c3c,stroke:#c0392b,stroke-width:3px
+    style BMS fill:#f39c12,stroke:#d68910
+```
 
-#### 6.3 Capacidad VTOL Híbrida
-- Despegue vertical con 50% carga
-- Aterrizaje en pistas <1000m
-- Operación en aeropuertos restringidos
+#### 8.1 Sistemas de Control con IA
+- **Optimización energética**: Gestión dinámica térmico/eléctrico
+- **Mantenimiento predictivo**: Reducción AOG -30%
+- **Gestión de baterías**: Maximización vida útil
 
-### 7. Certificación y Compliance
+#### 8.2 Integración con Ecosistema GAIA
+- Trazabilidad completa vía GAIA-Nexus
+- Actualizaciones OTA certificadas
+- Digital twin para optimización continua
 
-| Aspecto | A320neo | AMPEL-360e |
+### 9. Plan de Certificación
+
+```mermaid
+timeline
+    title Timeline de Certificación AMPEL360e
+    
+    2025 : Concepto Finalizado
+         : Inicio Diseño Detallado
+    
+    2026 : Diseño Preliminar (PDR)
+         : Inicio Simulaciones
+    
+    2027 : Critical Design Review (CDR)
+         : Certificación Software DO-178C
+    
+    2028 : Primer Prototipo
+         : Ground Testing
+    
+    2029 : First Flight
+         : Inicio Campaña Vuelos
+    
+    2030-2032 : Certificación CS-25
+              : Certificación E-UTCS
+              : Validación Híbrida
+    
+    2033-2037 : Producción Serie
+              : Certificación Operadores
+    
+    2038 : Entry Into Service (EIS)
+```
+
+| Aspecto | Estándar | Estado |
 |---|---|---|
-| Certificación base | CS-25/FAR 25 | CS-25 + Special Conditions (sistemas cuánticos) |
-| Emisiones | CAEP/8 compliant | Excede CAEP/16 (futuro) |
-| Ruido | Chapter 14 (-7dB) | <50 dB (nuevo estándar) |
-| Sostenibilidad | Parcial | Carbono negativo |
+| **Aeronavegabilidad** | CS-25 | Aplicable |
+| **Software** | DO-178C DAL B | En desarrollo |
+| **Sistemas eléctricos** | DO-311A | Nuevo estándar |
+| **Propulsión híbrida** | E-UTCS | En definición |
 
-### 8. Conclusiones Técnicas
+### 10. Conclusiones
 
-1. **Superioridad Aerodinámica**: L/D ratio 55% superior permite crucero más eficiente
-2. **Revolución Propulsiva**: Sistema híbrido-eléctrico elimina limitaciones termodinámicas
-3. **Materiales Futuristas**: Reducción peso estructural 45% con mayor resistencia
-4. **Operación Flexible**: Capacidades únicas abren nuevos mercados
-5. **Mantenimiento Optimizado**: Reducción costos 60% vía monitoreo cuántico
+```mermaid
+quadrantChart
+    title Posicionamiento AMPEL360e vs A320neo
+    x-axis "Alcance Corto (Regional)" --> "Alcance Largo (Intercontinental)"
+    y-axis "Emisiones Altas" --> "Emisiones Bajas"
+    quadrant-1 "Nicho Verde Premium"
+    quadrant-2 "Líder Sostenible"
+    quadrant-3 "Legacy Regional"
+    quadrant-4 "Workhorse Tradicional"
+    
+    AMPEL360e: [0.3, 0.8]
+    A320neo: [0.7, 0.4]
+    ATR-72: [0.1, 0.3]
+    B737-800: [0.6, 0.2]
+    A220-300: [0.4, 0.5]
+    E195-E2: [0.35, 0.45]
+```
 
-### Nota de Corrección
-*Versión 1.0.1: Corregida terminología de "propulsión cuántica" a "propulsión híbrida-eléctrica". Los sistemas cuánticos se aplican en computación (QPU), navegación (QNS), diagnósticos (QDS) y monitoreo estructural (QSM), no en propulsión.*
+El AMPEL360e NO es un reemplazo directo del A320neo, sino un complemento optimizado para:
+- Rutas de corto-medio alcance (<3,500 km)
+- Operadores con compromisos ambientales fuertes
+- Mercados con incentivos para aviación verde
+- Corredores con restricciones de emisiones/ruido
 
-### Próximos Pasos
-- Validación CFD de características aerodinámicas
-- Pruebas de materiales en condiciones extremas
-- Simulación HIL de sistemas QNS/QDS/QSM
-- Desarrollo de protocolos de certificación con autoridades
+**Posicionamiento**: "La solución pragmática para descarbonización inmediata en rutas regionales y domésticas"
 
 ---
-*Documento generado: 2025-07-26*
-*Actualizado: 2025-07-27*
+*Documento: CON-009-A*
+*Versión: 2.0.0*
+*Fecha: 2025-07-27*
 *Clasificación: GAIA-QAO Confidencial*
-*Versión: 1.0.1*
+*Nota: Reescritura completa con especificaciones realistas del programa AMPEL360e*
