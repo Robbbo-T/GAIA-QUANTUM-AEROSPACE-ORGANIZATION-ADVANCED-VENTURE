@@ -365,6 +365,9 @@ El AMPEL360e tiene una oportunidad clara de penetrar el mercado narrowbody con u
 
 ---
 
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/512eb321-11ff-4671-8b86-ada6dc7977b0" />
+
+
 ## 2. Proyección Global de Mercado Narrowbody (TAM)
 
 | Periodo     | Entregas TAM (NB) | Valor Económico Est. (USD) | CAGR Estimada |
@@ -439,6 +442,8 @@ Con extensión post-2045, se estima que puede alcanzar hasta 15–20% acumulado 
 | 9   | Tecnología comprobada en operación     | Uso comprobado en entorno real                                 |
 
 ---
+<img width="2379" height="1180" alt="image" src="https://github.com/user-attachments/assets/14b40755-8e4c-4139-9a38-8d4de7487368" />
+
 
 ## 2. TRL Actual de Tecnologías Clave – AMPEL360e
 
@@ -609,3 +614,9 @@ Con extensión post-2045, se estima que puede alcanzar hasta 15–20% acumulado 
 - Los escenarios futuros con combustibles sostenibles y penalización por emisiones favorecerán plataformas como AMPEL360e frente a aeronaves convencionales.
 
 
+| Documento                         | Código de Documento                                   | Fase | Tipo      |
+| --------------------------------- | ----------------------------------------------------- | ---- | --------- |
+| Concept of Operations (CONOPS)    | `QAIR-360e-ALI-DP-DOC-PDF-000-00-00-CON-007`          | CON  | Documento |
+| Requisitos de Sistema Nivel 0     | `QAIR-360e-ALI-DP-DOC-PDF-000-00-00-CON-005`          | CON  | Documento |
+| Sistema de Requisitos del Usuario | `QAIR-360e-ALI-DP-DOC-PDF-000-00-00-DES-001`          | DES  | Documento |
+| Informe de Validación de Mercado  | `QAIR-360e-ALI-DP-DOC-PDF-000-00-00-CON-002`          | CON  | Documento |
