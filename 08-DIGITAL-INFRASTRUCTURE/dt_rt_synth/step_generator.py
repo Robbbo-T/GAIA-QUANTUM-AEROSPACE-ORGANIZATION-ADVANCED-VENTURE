@@ -32,7 +32,7 @@ def generate_step(parameters: CadParameters) -> str:
         f"""ISO-10303-21;
         HEADER;
         FILE_DESCRIPTION(('AMPEL360E Synthetic Model'),'2;1');
-        FILE_NAME('ampel360e.step','{datetime.now(timezone.utc).isoformat()}',('GAIA-QAO'),('GAIA-QAO'), 'Python', 'DT-RT-SYNTH','');
+        FILE_NAME('{filename}','{datetime.now(timezone.utc).isoformat()}',('GAIA-QAO'),('GAIA-QAO'), 'Python', 'DT-RT-SYNTH','');
         FILE_SCHEMA(('AUTOMOTIVE_DESIGN {{ 1 0 10303 214 1 1 1 1 }}'));
         ENDSEC;
         DATA;"""
