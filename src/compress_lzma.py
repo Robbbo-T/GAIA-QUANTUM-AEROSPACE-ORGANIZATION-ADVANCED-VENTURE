@@ -49,8 +49,8 @@ def compress_file_lzma(input_path: str, output_path: Optional[str] = None) -> Pa
 
 def main() -> None:
     """Entry point for command line usage."""
-    parser = argparse.ArgumentParser(description="Compress a text file using LZMA.")
-    parser.add_argument('input', help="Path to the input text file")
+    parser = argparse.ArgumentParser(description="Compress a file using LZMA.")
+    parser.add_argument('input', help="Path to the input file")
     parser.add_argument('-o', '--output', help="Path for the compressed file")
     args = parser.parse_args()
 
