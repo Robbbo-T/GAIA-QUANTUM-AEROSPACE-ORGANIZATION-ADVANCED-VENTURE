@@ -5,12 +5,12 @@ from typing import Optional
 
 
 def compress_file_lzma(input_path: str, output_path: Optional[str] = None) -> Path:
-    """Compress a text file using the LZMA algorithm.
+    """Compress a file using the LZMA algorithm.
 
     Parameters
     ----------
     input_path : str
-        Path to the source text file.
+        Path to the source file.
     output_path : Optional[str], optional
         Path for the compressed output file. If ``None``, ``input_path`` with
         a ``.xz`` suffix is used.
