@@ -1,0 +1,175 @@
+<svg width="800" height="2700" viewBox="0 0 800 2700" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .font-sans { font-family: 'Arial', sans-serif; }
+    .text-title { font-size: 32px; font-weight: bold; fill: #2c3e50; text-anchor: middle; }
+    .text-subtitle { font-size: 20px; font-weight: bold; fill: #34495e; text-anchor: middle; }
+    .text-heading { font-size: 18px; font-weight: bold; fill: #2980b9; }
+    .text-subheading { font-size: 16px; font-weight: bold; fill: #3498db; }
+    .text-body { font-size: 14px; fill: #555; }
+    .text-small { font-size: 12px; fill: #777; }
+    .line-separator { stroke: #ccc; stroke-width: 1; }
+  </style>
+
+  <!-- Background "paper" effect -->
+  <rect x="0" y="0" width="800" height="2700" fill="#f8f8f8"/>
+  <rect x="50" y="30" width="700" height="2640" fill="#ffffff" stroke="#ddd" stroke-width="1"/>
+
+  <!-- Page 1 (conceptual) - Title Page -->
+  <g transform="translate(400, 120)" class="font-sans">
+    <text x="0" y="0" class="text-title">Market Research &amp; Analysis Report</text>
+    <text x="0" y="40" class="text-title">(CON-001)</text>
+
+    <text x="0" y="120" class="text-subtitle">Estándar de Referencia: Business Analysis</text>
+    <text x="0" y="150" class="text-subtitle">Categoría: FASE 1: Concepto</text>
+
+    <text x="-150" y="240" class="text-body" text-anchor="start">Fecha de Emisión: [AAAA-MM-DD]</text>
+    <text x="-150" y="270" class="text-body" text-anchor="start">Número de Versión: 1.0</text>
+    <text x="-150" y="300" class="text-body" text-anchor="start">Autores / Departamento: [Nombre del Departamento/Equipo]</text>
+  </g>
+
+  <!-- Page 2 (conceptual) - Table of Contents -->
+  <g transform="translate(100, 500)" class="font-sans">
+    <text x="0" y="0" class="text-heading">Tabla de Contenidos</text>
+    <line x1="0" y1="15" x2="600" y2="15" class="line-separator"/>
+
+    <text x="0" y="40" class="text-body">1. Página de Título ..................................................................... 3</text>
+    <text x="0" y="60" class="text-body">2. Tabla de Contenidos .............................................................. 4</text>
+    <text x="0" y="80" class="text-body">3. Resumen Ejecutivo ................................................................ 5</text>
+    <text x="0" y="100" class="text-body">4. Introducción ........................................................................ 6</text>
+    <text x="20" y="120" class="text-small">4.1. Propósito del Documento</text>
+    <text x="20" y="135" class="text-small">4.2. Alcance del Análisis</text>
+    <text x="20" y="150" class="text-small">4.3. Metodología</text>
+    <text x="0" y="170" class="text-body">5. Definición y Segmentación del Mercado ................................ 7</text>
+    <text x="20" y="190" class="text-small">5.1. Definición del Mercado Objetivo</text>
+    <text x="20" y="205" class="text-small">5.2. Segmentación del Mercado</text>
+    <text x="0" y="225" class="text-body">6. Tamaño del Mercado y Proyecciones de Crecimiento ............. 8</text>
+    <text x="20" y="245" class="text-small">6.1. Tamaño Actual del Mercado</text>
+    <text x="20" y="260" class="text-small">6.2. Tendencias Históricas y Proyecciones Futuras</text>
+    <text x="20" y="275" class="text-small">6.3. Factores Clave de Crecimiento y Limitadores</text>
+    <text x="0" y="295" class="text-body">7. Análisis de Tendencias de la Industria .................................. 9</text>
+    <text x="20" y="315" class="text-small">7.1. Tendencias Tecnológicas</text>
+    <text x="20" y="330" class="text-small">7.2. Tendencias Operacionales</text>
+    <text x="20" y="345" class="text-small">7.3. Tendencias Regulatorias y Políticas</text>
+    <text x="20" y="360" class="text-small">7.4. Tendencias Ambientales y Sostenibilidad</text>
+    <text x="20" y="375" class="text-small">7.5. Modelos de Negocio Emergentes</text>
+    <text x="0" y="395" class="text-body">8. Análisis del Panorama Competitivo ....................................... 10</text>
+    <text x="20" y="415" class="text-small">8.1. Identificación de Competidores Clave</text>
+    <text x="20" y="430" class="text-small">8.2. Oferta de Productos/Servicios de la Competencia</text>
+    <text x="20" y="445" class="text-small">8.3. Análisis FODA (SWOT) de Competidores Seleccionados</text>
+    <text x="20" y="460" class="text-small">8.4. Análisis de Cuota de Mercado</text>
+    <text x="20" y="475" class="text-small">8.5. Barreras de Entrada y Salida</text>
+    <text x="0" y="495" class="text-body">9. Análisis de Necesidades y Requisitos del Cliente ................... 11</text>
+    <text x="20" y="515" class="text-small">9.1. Identificación de Clientes Potenciales</text>
+    <text x="20" y="530" class="text-small">9.2. Puntos de Dolor y Necesidades No Satisfechas</text>
+    <text x="20" y="545" class="text-small">9.3. Requisitos Clave del Cliente</text>
+    <text x="20" y="560" class="text-small">9.4. Análisis de Sensibilidad al Precio y Valor Percibido</text>
+    <text x="0" y="580" class="text-body">10. Análisis de Riesgos y Oportunidades del Mercado ............... 12</text>
+    <text x="20" y="600" class="text-small">10.1. Riesgos Identificados</text>
+    <text x="20" y="615" class="text-small">10.2. Oportunidades Identificadas</text>
+    <text x="0" y="635" class="text-body">11. Conclusiones y Recomendaciones ....................................... 13</text>
+    <text x="20" y="655" class="text-small">11.1. Síntesis de Hallazgos</text>
+    <text x="20" y="670" class="text-small">11.2. Viabilidad del Concepto</text>
+    <text x="20" y="685" class="text-small">11.3. Recomendaciones Estratégicas</text>
+    <text x="0" y="705" class="text-body">12. Apéndices (Placeholder) ..................................................... 14</text>
+  </g>
+
+  <!-- Content Sections start from here -->
+  <g transform="translate(100, 1250)" class="font-sans">
+    <!-- Section 3: Resumen Ejecutivo -->
+    <text x="0" y="0" class="text-heading">3. Resumen Ejecutivo</text>
+    <text x="0" y="25" class="text-body">- Visión general concisa de hallazgos, conclusiones, recomendaciones.</text>
+    <text x="0" y="45" class="text-body">- Implicaciones estratégicas para el programa en fase de concepto.</text>
+    <text x="0" y="65" class="text-body">- Identificación de riesgos y oportunidades clave.</text>
+
+    <!-- Section 4: Introducción -->
+    <text x="0" y="100" class="text-heading">4. Introducción</text>
+    <text x="0" y="125" class="text-subheading">4.1. Propósito del Documento</text>
+    <text x="0" y="145" class="text-body">- Explicar la relevancia para la toma de decisiones en Fase 1: Concepto.</text>
+    <text x="0" y="165" class="text-body">- (Ej. validación de necesidad, identificación de nichos, justificación de inversión).</text>
+    <text x="0" y="195" class="text-subheading">4.2. Alcance del Análisis</text>
+    <text x="0" y="215" class="text-body">- Definir límites del estudio: geográficos, segmentos, tipos de producto/servicio, marco temporal.</text>
+    <text x="0" y="245" class="text-subheading">4.3. Metodología</text>
+    <text x="0" y="265" class="text-body">- Describir brevemente el enfoque: fuentes primarias/secundarias, bases de datos, técnicas de análisis.</text>
+
+    <!-- Section 5: Definición y Segmentación del Mercado -->
+    <text x="0" y="300" class="text-heading">5. Definición y Segmentación del Mercado</text>
+    <text x="0" y="325" class="text-subheading">5.1. Definición del Mercado Objetivo</text>
+    <text x="0" y="345" class="text-body">- Identificar el mercado global o específico (ej. aviación comercial, defensa, espacio).</text>
+    <text x="0" y="375" class="text-subheading">5.2. Segmentación del Mercado</text>
+    <text x="0" y="395" class="text-body">- Desglosar el mercado en segmentos relevantes (cliente, aplicación, geografía, nichos).</text>
+
+    <!-- Section 6: Tamaño del Mercado y Proyecciones de Crecimiento -->
+    <text x="0" y="430" class="text-heading">6. Tamaño del Mercado y Proyecciones de Crecimiento</text>
+    <text x="0" y="455" class="text-subheading">6.1. Tamaño Actual del Mercado</text>
+    <text x="0" y="475" class="text-body">- Cuantificar el valor actual del mercado para cada segmento relevante.</text>
+    <text x="0" y="505" class="text-subheading">6.2. Tendencias Históricas y Proyecciones Futuras</text>
+    <text x="0" y="525" class="text-body">- Analizar crecimiento histórico y proyectar futuro (CAGR a 5-10-20 años).</text>
+    <text x="0" y="545" class="text-body">- Basado en factores macroeconómicos, tecnológicos y específicos de la industria.</text>
+    <text x="0" y="575" class="text-subheading">6.3. Factores Clave de Crecimiento y Limitadores</text>
+    <text x="0" y="595" class="text-body">- Identificar impulsores (demanda viajes, presupuestos defensa) y obstáculos (recesiones, regulaciones).</text>
+
+    <!-- Section 7: Análisis de Tendencias de la Industria -->
+    <text x="0" y="630" class="text-heading">7. Análisis de Tendencias de la Industria</text>
+    <text x="0" y="655" class="text-subheading">7.1. Tendencias Tecnológicas</text>
+    <text x="0" y="675" class="text-body">- Avances en materiales, propulsión (eléctrica, híbrida), autonomía, IA, fabricación aditiva.</text>
+    <text x="0" y="705" class="text-subheading">7.2. Tendencias Operacionales</text>
+    <text x="0" y="725" class="text-body">- Optimización de rutas, mantenimiento predictivo, gestión del tráfico aéreo.</text>
+    <text x="0" y="755" class="text-subheading">7.3. Tendencias Regulatorias y Políticas</text>
+    <text x="0" y="775" class="text-body">- Impacto de nuevas normativas de emisiones, certificaciones, acuerdos internacionales.</text>
+    <text x="0" y="805" class="text-subheading">7.4. Tendencias Ambientales y Sostenibilidad</text>
+    <text x="0" y="825" class="text-body">- Demanda de soluciones más ecológicas (combustibles sostenibles, aviones eléctricos).</text>
+    <text x="0" y="855" class="text-subheading">7.5. Modelos de Negocio Emergentes</text>
+    <text x="0" y="875" class="text-body">- Servicios de movilidad aérea como servicio (MaaS), vuelos espaciales privados.</text>
+
+    <!-- Section 8: Análisis del Panorama Competitivo -->
+    <text x="0" y="910" class="text-heading">8. Análisis del Panorama Competitivo</text>
+    <text x="0" y="935" class="text-subheading">8.1. Identificación de Competidores Clave</text>
+    <text x="0" y="955" class="text-body">- Principales actores globales y regionales en los segmentos de mercado.</text>
+    <text x="0" y="985" class="text-subheading">8.2. Oferta de Productos/Servicios de la Competencia</text>
+    <text x="0" y="1005" class="text-body">- Describir productos, servicios, estrategias de precios, posicionamiento en el mercado.</text>
+    <text x="0" y="1035" class="text-subheading">8.3. Análisis FODA (SWOT) de Competidores Seleccionados</text>
+    <text x="0" y="1055" class="text-body">- Evaluar fortalezas, debilidades, oportunidades y amenazas de los principales rivales.</text>
+    <text x="0" y="1085" class="text-subheading">8.4. Análisis de Cuota de Mercado</text>
+    <text x="0" y="1105" class="text-body">- Distribución de la cuota de mercado entre los principales competidores.</text>
+    <text x="0" y="1135" class="text-subheading">8.5. Barreras de Entrada y Salida</text>
+    <text x="0" y="1155" class="text-body">- Dificultades para nuevos competidores (altos costos de I+D, certificación).</text>
+
+    <!-- Section 9: Análisis de Necesidades y Requisitos del Cliente -->
+    <text x="0" y="1190" class="text-heading">9. Análisis de Necesidades y Requisitos del Cliente</text>
+    <text x="0" y="1215" class="text-subheading">9.1. Identificación de Clientes Potenciales</text>
+    <text x="0" y="1235" class="text-body">- Segmentos de clientes específicos que podrían beneficiarse de la solución.</text>
+    <text x="0" y="1265" class="text-subheading">9.2. Puntos de Dolor y Necesidades No Satisfechas</text>
+    <text x="0" y="1285" class="text-body">- Investigar desafíos actuales y brechas en la oferta de productos/servicios existentes.</text>
+    <text x="0" y="1315" class="text-subheading">9.3. Requisitos Clave del Cliente</text>
+    <text x="0" y="1335" class="text-body">- Características deseables, rendimiento esperado, fiabilidad, coste del ciclo de vida.</text>
+    <text x="0" y="1365" class="text-subheading">9.4. Análisis de Sensibilidad al Precio y Valor Percibido</text>
+    <text x="0" y="1385" class="text-body">- Qué están dispuestos a pagar los clientes y qué valor perciben.</text>
+
+    <!-- Section 10: Análisis de Riesgos y Oportunidades del Mercado -->
+    <text x="0" y="1420" class="text-heading">10. Análisis de Riesgos y Oportunidades del Mercado</text>
+    <text x="0" y="1445" class="text-subheading">10.1. Riesgos Identificados</text>
+    <text x="0" y="1465" class="text-body">- Amenazas para el programa derivadas del mercado (saturación, obsolescencia tecnológica).</text>
+    <text x="0" y="1495" class="text-subheading">10.2. Oportunidades Identificadas</text>
+    <text x="0" y="1515" class="text-body">- Áreas de potencial crecimiento o ventajas competitivas (nichos desatendidos, tendencias).</text>
+
+    <!-- Section 11: Conclusiones y Recomendaciones -->
+    <text x="0" y="1550" class="text-heading">11. Conclusiones y Recomendaciones</text>
+    <text x="0" y="1575" class="text-subheading">11.1. Síntesis de Hallazgos</text>
+    <text x="0" y="1595" class="text-body">- Resumen de las principales conclusiones del análisis de mercado.</text>
+    <text x="0" y="1625" class="text-subheading">11.2. Viabilidad del Concepto</text>
+    <text x="0" y="1645" class="text-body">- Evaluar la viabilidad del concepto de programa propuesto a la luz del análisis.</text>
+    <text x="0" y="1675" class="text-subheading">11.3. Recomendaciones Estratégicas</text>
+    <text x="0" y="1695" class="text-body">- Proporcionar recomendaciones específicas y accionables para la Fase de Concepto:</text>
+    <text x="20" y="1715" class="text-body">- Ajustes al concepto del producto/servicio.</text>
+    <text x="20" y="1735" class="text-body">- Segmentos de mercado prioritarios y estrategias de posicionamiento.</text>
+    <text x="20" y="1755" class="text-body">- Consideraciones para la hoja de ruta tecnológica.</text>
+    <text x="20" y="1775" class="text-body">- Áreas para futuras investigaciones o análisis.</text>
+
+    <!-- Section 12: Apéndices (Placeholder) -->
+    <text x="0" y="1810" class="text-heading">12. Apéndices (Placeholder)</text>
+    <text x="0" y="1835" class="text-body">- Listado de fuentes de datos utilizadas (informes de mercado, bases de datos).</text>
+    <text x="0" y="1855" class="text-body">- Metodología detallada de la investigación.</text>
+    <text x="0" y="1875" class="text-body">- Cualquier dato crudo o tablas de apoyo.</text>
+
+  </g>
+</svg>
