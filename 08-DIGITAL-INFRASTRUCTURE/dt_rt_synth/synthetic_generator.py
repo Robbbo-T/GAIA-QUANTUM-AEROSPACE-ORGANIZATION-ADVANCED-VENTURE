@@ -38,6 +38,17 @@ class SyntheticQuantumDataGenerator:
     """Generates synthetic quantum sensor data at a fixed rate."""
 
     def __init__(self, frequency_hz: float, sensor_counts: dict[SensorType, int]):
+        """Create the generator.
+
+        Parameters
+        ----------
+        frequency_hz:
+            Output frequency in Hertz.
+        sensor_counts:
+            Mapping of ``SensorType`` to how many sensors of each type are
+            simulated.
+        """
+
         if frequency_hz <= 0:
             raise ValueError("frequency_hz must be positive")
         self.frequency_hz = frequency_hz
@@ -46,6 +57,8 @@ class SyntheticQuantumDataGenerator:
         self._sensors = self._create_sensor_ids()
 
     def _create_sensor_ids(self) -> List[tuple[SensorType, str]]:
+        """Return the list of synthetic sensor identifiers."""
+
         sensors: List[tuple[SensorType, str]] = []
         for s_type, count in self.sensor_counts.items():
             for i in range(count):
@@ -53,7 +66,7 @@ class SyntheticQuantumDataGenerator:
         return sensors
 
     def generate(self) -> Generator[SensorReading, None, None]:
-        """Yields synthetic sensor readings endlessly."""
+        """Yield synthetic sensor readings endlessly."""
 
         while True:
             start = time.perf_counter()
