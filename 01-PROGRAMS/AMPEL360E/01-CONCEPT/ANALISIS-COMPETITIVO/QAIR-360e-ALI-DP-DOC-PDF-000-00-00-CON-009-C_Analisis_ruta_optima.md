@@ -105,27 +105,38 @@ graph TB
 #### 3.2 América - Rutas Estratégicas
 
 ```mermaid
-sankey
-    title Flujos Óptimos AMPEL360e - Norteamérica
+graph LR
+    subgraph "Hubs Principales Norteamérica"
+        LAX[Los Angeles<br/>Hub Oeste]
+        DFW[Dallas<br/>Hub Centro]
+        ORD[Chicago<br/>Hub Norte]
+    end
     
-    LAX [100] SFO [25]
-    LAX [100] LAS [20]
-    LAX [100] PHX [15]
-    LAX [100] SJC [10]
-    LAX [100] SMF [8]
-    LAX [100] Otros [22]
+    subgraph "Rutas desde LAX"
+        LAX -->|"543km<br/>42 vuelos"| SFO[San Francisco]
+        LAX -->|"370km<br/>35 vuelos"| LAS[Las Vegas]
+        LAX -->|"597km<br/>28 vuelos"| PHX[Phoenix]
+        LAX -->|"492km<br/>18 vuelos"| SJC[San Jose]
+        LAX -->|"605km<br/>15 vuelos"| SMF[Sacramento]
+    end
     
-    DFW [80] HOU [18]
-    DFW [80] AUS [15]
-    DFW [80] SAT [12]
-    DFW [80] OKC [8]
-    DFW [80] Otros [27]
+    subgraph "Rutas desde DFW"
+        DFW -->|"362km<br/>28 vuelos"| HOU[Houston]
+        DFW -->|"278km<br/>24 vuelos"| AUS[Austin]
+        DFW -->|"406km<br/>20 vuelos"| SAT[San Antonio]
+        DFW -->|"305km<br/>12 vuelos"| OKC[Oklahoma City]
+    end
     
-    ORD [90] DTW [20]
-    ORD [90] MSP [18]
-    ORD [90] STL [15]
-    ORD [90] MKE [12]
-    ORD [90] Otros [25]
+    subgraph "Rutas desde ORD"
+        ORD -->|"378km<br/>32 vuelos"| DTW[Detroit]
+        ORD -->|"571km<br/>28 vuelos"| MSP[Minneapolis]
+        ORD -->|"415km<br/>24 vuelos"| STL[St. Louis]
+        ORD -->|"121km<br/>20 vuelos"| MKE[Milwaukee]
+    end
+    
+    style LAX fill:#2ecc71,stroke:#27ae60,stroke-width:3px
+    style DFW fill:#3498db,stroke:#2980b9,stroke-width:3px
+    style ORD fill:#f39c12,stroke:#d68910,stroke-width:3px
 ```
 
 | Ruta | Distancia | Frecuencia | Notas Especiales |
@@ -223,15 +234,42 @@ graph TB
 #### 6.1 Matriz de Rentabilidad
 
 ```mermaid
-heatmap
-    title "EBITDA Margin por Tipo de Ruta (%)"
-    x-axis ["500km", "1000km", "1500km", "2000km", "2500km", "3000km"]
-    y-axis [">15 vuelos/día", "10-15 vuelos", "5-10 vuelos", "2-5 vuelos", "<2 vuelos"]
-    [[42, 40, 38, 35, 32, 28],
-     [40, 38, 36, 33, 30, 26],
-     [37, 35, 33, 30, 27, 23],
-     [33, 31, 29, 26, 23, 19],
-     [28, 26, 24, 21, 18, 14]]
+graph TB
+    subgraph "EBITDA Margin por Tipo de Ruta"
+        subgraph "Alta Frecuencia (>15 vuelos/día)"
+            A1[500km: 42%]
+            A2[1000km: 40%]
+            A3[1500km: 38%]
+            A4[2000km: 35%]
+            A5[2500km: 32%]
+        end
+        
+        subgraph "Media Frecuencia (5-15 vuelos/día)"
+            B1[500km: 37%]
+            B2[1000km: 35%]
+            B3[1500km: 33%]
+            B4[2000km: 30%]
+            B5[2500km: 27%]
+        end
+        
+        subgraph "Baja Frecuencia (<5 vuelos/día)"
+            C1[500km: 28%]
+            C2[1000km: 26%]
+            C3[1500km: 24%]
+            C4[2000km: 21%]
+            C5[2500km: 18%]
+        end
+    end
+    
+    style A1 fill:#2ecc71,stroke:#27ae60
+    style A2 fill:#2ecc71,stroke:#27ae60
+    style A3 fill:#2ecc71,stroke:#27ae60
+    style B1 fill:#f39c12,stroke:#d68910
+    style B2 fill:#f39c12,stroke:#d68910
+    style B3 fill:#f39c12,stroke:#d68910
+    style C1 fill:#e74c3c,stroke:#c0392b
+    style C2 fill:#e74c3c,stroke:#c0392b
+    style C3 fill:#e74c3c,stroke:#c0392b
 ```
 
 ### 7. Infraestructura Requerida por Ruta
@@ -250,16 +288,31 @@ heatmap
 #### 8.1 Análisis Competitivo por Ruta
 
 ```mermaid
-scatter
-    title "Posicionamiento Competitivo por Ruta"
-    x-axis "Frecuencia Diaria" 0 --> 50
-    y-axis "Distancia (km)" 0 --> 3500
+graph LR
+    subgraph "Segmentación Competitiva por Distancia/Frecuencia"
+        subgraph "Largo Alcance (>3500km)"
+            LA[Dominado por<br/>A320neo/B737MAX]
+        end
+        
+        subgraph "Alcance Medio (1500-3500km)"
+            MA1[AMPEL360e Límite<br/>Operacional]
+            MA2[Competencia<br/>A320/B737]
+        end
+        
+        subgraph "Corto Alcance (500-1500km)"
+            CA1[Sweet Spot<br/>AMPEL360e]
+            CA2[Nicho Premium<br/>Verde]
+        end
+        
+        subgraph "Regional (<500km)"
+            RA[Competencia<br/>ATR/E-Jets]
+        end
+    end
     
-    "Dominado A320/B737": [25, 4500]
-    "Competencia ATR/E-Jets": [8, 800]
-    "Sweet Spot AMPEL360e": [20, 1500]
-    "Nicho Premium Verde": [35, 1000]
-    "Límite Operacional": [5, 3400]
+    style CA1 fill:#2ecc71,stroke:#27ae60,stroke-width:3px
+    style CA2 fill:#2ecc71,stroke:#27ae60,stroke-width:3px
+    style MA1 fill:#f39c12,stroke:#d68910
+    style LA fill:#e74c3c,stroke:#c0392b
 ```
 
 ### 9. Plan de Implementación de Rutas
