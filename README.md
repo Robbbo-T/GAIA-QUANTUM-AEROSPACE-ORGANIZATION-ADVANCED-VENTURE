@@ -1,3 +1,5 @@
+QORG-BOB-DP-DOC-MASTER-000-00-00-CON-README-GAIAQAOADVENT.md
+
 # GAIA-QUANTUM-AEROSPACE-ORGANIZATION-ADVANCED-VENTURE
 GAIA-QAO ADVENT (Global Quantum Aerospace Organization – Advanced Venture) is a quantum-enhanced ecosystem for sustainable aerospace innovation. It integrates AI, digital twins, blockchain, and quantum computing across the full aircraft lifecycle
 
@@ -13,24 +15,75 @@ Desarrollar aeronaves comerciales avanzadas con estándares excepcionales en efi
 
 ## 🚩 Objetivos Estratégicos (2025–2045)
 
-* **AMPEL360e (2038)**: Aeronave híbrida-eléctrica certificada con reducción del 50% en consumo de combustible.
-* **AMPEL-BWB-H2 (2040)**: Aeronave cero emisiones con propulsión de hidrógeno líquido.
-* **Liderazgo Cuántico (2035)**: Soluciones cuánticas aplicadas al diseño y operaciones aeronáuticas.
-* **Neutralidad de Carbono (2030)**: En operaciones terrestres.
-* **Impacto Socioeconómico**: Más de 5,000 empleos directos en alta tecnología.
+# Objetivos Estratégicos – GAIA-QAO / AMPEL360 (2025–2045)
+
+# Objetivos Estratégicos – GAIA-QAO / AMPEL360 (2025–2045)
+
+| Año Meta | Objetivo | Descripción |
+|----------|----------|-------------|
+| 2030     | Neutralidad de Carbono en Tierra | Alcanzar emisiones netas cero en todas las operaciones terrestres del ecosistema AMPEL360 (producción, mantenimiento, logística), conforme a marcos CSRD y Fit for 55. |
+| 2032     | AMPEL360City eVTOL en Servicio Urbano | Despliegue inicial del vehículo eVTOL AMPEL360City para movilidad aérea urbana, con cero emisiones, bajo nivel sonoro y operación autónoma parcial en entornos metropolitanos regulados. |
+| 2035     | Liderazgo Cuántico Aeroespacial | Integrar tecnologías cuánticas certificadas en diseño estructural, navegación, mantenimiento predictivo, simulación y control de vuelo inteligente. |
+| 2038     | AMPEL360e en Servicio Comercial | Entrada en operación de la aeronave híbrido-eléctrica AMPEL360e, arquitectura tubo-ala optimizada, capacidad para 180–220 pasajeros, con reducción ≥50% en consumo de combustible. |
+| 2040     | BWB-Q100 Certificado | Certificación de la aeronave BWB-Q100, con arquitectura Blended Wing Body, capacidad para 120–180 pasajeros, diseñada para máxima eficiencia aerodinámica y energética. |
+| 2042     | BWB-Q250 en Fase Preindustrial | Validación técnica y escalado industrial de la versión ampliada BWB-Q250, con capacidad para 220–300 pasajeros y autonomía extendida. |
+| 2043     | AMPEL360 Plus: Plataforma Suborbital | Lanzamiento de la plataforma suborbital AMPEL360 Plus para turismo espacial, microgravedad, pruebas hipersónicas y carga útil experimental. |
+| 2045     | AMPEL360 PlusPlus (Plus Ultra): Plataforma Orbital | Primeros vuelos comerciales y científicos en órbita baja (LEO) con la plataforma orbital AMPEL360 PlusPlus, incluyendo conexión con infraestructura GAIA-SP. |
+| 2045     | Impacto Socioeconómico Ampliado | Generación de más de 12.000 empleos directos en tecnologías de alta complejidad: aeroespacial, IA, computación cuántica, propulsión alternativa, movilidad aérea urbana, turismo espacial e infraestructura orbital. |
+
 
 ## 📅 Desarrollo por Fases
 
-### Generación 1: AMPEL360e (2025-2038)
+## Familias Tecnológicas y Generaciones del Programa AMPEL360
 
-* Aeronave híbrida-eléctrica (180-220 pasajeros).
-* Propulsión híbrida paralela (50% menos combustible, 75% menos ruido).
-* Reemplazo de mercado: A320/B737.
+### Generación 1: AMPEL360e  
+**Inicio de desarrollo: 2025**  
+**Entrada en servicio estimada: 2038**
 
-### Generación 2: AMPEL-BWB-H2 (2035-2045+)
+* Aeronave híbrido-eléctrica de arquitectura tubo-ala optimizada.
+* Capacidad: 180–220 pasajeros.
+* Propulsión híbrida paralela: reducción del 50% en consumo de combustible y del 75% en ruido.
+* Sustitución proyectada de flota A320/B737 en rutas de corto y medio alcance.
 
-* Aeronave BWB propulsada por hidrógeno líquido.
-* Aviación de cero emisiones de largo alcance.
+### Generación 1.1: AMPEL360City (eVTOL urbano)  
+**Inicio de desarrollo: 2026**  
+**Entrada en servicio estimada: 2032**
+
+* Sistema eVTOL 100% eléctrico para movilidad aérea urbana.
+* Despegue y aterrizaje vertical (VTOL), operación semi-autónoma.
+* Capacidad: 2–6 pasajeros o carga ligera.
+* Integración con infraestructura urbana inteligente y redes UAM.
+
+### Generación 2: AMPEL360 BWB-Q100/Q250  
+**Inicio de desarrollo: 2028**  
+**Entrada en servicio estimada:  
+Q100 → 2040 | Q250 → 2042**
+
+* Aeronaves atmosféricas con arquitectura Blended Wing Body.
+* Q100: 120–180 pasajeros | Q250: 220–300 pasajeros.
+* Propulsión híbrida distribuida, eficiencia aerodinámica extrema.
+* Preparadas para integración de sistemas cuánticos o H₂ en versiones futuras.
+
+### Generación 3: AMPEL-BWB-H2  
+**Inicio de desarrollo: 2030**  
+**Entrada en servicio estimada: 2045+**
+
+* Aeronave de gran alcance BWB con propulsión a hidrógeno líquido.
+* Integración de tanques criogénicos, pilas de combustible, propulsión eléctrica.
+* Cero emisiones operacionales, autonomía extendida.
+* Depende de madurez de infraestructura H₂ y validación certificable.
+
+### Generación 4: AMPEL360 Plus / PlusPlus  
+**Inicio de desarrollo: 2027**  
+**Entrada en servicio estimada:  
+Plus → 2043 | PlusPlus → 2045+**
+
+* Plataformas para acceso suborbital y orbital.
+* **AMPEL360 Plus**: Suborbital reutilizable para turismo espacial, microgravedad, pruebas hipersónicas.
+  * Desarrollo temprano mediante demostradores y vehículos experimentales.
+* **AMPEL360 PlusPlus (Plus Ultra)**: Orbital tripulada, acoplable a estaciones LEO (GAIA-SP).
+  * Arquitectura modular, soporte vital, lanzadores híbridos-europeos.
+
 
 ## 🏛️ Organización Estratégica
 
