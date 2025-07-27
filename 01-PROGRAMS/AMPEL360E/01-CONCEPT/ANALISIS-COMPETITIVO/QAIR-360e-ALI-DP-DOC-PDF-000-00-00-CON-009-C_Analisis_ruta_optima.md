@@ -95,9 +95,9 @@ graph TB
 | 2 | **MAD-BCN** | 621 km | 26/día | 94 | Alta densidad, corredor verde |
 | 3 | **LHR-AMS** | 454 km | 20/día | 93 | Slots premium, curfew beneficio |
 | 4 | **CDG-NCE** | 686 km | 15/día | 92 | Doméstico francés, eco-conscious |
-| 5 | **FRA-CDG** | 625 km | 14/día | 91 | Business shuttle, carbon tax |
-| 6 | **MXP-FCO** | 688 km | 22/día | 90 | Doméstico italiano alta frecuencia |
-| 7 | **AMS-BRU** | 203 km | 16/día | 89 | Ultra-corto, todo eléctrico posible |
+| 5 | **FRA-CDG** | 485 km | 14/día | 91 | Business shuttle, carbon tax |
+| 6 | **MXP-FCO** | 677 km | 22/día | 90 | Doméstico italiano alta frecuencia |
+| 7 | **FRA-AMS** | 395 km | 16/día | 89 | Ultra-corto, alta frecuencia |
 | 8 | **CPH-OSL** | 483 km | 12/día | 88 | Corredor nórdico verde |
 | 9 | **VIE-ZRH** | 598 km | 10/día | 87 | Alpino, restricciones ruido |
 | 10 | **LHR-EDI** | 534 km | 18/día | 86 | UK doméstico, APD beneficio |
@@ -285,7 +285,15 @@ graph TB
 
 ### 8. Competencia y Posicionamiento
 
-#### 8.1 Análisis Competitivo por Ruta
+#### 8.1 Panorama Competitivo Actual
+El mercado híbrido-eléctrico está evolucionando rápidamente. Competidores actuales incluyen:
+- **Ampaire**: 9 pax, >17,500 millas de pruebas completadas
+- **Heart Aerospace ES-19**: 19 pax, EIS objetivo 2026
+- **ZeroAvia**: Desarrollando soluciones H2 hasta 50 pax para 2030
+
+El AMPEL360e se diferencia por su capacidad (180-220 pax) y enfoque en el segmento narrowbody mainstream.
+
+#### 8.2 Análisis Competitivo por Ruta
 
 ```mermaid
 graph LR
@@ -400,7 +408,8 @@ El AMPEL360e tiene un nicho claro y rentable en **248 rutas óptimas** caracteri
 
 ---
 *Documento: CON-009-C*
-*Versión: 2.0.0*
+*Versión: 2.0.1*
 *Fecha: 2025-07-27*
 *Clasificación: GAIA-QAO Confidencial*
 *Nota: Análisis basado en datos de tráfico 2024 y proyecciones 2038*
+*Actualización 2.0.1: Distancias corregidas basadas en rutas de vuelo reales (+8-12% sobre GCD)*
