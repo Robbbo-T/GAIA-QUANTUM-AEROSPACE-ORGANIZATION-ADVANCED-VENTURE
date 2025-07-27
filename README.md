@@ -13,11 +13,25 @@ GAIA-QAO ADVENT, creado por Amedeo Pelliccia, establece un marco estratégico de
 
 Desarrollar aeronaves comerciales avanzadas con estándares excepcionales en eficiencia energética, seguridad operacional, sostenibilidad ambiental e integración de tecnologías cuánticas.
 
-## 🚩 Objetivos Estratégicos (2025–2045)
-
 # Objetivos Estratégicos – GAIA-QAO / AMPEL360 (2025–2045)
 
-# Objetivos Estratégicos – GAIA-QAO / AMPEL360 (2025–2045)
+```mermaid
+timeline
+    title GAIA-QAO ADVENT: Hitos Estratégicos 2025-2045
+
+    2025 : Lanzamiento oficial, acuerdos, equipo ejecutivo (Q4)
+    2026 : Contratación clave, despliegue PLM, arranque AMPEL360City
+    2027 : Diseño preliminar AMPEL360e, inicio Q-SCIRES
+    2028 : Neutralidad carbono en tierra
+    2030 : eVTOL AMPEL360City entra en servicio urbano (TRL 8-9)
+    2032 : Liderazgo cuántico en simulación/control/mantenimiento
+    2035 : Certificación tecnologías cuánticas, integración en flota
+    2038 : Entrada comercial AMPEL360e (180-220 pax, -50% fuel)
+    2040 : Certificación BWB-Q100, pedidos superan 120 unidades
+    2042 : Escalado industrial BWB-Q250, validación suborbital
+    2043 : Lanzamiento AMPEL360 Plus (suborbital)
+    2045 : AMPEL360 PlusPlus (orbital) y break-even financiero
+```
 
 | Año Meta | Objetivo | Descripción |
 |----------|----------|-------------|
@@ -35,6 +49,52 @@ Desarrollar aeronaves comerciales avanzadas con estándares excepcionales en efi
 ## 📅 Desarrollo por Fases
 
 ## Familias Tecnológicas y Generaciones del Programa AMPEL360
+
+```mermaid
+gantt
+    title GAIA-QAO ADVENT: Hoja de Ruta Integrada (2025–2045)
+    dateFormat  YYYY-MM-DD
+    excludes    weekends
+
+    section Fase Fundacional (Ecosistema)
+    Lanzamiento GAIA-QAO ADVENT         :milestone, qao0, 2025-07-01, 0d
+    Formación equipo ejecutivo          :2025-10-01, 60d
+    Alianzas y acuerdos iniciales       :2025-09-01, 90d
+
+    section Generación 1: AMPEL360e
+    Inicio diseño AMPEL360e             :2027-01-01, 365d
+    Desarrollo prototipo                :2028-01-01, 730d
+    Certificación AMPEL360e             :crit, 2036-01-01, 540d
+    Entrada en servicio AMPEL360e       :milestone, e1, 2038-07-01, 0d
+
+    section Generación 1.1: AMPEL360City (eVTOL)
+    Diseño/preliminar AMPEL360City      :2026-03-01, 180d
+    Prototipo y validación urbe         :2027-01-01, 720d
+    Certificación eVTOL                 :2031-01-01, 225d
+    eVTOL en operación urbana           :milestone, e2, 2032-01-01,0d
+
+    section Generación 2: AMPEL360 BWB-Q100 / Q250
+    Concepto BWB-Q100                   :2028-01-01, 365d
+    Desarrollo preliminar Q100          :2029-01-01, 540d
+    Certificación BWB-Q100              :2039-01-01, 480d
+    EIS BWB-Q100                        :milestone, q100, 2040-06-01,0d
+
+    Desarrollo preliminar Q250          :2033-01-01, 860d
+    Validación/Pre-industrial Q250      :2039-07-01, 540d
+    EIS BWB-Q250                        :milestone, q250, 2042-01-01, 0d
+
+    section Generación 3/4: Plataformas Suborbital/Orbital
+    Desarrollo AMPEL360 Plus (suborbital):2027-10-01, 1680d
+    EIS AMPEL360 Plus                   :milestone, pl, 2043-01-01, 0d
+    Desarrollo PlusPlus (orbital)       :2030-07-01, 5200d
+    EIS AMPEL360 PlusPlus               :milestone, ppl, 2045-01-01,0d
+
+    section Estrategia y KPIs
+    Neutralidad Carbono en Tierra       :2028-12-31, 0d
+    Certificación Cuántica Aeroespacial :milestone, qcert, 2035-06-01, 0d
+    200 aeronaves AMPEL360e en pedidos  :milestone, 2040-12-31, 0d
+    Break-even financiero               :milestone, 2045-01-01, 0d
+```
 
 ### Generación 1: AMPEL360e  
 **Inicio de desarrollo: 2025**  
