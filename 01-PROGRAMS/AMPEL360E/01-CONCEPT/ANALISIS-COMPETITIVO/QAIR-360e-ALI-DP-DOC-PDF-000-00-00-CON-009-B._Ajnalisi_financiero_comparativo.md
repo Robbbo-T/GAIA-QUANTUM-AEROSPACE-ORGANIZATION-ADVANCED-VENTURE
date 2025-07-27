@@ -60,19 +60,8 @@ Vida_útil:
 
 ### 3. Análisis de Costos Operacionales
 
-```mermaid
-sankey
-    title Flujo de Costos Anuales por Aeronave (€M)
-    
-    Ingresos [30] Operación [22]
-    Operación [5.5] Combustible/Energía
-    Operación [3.2] Mantenimiento
-    Operación [2.8] Tripulación
-    Operación [2.0] Navegación
-    Operación [1.5] Seguros
-    Operación [7.0] Otros
-    Ingresos [8] EBITDA
-```
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/e214efe9-3efb-4627-92cc-578feef8a39d" />
+
 
 #### 3.1 Comparación CASK Detallada
 | Componente | A320neo (€/ASK) | AMPEL360e (€/ASK) | Diferencia |
@@ -165,14 +154,14 @@ xychart-beta
 ### 7. Análisis de Sensibilidad
 
 ```mermaid
-heatmap
+xychart-beta
     title "Matriz Sensibilidad ROI (Años)"
     x-axis ["SAF +10%", "SAF +20%", "SAF +30%", "SAF +40%"]
-    y-axis ["Carbon €50", "Carbon €75", "Carbon €100", "Carbon €150"]
-    [[5.2, 5.8, 6.4, 7.0],
-     [4.9, 5.5, 6.1, 6.7],
-     [4.6, 5.2, 5.8, 6.4],
-     [4.0, 4.6, 5.2, 5.8]]
+    y-axis "ROI (años)" 4 --> 8
+    line "Carbon €50" [5.2, 5.8, 6.4, 7.0]
+    line "Carbon €75" [4.9, 5.5, 6.1, 6.7]
+    line "Carbon €100" [4.6, 5.2, 5.8, 6.4]
+    line "Carbon €150" [4.0, 4.6, 5.2, 5.8]
 ```
 
 ### 8. Caso de Negocio: Aerolínea Regional Europea
@@ -246,13 +235,14 @@ Beneficios:
 ### 11. Conclusiones ROI
 
 ```mermaid
-pie title "Distribución Valor 15 años"
+pie
+    title "Distribución Valor 15 años"
     "Ahorro Combustible" : 35
     "Ahorro Mantenimiento" : 20
     "Carbon Credits" : 15
     "Premium Tarifas Verdes" : 10
     "Subsidios" : 10
-    "Mayor Depreciación" : -10
+    "Mayor Depreciación" : 10
 ```
 
 **El AMPEL360e ofrece un ROI positivo para:**
