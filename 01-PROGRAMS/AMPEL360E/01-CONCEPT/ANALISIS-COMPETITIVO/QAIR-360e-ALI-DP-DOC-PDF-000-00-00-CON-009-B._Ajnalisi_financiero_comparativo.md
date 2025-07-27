@@ -1,364 +1,275 @@
 # QAIR-360e-ALI-DP-DOC-PDF-000-00-00-CON-009-B
-## Escenarios de ROI: Análisis Financiero Comparativo
+## Análisis de Retorno de Inversión: AMPEL360e vs A320neo
+### Versión 2.0.0 - Análisis Financiero Realista
 
-### Executive Summary
-Este documento presenta tres escenarios de rutas "killer" donde el AMPEL-360e demuestra superioridad financiera absoluta sobre el A320neo, con ROI proyectados de 3.2-4.8 años y NPV a 20 años superiores a $450M por aeronave.
+### 1. Resumen Ejecutivo ROI
 
-### 1. Metodología de Análisis Financiero
-
-#### 1.1 Modelo Financiero Base
-```yaml
-Financial_Model_Parameters:
-  Currency: USD (2025)
-  Discount_Rate: 8.5%
-  Inflation_Rate: 2.5%
-  Fuel_Price_Escalation: 3.5%
-  Carbon_Credit_Value: $150/ton (increasing 5% annually)
-  Analysis_Period: 20 years
-  Residual_Value: 15% (A320neo) vs 35% (AMPEL-360e)
-```
-
-#### 1.2 Estructura de Costos
-```yaml
-Cost_Categories:
-  Acquisition:
-    A320neo: $110M list ($65M actual)
-    AMPEL-360e: $180M list ($108M actual)
-  
-  Operating_Costs:
-    - Fuel/Energy
-    - Maintenance
-    - Crew
-    - Insurance
-    - Navigation/Landing fees
-    - Carbon offsets
-  
-  Revenue_Factors:
-    - Passenger capacity
-    - Load factor
-    - Yield per passenger
-    - Cargo revenue
-    - Ancillary services
-```
-
-### 2. Escenario 1: Ultra-Long Haul (SYD-NYC Direct)
-
-#### 2.1 Perfil de Ruta
-```yaml
-Route: Sydney_to_NewYork_Direct
-Distance: 16,013 km
-Current_Solution: Requires stopover (SYD-LAX-NYC or SYD-DXB-NYC)
-A320neo_Capable: NO (range insufficient)
-AMPEL-360e_Capable: YES (with 35% reserves)
-Market_Size: 847,000 pax/year
-Premium_Demand: 42% willing to pay +$400 for direct
-```
-
-#### 2.2 Análisis Competitivo
-| Métrica | Current (B787/A350) | AMPEL-360e | Ventaja |
-|---|---|---|---|
-| Tiempo vuelo | 20-24 hrs (con escala) | 17.5 hrs (directo) | -4.5 hrs |
-| Fuel/Energy | $74,000 | $3,100 | -95.8% |
-| Crew costs | $12,000 (2 crews) | $8,000 (1 crew) | -33.3% |
-| Pax capacity | 300 | 280 | -6.7% |
-| Revenue premium | Base | +$400/pax | +$112,000 |
-
-#### 2.3 Proyección Financiera SYD-NYC
-```python
-# Año 1 - Operación Diaria
-Daily_Flights: 2
-Annual_Flights: 730
-
-A350_Economics:
-  Revenue: $165M
-  Fuel_Cost: $54M
-  Other_DOC: $28M
-  Net_Operating_Income: $83M
-
-AMPEL-360e_Economics:
-  Revenue: $197M (+$32M premium)
-  Energy_Cost: $2.3M
-  Other_DOC: $18M
-  Carbon_Credits: +$8.2M
-  Net_Operating_Income: $185M
-  
-Annual_Advantage: $102M
-NPV_20_years: $1.24B
-ROI_Period: 3.2 years
-```
-
-### 3. Escenario 2: High-Frequency Green Corridor (LAX-SFO)
-
-#### 3.1 Perfil de Ruta
-```yaml
-Route: LosAngeles_to_SanFrancisco
-Distance: 543 km
-Frequency: 25x daily (shuttle service)
-Market_Type: High-frequency business travel
-Environmental_Priority: California carbon-neutral mandate 2030
-Competition: A320neo, B737 MAX
-```
-
-#### 3.2 Ventaja Operacional AMPEL-360e
-| Factor | A320neo | AMPEL-360e | Impacto |
-|---|---|---|---|
-| Turnaround time | 45 min | 25 min | +2 flights/day |
-| Noise restrictions | Limited hours | 24/7 capable | +6 flights/day |
-| Carbon tax (CA) | $85/flight | -$120/flight (credit) | $205 advantage |
-| Gate fees | Standard | Priority green | -20% |
-
-#### 3.3 Análisis Financiero LAX-SFO
-```yaml
-Daily_Operation: 25 flights
-Annual_Flights: 9,125
-Load_Factor: 92%
-
-A320neo_Shuttle:
-  Revenue_per_flight: $14,500
-  Fuel_cost: $1,850
-  Carbon_tax: $85
-  Other_costs: $3,200
-  Net_per_flight: $9,365
-  Annual_NOI: $85.5M
-
-AMPEL-360e_Shuttle:
-  Revenue_per_flight: $15,200 (+premium)
-  Energy_cost: $95
-  Carbon_credit: $120
-  Other_costs: $2,100
-  Net_per_flight: $13,345
-  Annual_NOI: $121.8M
-  
-Annual_Advantage: $36.3M
-Additional_Flights: +2,920 (quiet hours + quick turn)
-Total_Annual_Advantage: $75.2M
-NPV_20_years: $912M
-ROI_Period: 3.8 years
-```
-
-### 4. Escenario 3: Altitude-Advantaged Polar Route (HKG-JFK)
-
-#### 4.1 Perfil de Ruta
-```yaml
-Route: HongKong_to_NewYork_Polar
-Distance: 12,969 km
-Current_Path: Over Russia/Nordics (restricted)
-Alternative: Longer Pacific route (+2,000km)
-AMPEL-360e_Advantage: FL510 polar route (no restrictions)
-Time_Saving: 2.5 hours
-```
-
-#### 4.2 Ventajas Únicas FL510
-| Beneficio | Valor | Impacto Financiero |
-|---|---|---|
-| Fuel flow reduction | -22% vs FL390 | -$8,400/flight |
-| Jet stream optimization | +80 kts average | -45 min |
-| Traffic avoidance | No delays | 98% OTP |
-| Polar route direct | -2,000 km | -$15,000 fuel |
-
-#### 4.3 Proyección Financiera HKG-JFK
-```python
-Service_Pattern: 3x daily
-Annual_Flights: 1,095
-
-Current_B777_Operation:
-  Revenue: $385M
-  Fuel_Cost: $98M
-  Overflight_Fees: $18M
-  Other_Costs: $72M
-  Net_Operating_Income: $197M
-
-AMPEL-360e_FL510:
-  Revenue: $412M (+polar premium)
-  Energy_Cost: $12M
-  Overflight_Fees: $6M (shorter route)
-  Other_Costs: $54M
-  Carbon_Credits: +$14M
-  Net_Operating_Income: $354M
-  
-Annual_Advantage: $157M
-NPV_20_years: $1.91B
-ROI_Period: 2.9 years (fastest)
-```
-
-### 5. Modelo Financiero Consolidado
-
-#### 5.1 Template Reutilizable
-```python
-class RouteROICalculator:
-    def __init__(self, route_profile):
-        self.distance = route_profile['distance']
-        self.frequency = route_profile['frequency']
-        self.competition = route_profile['competition']
-        
-    def calculate_npv(self, years=20):
-        cash_flows = []
-        for year in range(years):
-            annual_cf = self.calculate_annual_cashflow(year)
-            cash_flows.append(annual_cf)
-        return self.npv(cash_flows, discount_rate=0.085)
-    
-    def sensitivity_analysis(self):
-        scenarios = {
-            'base': self.calculate_npv(),
-            'fuel_+50%': self.calculate_npv(fuel_multiplier=1.5),
-            'carbon_$300': self.calculate_npv(carbon_price=300),
-            'load_-10%': self.calculate_npv(load_factor_delta=-0.1)
-        }
-        return scenarios
-```
-
-#### 5.2 Análisis de Sensibilidad Consolidado
-| Variable | Cambio | Impacto en ROI | Impacto en NPV |
-|---|---|---|---|
-| Precio combustible | +50% | +0.2 años | +$180M |
-| Precio carbono | $300/ton | -0.5 años | +$320M |
-| Factor de carga | -10% | +0.8 años | -$140M |
-| Costo adquisición | +20% | +0.9 años | -$95M |
-
-### 6. Escenarios de Respuesta Competitiva
-
-#### 6.1 Si Airbus Acelera A320 Hidrógeno (2028)
-```yaml
-Competitive_Response:
-  Airbus_H2_Launch: 2028
-  Impact_on_AMPEL360e:
-    Market_Share: -15% in short-haul
-    Advantage_Retention: 
-      - Ultra-long: 100% (range limited)
-      - Efficiency: Still 40% better
-      - Infrastructure: 3-year head start
-  Strategic_Response:
-    - Accelerate Gen 2 quantum systems
-    - Lock in early adopter contracts
-    - Develop H2-quantum hybrid option
-```
-
-#### 6.2 Si Boeing Introduce BWB (2030)
-```yaml
-Boeing_BWB_Scenario:
-  Launch: 2030
-  Technology: Conventional propulsion
-  AMPEL360e_Advantages:
-    - 5-year market lead
-    - Quantum systems matured
-    - Established route network
-  Counter_Strategy:
-    - License quantum tech selectively
-    - Focus on integrated efficiency
-    - Develop BWB-Q200 (larger variant)
-```
-
-#### 6.3 Si Regulaciones Aceleran (2027)
-```yaml
-Accelerated_Green_Regulations:
-  Carbon_Neutral_Mandate: 2035→2030
-  Impact:
-    - AMPEL360e demand surge
-    - Production bottleneck risk
-    - Premium pricing opportunity
-  Actions:
-    - Scale manufacturing 2x
-    - Establish leasing program
-    - Partner with governments
-```
-
-### 7. Conclusiones Financieras
-
-#### 7.1 Resumen de ROI por Escenario
-| Ruta | Inversión Incremental | ROI (años) | NPV 20 años | IRR |
-|---|---|---|---|---|
-| SYD-NYC | $43M | 3.2 | $1.24B | 28.5% |
-| LAX-SFO | $43M | 3.8 | $912M | 24.2% |
-| HKG-JFK | $43M | 2.9 | $1.91B | 32.1% |
-
-#### 7.2 Recomendaciones Estratégicas
-1. **Priorizar rutas polares**: Máximo ROI y diferenciación
-2. **Contratos early-adopter**: Lock in 10-year agreements
-3. **Financiamiento verde**: Bonos ESG a tasas preferenciales
-4. **Economías de escala**: Target 100 unidades para break-even
-
-### 8. Herramientas de Análisis
-
-#### 8.1 Calculadora ROI Interactiva
-```javascript
-// Web-based ROI Calculator
-function calculateAMPELAdvantage(route) {
-  const fuelSavings = route.distance * 0.95 * FUEL_PRICE;
-  const carbonRevenue = route.distance * CARBON_RATE;
-  const timeSavings = route.premium * route.passengers;
-  
-  return {
-    annualAdvantage: fuelSavings + carbonRevenue + timeSavings,
-    breakEven: INCREMENTAL_COST / annualAdvantage,
-    twentyYearNPV: calculateNPV(annualAdvantage, 20, 0.085)
-  };
-}
-```
+El AMPEL360e presenta un caso de negocio viable para operadores enfocados en rutas corto-medio alcance (<3,500 km) con:
+- **ROI**: 5.8-7.2 años dependiendo del escenario
+- **NPV 15 años**: €18-42M por aeronave
+- **Break-even**: Año 6-8 de operación
+- **Factores críticos**: Precio SAF, incentivos verdes, utilización
 
 ```mermaid
-flowchart TB
-  %% SCENARIO 1
-  subgraph S1 ["SYD-NYC Direct (Ultra Long Haul)"]
-    SYDA["`• 2x daily, 847k pax/yr
-• No direct on A320neo
-• AMPEL-360e: 17.5h direct, +$400/pax premium`"]
-    SYDM["`• Annual Advantage: $102M
-• NPV 20yr: $1.24B
-• ROI: 3.2y
-• IRR: 28.5%`"]
-    SYDA --> SYDM
-  end
-
-  %% SCENARIO 2
-  subgraph S2 ["LAX-SFO Green Shuttle"]
-    LAXA["`• 25x daily, 9,125/yr
-• AMPEL: turnaround 25m, 24/7 ops,
-• Carbon credit: +$120/flight`"]
-    LAXM["`• Annual Advantage: $75.2M
-• NPV 20yr: $912M
-• ROI: 3.8y
-• IRR: 24.2%`"]
-    LAXA --> LAXM
-  end
-
-  %% SCENARIO 3
-  subgraph S3 ["HKG-JFK FL510 Polar"]
-    HKGA["`• 3x daily, 1,095/yr
-• FL510 direct route, weather/traffic bypass
-• Fuel flow -22%, jetstream (+80kt)`"]
-    HKGM["`• Annual Adv: $157M
-• NPV 20yr: $1.91B
-• ROI: 2.9y (fastest)
-• IRR: 32.1%`"]
-    HKGA --> HKGM
-  end
-
-  %% Consolidated block
-  ROI(["`**AMPEL-360e
-ROI Dominance:** 
-NPV: $912M-$1.91B  
-ROI: 2.9-3.8y
-All scenarios: Decisive
-financial advantage
-over A320neo/B737`"])
-
-  SYDM --> ROI
-  LAXM --> ROI
-  HKGM --> ROI
-
-  %% Styling
-  classDef scenario fill:#eaf7ff,stroke:#3592b3,stroke-width:2px;
-  classDef winner fill:#c9f9cc,stroke:#168d22,stroke-width:3px;
-  class S1,S2,S3 scenario
-  class ROI winner
+graph LR
+    subgraph "ROI por Escenario (Años)"
+        A[Conservador<br/>7.2 años]
+        B[Base<br/>6.5 años]
+        C[Optimista<br/>5.8 años]
+    end
+    
+    A -->|"SAF Premium<br/>+40%"| A
+    B -->|"SAF Premium<br/>+25%"| B
+    C -->|"SAF Premium<br/>+10%"| C
+    
+    style B fill:#f39c12,stroke:#d68910,stroke-width:3px
 ```
 
-### Próximos Pasos
-1. Validar asunciones con aerolíneas partner
-2. Desarrollar herramienta web interactiva
-3. Preparar presentación ejecutiva
-4. Iniciar CON-009-C (Análisis de 50+ rutas)
+### 2. Premisas del Análisis Financiero
+
+#### 2.1 Costos de Adquisición
+```yaml
+A320neo:
+  Precio_lista: €110M
+  Precio_real: €55M (50% descuento típico)
+  Financiamiento: 12 años @ 4.5%
+  
+AMPEL360e:
+  Precio_lista: €135M (+23%)
+  Precio_real: €75M (44% descuento early adopter)
+  Financiamiento: 12 años @ 3.5% (bonos verdes)
+  Premium_inicial: €20M (+36%)
+```
+
+#### 2.2 Variables Operacionales
+```yaml
+Utilización_anual:
+  Horas_vuelo: 3,000
+  Ciclos: 1,800
+  Factor_carga: 82%
+  
+Rutas_tipo:
+  Corto_alcance: 60% (500-1,500 km)
+  Medio_alcance: 40% (1,500-3,000 km)
+  
+Vida_útil:
+  Estructura: 25 años
+  Motores: 20,000 ciclos
+  Baterías: 8 años (reemplazo programado)
+```
+
+### 3. Análisis de Costos Operacionales
+
+```mermaid
+sankey
+    title Flujo de Costos Anuales por Aeronave (€M)
+    
+    Ingresos [30] Operación [22]
+    Operación [5.5] Combustible/Energía
+    Operación [3.2] Mantenimiento
+    Operación [2.8] Tripulación
+    Operación [2.0] Navegación
+    Operación [1.5] Seguros
+    Operación [7.0] Otros
+    Ingresos [8] EBITDA
+```
+
+#### 3.1 Comparación CASK Detallada
+| Componente | A320neo (€/ASK) | AMPEL360e (€/ASK) | Diferencia |
+|---|---|---|---|
+| **Combustible/Energía** | 0.0180 | 0.0140 | -22% |
+| **Mantenimiento** | 0.0120 | 0.0100 | -17% |
+| **Tripulación** | 0.0095 | 0.0095 | 0% |
+| **Navegación/ATC** | 0.0065 | 0.0065 | 0% |
+| **Seguros** | 0.0050 | 0.0055 | +10% |
+| **Depreciación** | 0.0080 | 0.0095 | +19% |
+| **Otros** | 0.0160 | 0.0160 | 0% |
+| **CASK Total** | 0.0750 | 0.0710 | -5.3% |
+
+### 4. Escenarios de Análisis ROI
+
+#### 4.1 Variables Clave y Rangos
+```mermaid
+graph TB
+    subgraph "Factores de Sensibilidad ROI"
+        SAF[Precio SAF<br/>vs Jet-A1]
+        CARB[Precio Carbono<br/>€/tonCO2]
+        UTIL[Utilización<br/>Horas/año]
+        SUBS[Subsidios<br/>Verdes]
+        
+        SAF -->|"+10% a +40%"| ROI[ROI<br/>5.8-7.2 años]
+        CARB -->|"€50-150"| ROI
+        UTIL -->|"2,500-3,500"| ROI
+        SUBS -->|"0-20%"| ROI
+    end
+    
+    style ROI fill:#e74c3c,stroke:#c0392b,stroke-width:3px
+```
+
+#### 4.2 Escenario Base
+```python
+# Premisas Escenario Base
+Precio_JetA1 = €800/ton
+Precio_SAF = €1,000/ton (+25%)
+Precio_Electricidad = €0.12/kWh
+Carbon_Tax = €75/tonCO2
+Subsidios_Verdes = 10% CAPEX
+Utilización = 3,000 hrs/año
+
+# Cálculo Anual (Ruta promedio 1,200km)
+A320neo_Anual = {
+    'Ingresos': €30.0M,
+    'Combustible': €5.5M,
+    'Mantenimiento': €3.2M,
+    'Otros_Costos': €13.3M,
+    'EBITDA': €8.0M,
+    'Margen': 26.7%
+}
+
+AMPEL360e_Anual = {
+    'Ingresos': €30.5M (+green premium),
+    'Energía': €4.3M (-22%),
+    'Mantenimiento': €2.7M (-17%),
+    'Otros_Costos': €13.8M,
+    'Carbon_Credits': €0.5M,
+    'EBITDA': €10.2M,
+    'Margen': 33.4%
+}
+
+# Diferencia EBITDA Anual: €2.2M
+# ROI = €20M (premium) / €2.2M = 6.5 años
+```
+
+### 5. Flujo de Caja Proyectado
+
+```mermaid
+xychart-beta
+    title "Flujo de Caja Acumulado AMPEL360e vs A320neo"
+    x-axis [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    y-axis "Millones EUR" -30 --> 50
+    line "A320neo" [0, 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72, 78, 84, 90]
+    line "AMPEL360e" [-20, -15, -9, -3, 3, 10, 17, 24, 28, 36, 43, 50, 57, 64, 71, 78]
+    line "Diferencia" [-20, -21, -21, -21, -21, -20, -19, -18, -20, -18, -17, -16, -15, -14, -13, -12]
+```
+
+### 6. Análisis por Tipo de Ruta
+
+#### 6.1 Rentabilidad por Segmento
+| Ruta Tipo | Ejemplo | Distancia | ROI AMPEL360e | Notas |
+|---|---|---|---|---|
+| **Shuttle Doméstico** | MAD-BCN | 500 km | 4.8 años | Óptimo: Alta frecuencia |
+| **Intra-Europeo** | FRA-FCO | 1,400 km | 5.5 años | Sweet spot operacional |
+| **Medio Alcance** | LHR-ATH | 2,400 km | 6.8 años | Buen rendimiento |
+| **Límite Alcance** | CDG-DXB | 3,400 km | 8.2 años | Marginal |
+
+### 7. Análisis de Sensibilidad
+
+```mermaid
+heatmap
+    title "Matriz Sensibilidad ROI (Años)"
+    x-axis ["SAF +10%", "SAF +20%", "SAF +30%", "SAF +40%"]
+    y-axis ["Carbon €50", "Carbon €75", "Carbon €100", "Carbon €150"]
+    [[5.2, 5.8, 6.4, 7.0],
+     [4.9, 5.5, 6.1, 6.7],
+     [4.6, 5.2, 5.8, 6.4],
+     [4.0, 4.6, 5.2, 5.8]]
+```
+
+### 8. Caso de Negocio: Aerolínea Regional Europea
+
+#### 8.1 Perfil del Operador
+```yaml
+Flota_Actual: 
+  A320neo: 30 aeronaves
+  Edad_promedio: 5 años
+  
+Red_Rutas:
+  Total: 85 rutas
+  Aptas_AMPEL360e: 52 rutas (61%)
+  Distancia_promedio: 1,250 km
+  
+Compromisos:
+  Carbon_neutral: 2050
+  Reducción_2030: -45%
+```
+
+#### 8.2 Plan de Transición Propuesto
+```mermaid
+gantt
+    title Plan de Incorporación Flota AMPEL360e
+    dateFormat  YYYY
+    axisFormat %Y
+    
+    section Fase 1
+    Evaluación           :2038, 1y
+    Primeras 2 unidades  :2039, 1y
+    
+    section Fase 2
+    5 unidades adicionales :2040, 2y
+    Optimización rutas    :2040, 2y
+    
+    section Fase 3
+    10 unidades más      :2042, 3y
+    30% flota híbrida    :milestone, 2045, 0
+```
+
+### 9. Factores de Riesgo y Mitigación
+
+#### 9.1 Matriz de Riesgos ROI
+| Riesgo | Probabilidad | Impacto ROI | Mitigación |
+|---|---|---|---|
+| **SAF >+50% premium** | Media | +2 años | Contratos largo plazo |
+| **Baterías degradación rápida** | Baja | +1 año | Garantía extendida |
+| **Cambio regulatorio carbono** | Alta | -1 año | Beneficioso |
+| **Competencia H2** | Media | +1.5 años | Ventaja first-mover |
+
+### 10. Recomendaciones Financieras
+
+#### 10.1 Estructura de Financiamiento Óptima
+```yaml
+Financiamiento_Verde:
+  Bonos_Verdes: 60% @ 3.5%
+  Leasing_Operativo: 25%
+  Capital_Propio: 15%
+  
+Beneficios:
+  Tasa_preferencial: -100 bps
+  Deducción_fiscal: 15% inversión verde
+  Garantías_exportación: 85% cobertura
+```
+
+#### 10.2 Decisión de Inversión
+- **GO**: Para operadores con >60% rutas <2,000km
+- **WAIT**: Para operadores transatlánticos
+- **NO-GO**: Para operadores ultra-largo alcance
+
+### 11. Conclusiones ROI
+
+```mermaid
+pie title "Distribución Valor 15 años"
+    "Ahorro Combustible" : 35
+    "Ahorro Mantenimiento" : 20
+    "Carbon Credits" : 15
+    "Premium Tarifas Verdes" : 10
+    "Subsidios" : 10
+    "Mayor Depreciación" : -10
+```
+
+**El AMPEL360e ofrece un ROI positivo para:**
+- ✅ Aerolíneas regionales/domésticas
+- ✅ Operadores con compromisos ambientales
+- ✅ Rutas con alta densidad <2,000km
+- ✅ Mercados con carbon pricing >€75/ton
+
+**ROI Base: 6.5 años** - Competitivo considerando beneficios ambientales
+**NPV 15 años: €28M** - Atractivo para inversión verde
+
+---
+*Documento: CON-009-B*
+*Versión: 2.0.0*
+*Fecha: 2025-07-27*
+*Clasificación: GAIA-QAO Confidencial*
+*Nota: Análisis basado en proyecciones 2038-2053*
 
 ---
 *Documento generado: 2025-07-26*
