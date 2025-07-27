@@ -35,23 +35,25 @@ graph TB
 ### 2. Análisis del Entorno Competitivo Validado
 
 #### 2.1 Posicionamiento en Nicho Sin Competencia Directa
+
 ```mermaid
 quadrantChart
     title "Mapa Competitivo Verificado - AMPEL360e Nicho Único"
-    x-axis "Capacidad (pax)" --> "50" --> "100" --> "150" --> "200+"
-    y-axis "Madurez Tecnológica" --> "TRL 3-5" --> "TRL 6-7" --> "TRL 8-9"
+    x-axis "Capacidad Baja" --> "Capacidad Alta"
+    y-axis "Madurez Baja" --> "Madurez Alta"
     quadrant-1 "Conceptos Futuros"
     quadrant-2 "Listos para Mercado"
     quadrant-3 "Operacionales"
     quadrant-4 "En Desarrollo"
     
-    "Heart ES-30": [30, 6]
-    "Eviation Alice": [9, 7]
-    "ZeroAvia 50-seat": [50, 5]
-    "A320neo": [180, 9]
-    "737 MAX": [190, 9]
-    "AMPEL360e": [200, 7]
-    "Airbus ZEROe": [150, 3]
+    "Heart ES-30": [0.15, 0.6]
+    "Eviation Alice": [0.05, 0.7]
+    "ZeroAvia 50-seat": [0.25, 0.5]
+    "A320neo": [0.9, 0.9]
+    "737 MAX": [0.95, 0.9]
+    "AMPEL360e": [0.75, 0.7]
+    "Airbus ZEROe": [0.75, 0.3]
+
 ```
 
 #### 2.2 Análisis Competitivo con Datos Verificados
