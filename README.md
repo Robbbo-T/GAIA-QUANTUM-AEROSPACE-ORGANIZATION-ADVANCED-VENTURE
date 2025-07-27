@@ -7711,27 +7711,27 @@ stateDiagram-v2
     Created --> Initialized: Initialize
     Initialized --> Registered: Register with ADS
     Registered --> Active: Activate
-    
+
     Active --> Learning: Online learning
     Learning --> Active: Model update
-    
+
     Active --> Collaborating: Join swarm
     Collaborating --> Active: Task complete
-    
+
     Active --> Migrating: Resource balance
     Migrating --> Active: Migration complete
-    
+
     Active --> Suspended: Resource constraint
     Suspended --> Active: Resources available
-    
+
     Active --> Failed: Error detected
     Failed --> Recovering: Self-healing
     Recovering --> Active: Recovery success
     Failed --> Terminated: Unrecoverable
-    
+
     Active --> Upgrading: New version
     Upgrading --> Active: Upgrade complete
-    
+
     Active --> Terminated: Shutdown command
     Terminated --> [*]: Cleanup complete
 ```
@@ -8043,25 +8043,26 @@ pie title Interface Distribution by Division Pair
 gantt
     title ANNEX H Implementation Timeline
     dateFormat  YYYY-MM-DD
+
     section Completed
-    Document Validation    :done, 2025-07-27, 1d
-    
+    Document Validation         :done, 2025-07-27, 1d
+
     section Q3 2025
-    Physical Deployment    :active, 2025-08-01, 60d
-    Data Integration      :active, 2025-08-01, 45d
-    Control Activation    :2025-08-15, 45d
-    
+    Physical Deployment         :active, 2025-08-01, 60d
+    Data Integration            :active, 2025-08-01, 45d
+    Control Activation          :2025-08-15, 45d
+
     section Q4 2025
-    Power Commissioning   :2025-10-01, 30d
-    Agentic Phase 1       :2025-10-15, 60d
-    
+    Power Commissioning         :2025-10-01, 30d
+    Agentic Phase 1             :2025-10-15, 60d
+
     section Q1 2026
-    Agentic Phase 2       :2026-01-01, 90d
-    Full Integration Test :2026-03-15, 30d
-    
+    Agentic Phase 2             :2026-01-01, 90d
+    Full Integration Test       :2026-03-15, 30d
+
     section Q2 2026
-    Optimization Phase    :2026-04-15, 60d
-    Advanced Features     :2026-05-01, 90d
+    Optimization Phase          :2026-04-15, 60d
+    Advanced Features           :2026-05-01, 90d
 ```
 
 ### Risk Assessment
@@ -8140,32 +8141,32 @@ This document serves as the definitive reference for all Q-Division interface im
 
 ```mermaid
 graph TD
-    AVA[AQUA V. Academy]
-    
-    AVA --> FLT[Flight Academy]
-    AVA --> ENG[Engineering Academy]
-    AVA --> QUA[Quantum Academy]
-    AVA --> MFG[Manufacturing Academy]
-    AVA --> LDR[Leadership Academy]
-    AVA --> DIG[Digital Academy]
-    
-    FLT --> QPT[Quantum Pilot Training]
-    FLT --> FTE[Flight Test Engineering]
-    
-    ENG --> AER[Aerospace Engineering]
-    ENG --> SYS[Systems Engineering]
-    
-    QUA --> QFN[Quantum Fundamentals]
-    QUA --> QAP[Quantum Applications]
-    
-    MFG --> I40[Industry 4.0]
-    MFG --> ROB[Robotics & Automation]
-    
-    LDR --> EXE[Executive Development]
-    LDR --> MAN[Management Excellence]
-    
-    DIG --> AIM[AI/ML Training]
-    DIG --> CYB[Cybersecurity]
+  AVA["AQUA V. Academy"]
+
+  AVA --> FLT["Flight Academy"]
+  AVA --> ENG["Engineering Academy"]
+  AVA --> QUA["Quantum Academy"]
+  AVA --> MFG["Manufacturing Academy"]
+  AVA --> LDR["Leadership Academy"]
+  AVA --> DIG["Digital Academy"]
+
+  FLT --> QPT["Quantum Pilot Training"]
+  FLT --> FTE["Flight Test Engineering"]
+
+  ENG --> AER["Aerospace Engineering"]
+  ENG --> SYS["Systems Engineering"]
+
+  QUA --> QFN["Quantum Fundamentals"]
+  QUA --> QAP["Quantum Applications"]
+
+  MFG --> I40["Industry 4.0"]
+  MFG --> ROB["Robotics & Automation"]
+
+  LDR --> EXE["Executive Development"]
+  LDR --> MAN["Management Excellence"]
+
+  DIG --> AIM["AI/ML Training"]
+  DIG --> CYB["Cybersecurity"]
 ```
 
 ### Academy Facilities
@@ -8251,23 +8252,27 @@ The world's first Quantum Pilot Training Program prepares aviators to operate qu
 ```mermaid
 gantt
     title Quantum Pilot Training Timeline (18 months)
-    dateFormat  MM
+    dateFormat  YYYY-MM-DD
+
     section Foundation
-    Ground School        :01, 3
-    Quantum Fundamentals :02, 2
-    Systems Training     :03, 3
+    Ground School        : 2025-09-01, 90d
+    Quantum Fundamentals : 2025-10-01, 60d
+    Systems Training     : 2025-11-01, 90d
+
     section Flight Training
-    Basic Flight         :05, 3
-    Advanced Maneuvers   :07, 2
-    Quantum Nav Training :08, 3
+    Basic Flight         : 2026-01-15, 90d
+    Advanced Maneuvers   : 2026-04-15, 60d
+    Quantum Nav Training : 2026-06-15, 90d
+
     section Type Rating
-    BWB Differences      :10, 2
-    Type Certification   :11, 2
-    Line Training        :12, 3
+    BWB Differences      : 2026-09-15, 60d
+    Type Certification   : 2026-11-15, 60d
+    Line Training        : 2027-01-15, 90d
+
     section Advanced
-    Quantum Optimization :14, 2
-    Emergency Procedures :15, 2
-    Check Ride          :17, 1
+    Quantum Optimization : 2027-04-15, 60d
+    Emergency Procedures : 2027-06-15, 60d
+    Check Ride           : 2027-08-15, 30d
 ```
 
 ### Curriculum Modules
@@ -8397,29 +8402,29 @@ Comprehensive certification pathways for all engineering disciplines within AQUA
 
 ```mermaid
 graph TD
-    ENG[Engineering Certifications]
-    
-    ENG --> AER[Aerospace]
-    ENG --> QUA[Quantum]
-    ENG --> DIG[Digital]
-    ENG --> MFG[Manufacturing]
-    
-    AER --> AER1[Structures]
-    AER --> AER2[Aerodynamics]
-    AER --> AER3[Propulsion]
-    AER --> AER4[Systems]
-    
-    QUA --> QUA1[Quantum Computing]
-    QUA --> QUA2[Quantum Sensing]
-    QUA --> QUA3[Quantum Communications]
-    
-    DIG --> DIG1[AI/ML Engineering]
-    DIG --> DIG2[Digital Twin]
-    DIG --> DIG3[Cybersecurity]
-    
-    MFG --> MFG1[Robotics]
-    MFG --> MFG2[Additive Mfg]
-    MFG --> MFG3[Quality]
+ENG["Engineering Certifications"]
+
+ENG --> AER["Aerospace"]
+ENG --> QUA["Quantum"]
+ENG --> DIG["Digital"]
+ENG --> MFG["Manufacturing"]
+
+AER --> AER1["Structures"]
+AER --> AER2["Aerodynamics"]
+AER --> AER3["Propulsion"]
+AER --> AER4["Systems"]
+
+QUA --> QUA1["Quantum Computing"]
+QUA --> QUA2["Quantum Sensing"]
+QUA --> QUA3["Quantum Communications"]
+
+DIG --> DIG1["AI/ML Engineering"]
+DIG --> DIG2["Digital Twin"]
+DIG --> DIG3["Cybersecurity"]
+
+MFG --> MFG1["Robotics"]
+MFG --> MFG2["Additive Mfg"]
+MFG --> MFG3["Quality"]
 ```
 
 ### Core Engineering Paths
@@ -8761,28 +8766,28 @@ aqua_learning_hub:
 
 ```mermaid
 graph TD
-    SKILLS[AQUA V. Skills Framework]
-    
-    SKILLS --> TECH[Technical Skills]
-    SKILLS --> QUAN[Quantum Skills]
-    SKILLS --> DIGI[Digital Skills]
-    SKILLS --> SOFT[Soft Skills]
-    
-    TECH --> T1[Engineering]
-    TECH --> T2[Manufacturing]
-    TECH --> T3[Operations]
-    
-    QUAN --> Q1[Theory]
-    QUAN --> Q2[Applications]
-    QUAN --> Q3[Integration]
-    
-    DIGI --> D1[AI/ML]
-    DIGI --> D2[Data Science]
-    DIGI --> D3[Cybersecurity]
-    
-    SOFT --> S1[Leadership]
-    SOFT --> S2[Communication]
-    SOFT --> S3[Innovation]
+SKILLS["AQUA V. Skills Framework"]
+
+SKILLS --> TECH["Technical Skills"]
+SKILLS --> QUAN["Quantum Skills"]
+SKILLS --> DIGI["Digital Skills"]
+SKILLS --> SOFT["Soft Skills"]
+
+TECH --> T1["Engineering"]
+TECH --> T2["Manufacturing"]
+TECH --> T3["Operations"]
+
+QUAN --> Q1["Theory"]
+QUAN --> Q2["Applications"]
+QUAN --> Q3["Integration"]
+
+DIGI --> D1["AI/ML"]
+DIGI --> D2["Data Science"]
+DIGI --> D3["Cybersecurity"]
+
+SOFT --> S1["Leadership"]
+SOFT --> S2["Communication"]
+SOFT --> S3["Innovation"]
 ```
 
 ### Learning Metrics & KPIs
@@ -9152,22 +9157,22 @@ validation_team:
 
 ```mermaid
 graph TD
-    DOC[Document Review] --> TECH[Technical Validation]
-    DOC --> FIN[Financial Analysis]
-    DOC --> MKT[Market Research]
-    
-    TECH --> LAB[Laboratory Testing]
-    TECH --> SIM[Simulations]
-    TECH --> PEER[Peer Review]
-    
-    FIN --> MODEL[Financial Modeling]
-    FIN --> BENCH[Benchmarking]
-    
-    MKT --> SURVEY[Industry Surveys]
-    MKT --> COMP[Competitive Analysis]
-    
-    ALL[All Inputs] --> SCORE[Validation Scoring]
-    SCORE --> REPORT[Final Report]
+DOC["Document Review"] --> TECH["Technical Validation"]
+DOC --> FIN["Financial Analysis"]
+DOC --> MKT["Market Research"]
+
+TECH --> LAB["Laboratory Testing"]
+TECH --> SIM["Simulations"]
+TECH --> PEER["Peer Review"]
+
+FIN --> MODEL["Financial Modeling"]
+FIN --> BENCH["Benchmarking"]
+
+MKT --> SURVEY["Industry Surveys"]
+MKT --> COMP["Competitive Analysis"]
+
+ALL["All Inputs"] --> SCORE["Validation Scoring"]
+SCORE --> REPORT["Final Report"]
 ```
 
 ### Validation Criteria
@@ -9231,16 +9236,52 @@ division_validation:
 ### Validation Heat Map
 
 ```mermaid
-heatmap
-    title "Validation Accuracy by System"
-    x-axis ["Structures", "Aerodynamics", "Propulsion", "Avionics", "Quantum"]
-    y-axis ["Design", "Manufacturing", "Testing", "Operations", "Maintenance"]
-    color-scheme "Greens"
-    [[95, 93, 92, 94, 96],
-     [94, 92, 91, 95, 93],
-     [93, 94, 90, 96, 95],
-     [96, 95, 93, 97, 94],
-     [92, 91, 89, 94, 98]]
+flowchart TD
+    %% X-axis
+    subgraph X [ ]
+        S0["Structures"]
+        S1["Aerodynamics"]
+        S2["Propulsion"]
+        S3["Avionics"]
+        S4["Quantum"]
+    end
+    %% Y-axis
+    Design["Design"]
+    Mfg["Manufacturing"]
+    Test["Testing"]
+    Ops["Operations"]
+    Maint["Maintenance"]
+    
+    %% "Cells" as validation nodes
+    Design-->"DC0[95%]"-->|""|S0
+    Design-->"DC1[93%]"-->|""|S1
+    Design-->"DC2[92%]"-->|""|S2
+    Design-->"DC3[94%]"-->|""|S3
+    Design-->"DC4[96%]"-->|""|S4
+
+    Mfg-->"MC0[94%]"-->|""|S0
+    Mfg-->"MC1[92%]"-->|""|S1
+    Mfg-->"MC2[91%]"-->|""|S2
+    Mfg-->"MC3[95%]"-->|""|S3
+    Mfg-->"MC4[93%]"-->|""|S4
+
+    Test-->"TC0[93%]"-->|""|S0
+    Test-->"TC1[94%]"-->|""|S1
+    Test-->"TC2[90%]"-->|""|S2
+    Test-->"TC3[96%]"-->|""|S3
+    Test-->"TC4[95%]"-->|""|S4
+
+    Ops-->"OC0[96%]"-->|""|S0
+    Ops-->"OC1[95%]"-->|""|S1
+    Ops-->"OC2[93%]"-->|""|S2
+    Ops-->"OC3[97%]"-->|""|S3
+    Ops-->"OC4[94%]"-->|""|S4
+
+    Maint-->"MC00[92%]"-->|""|S0
+    Maint-->"MC01[91%]"-->|""|S1
+    Maint-->"MC02[89%]"-->|""|S2
+    Maint-->"MC03[94%]"-->|""|S3
+    Maint-->"MC04[98%]"-->|""|S4    
 ```
 
 ### Critical Findings
